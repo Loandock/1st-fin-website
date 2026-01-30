@@ -1,0 +1,21 @@
+{
+  "name": "IR Mortgages - Ivan Ramirez",
+  "short_name": "IR Mortgages",
+  "description": "Ivan Ramirez - Bilingual Mortgage Loan Officer. $100M+ loans funded. ITIN, DSCR, Bank Statement & Investor loans. NMLS #2059278.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#282059",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/IR Mortgage logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
