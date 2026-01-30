@@ -32,7 +32,7 @@ export default function SMSPolicyPage() {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Purpose</h2>
               <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
-                This document outlines how the 1st Financial Mortgage / Guaranteed Rate obtains client consent to receive SMS notifications about their mortgage applications, in full compliance with 10DLC, TCPA, and CTIA guidelines.
+                This document outlines how 1st Financial Mortgage obtains client consent to receive SMS notifications about their mortgage applications, in full compliance with 10DLC, TCPA, and CTIA guidelines.
               </p>
             </section>
 
@@ -179,8 +179,8 @@ export default function SMSPolicyPage() {
               <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
               <div className="text-white/80">
                 <p className="font-semibold text-white mb-2">Cal Castells – 1st Financial Mortgage</p>
-                <p>Licensed Loan Originator – NMLS #1603703</p>
-                <p>Guaranteed Rate – NMLS #1604663</p>
+                <p>Branch Manager – NMLS #1101261</p>
+                <p>1st Financial Mortgage – NMLS #185076 (Branch #1620197)</p>
                 <p className="mt-3">Phone: <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a></p>
                 <p>Email: <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a></p>
               </div>

@@ -41,21 +41,21 @@ export default function TermsOfServicePage() {
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Company Information</h2>
               <div className="space-y-4">
                 <div>
-                  <h3 className="text-xl font-semibold text-[#0D3F72] mb-2">Guaranteed Rate</h3>
+                  <h3 className="text-xl font-semibold text-[#0D3F72] mb-2">1st Financial Mortgage</h3>
                   <p className="text-[#0D3F72]/70 leading-relaxed">
-                    53 NW 100th Ave<br />
-                    Plantation, FL 33324<br />
-                    NMLS #1604663<br />
+                    1911 NW 150th Ave, Suite 104<br />
+                    Pembroke Pines, FL 33028<br />
+                    NMLS #185076 (Branch #1620197)<br />
                     Phone: (786) 262-8718<br />
                     Email: cal@mortgagefellas.com
                   </p>
                 </div>
                 
                 <div className="pt-4 border-t border-[#267AB1]/20">
-                  <h3 className="text-xl font-semibold text-[#0D3F72] mb-2">Licensed Professional</h3>
+                  <h3 className="text-xl font-semibold text-[#0D3F72] mb-2">Licensed Professionals</h3>
                   <p className="text-[#0D3F72]/70 leading-relaxed">
-                    Cal Castells, Licensed Loan Originator<br />
-                    NMLS #1603703
+                    Cal Castells, Branch Manager – NMLS #1101261<br />
+                    Jose Ramirez, Sales Manager – NMLS #1057601
                   </p>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function TermsOfServicePage() {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Licensing and Regulatory Information</h2>
               <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
-                <strong className="text-[#0D3F72]">Mortgage Lending:</strong> Guaranteed Rate operates under NMLS #1604663. All mortgage activities are subject to federal and state regulations including RESPA (Real Estate Settlement Procedures Act), TILA (Truth in Lending Act), and applicable state licensing requirements.
+                <strong className="text-[#0D3F72]">Mortgage Lending:</strong> 1st Financial Mortgage operates under NMLS #185076 (Branch NMLS #1620197). All mortgage activities are subject to federal and state regulations including RESPA (Real Estate Settlement Procedures Act), TILA (Truth in Lending Act), and applicable state licensing requirements.
               </p>
               <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
                 <strong className="text-[#0D3F72]">Equal Housing Opportunity:</strong> We comply with all federal, state, and local fair housing laws and do not discriminate based on race, color, religion, sex, handicap, familial status, national origin, sexual orientation, or gender identity.
@@ -142,7 +142,7 @@ export default function TermsOfServicePage() {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Limitation of Liability</h2>
               <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
-                To the maximum extent permitted by law, the 1st Financial Mortgage and Guaranteed Rate shall not be liable for indirect, incidental, special, or consequential damages.
+                To the maximum extent permitted by law, 1st Financial Mortgage shall not be liable for indirect, incidental, special, or consequential damages.
               </p>
             </section>
 
@@ -184,9 +184,9 @@ export default function TermsOfServicePage() {
               </p>
               <div className="text-white/80 leading-relaxed">
                 <p className="font-semibold text-white mb-2">Cal Castells – 1st Financial Mortgage</p>
-                <p>Licensed Loan Originator – NMLS #1603703</p>
-                <p>Guaranteed Rate – NMLS #1604663</p>
-                <p>53 NW 100th Ave, Plantation, FL 33324</p>
+                <p>Branch Manager – NMLS #1101261</p>
+                <p>1st Financial Mortgage – NMLS #185076 (Branch #1620197)</p>
+                <p>1911 NW 150th Ave #104, Pembroke Pines, FL 33028</p>
                 <p className="mt-3">Email: <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a></p>
                 <p>Phone: <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a></p>
               </div>
