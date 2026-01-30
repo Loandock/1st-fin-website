@@ -103,7 +103,7 @@ export default function AccessibilityPage() {
               </p>
               <p className="text-[#0D3F72] flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#267AB1] mt-1" />
-                <span><strong className="font-semibold">Address:</strong> 53 NW 100th Ave, Plantation, FL 33324</span>
+                <span><strong className="font-semibold">Address:</strong> 1911 NW 150th Ave #104, Pembroke Pines, FL 33028</span>
               </p>
             </div>
 
