@@ -14,7 +14,7 @@ export default function LicensingPage() {
       {/* Content */}
       <div className="pt-28 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-medium mb-8 transition-colors">
+          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-medium mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Link>
@@ -25,7 +25,7 @@ export default function LicensingPage() {
 
           <div className="prose prose-lg max-w-none">
             {/* Company Licensing */}
-            <div className="bg-gradient-to-r from-[#FF8C42]/10 to-[#267AB1]/10 border-l-4 border-[#FF8C42] p-6 rounded-r-2xl mb-8">
+            <div className="bg-gradient-to-r from-[#267AB1]/10 to-[#267AB1]/10 border-l-4 border-[#267AB1] p-6 rounded-r-2xl mb-8">
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4 mt-0">
                 Company Licensing
               </h2>
@@ -90,10 +90,10 @@ export default function LicensingPage() {
             
             <div className="bg-white border border-[#0D3F72]/10 rounded-2xl p-6 mb-8 shadow-lg">
               <p className="text-[#0D3F72] mb-1">
-                <strong className="font-semibold">Phone:</strong> <a href="tel:+19545550100" className="text-[#FF8C42] hover:underline">(954) 555-0100</a>
+                <strong className="font-semibold">Phone:</strong> <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a>
               </p>
               <p className="text-[#0D3F72] mb-1">
-                <strong className="font-semibold">Email:</strong> <a href="mailto:info@1stfinmiramar.com" className="text-[#FF8C42] hover:underline">info@1stfinmiramar.com</a>
+                <strong className="font-semibold">Email:</strong> <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a>
               </p>
               <p className="text-[#0D3F72] mb-1">
                 <strong className="font-semibold">Address:</strong> 1911 NW 150th Ave, #104, Pembroke Pines, FL 33028
@@ -117,7 +117,7 @@ export default function LicensingPage() {
                 href="https://nmlsconsumeraccess.org/" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-white hover:text-[#FF8C42] font-semibold text-lg flex items-center gap-2"
+                className="text-white hover:text-[#267AB1] font-semibold text-lg flex items-center gap-2"
               >
                 <ExternalLink className="w-5 h-5" />
                 NMLS Consumer Access Portal
@@ -143,7 +143,7 @@ export default function LicensingPage() {
               <li className="text-[#0D3F72]/70 leading-relaxed list-disc">State Mortgage Lending Laws and Regulations</li>
             </ul>
 
-            <div className="bg-[#FF8C42]/10 border-l-4 border-[#FF8C42] p-6 rounded-r-2xl mt-8">
+            <div className="bg-[#267AB1]/10 border-l-4 border-[#267AB1] p-6 rounded-r-2xl mt-8">
               <h3 className="text-lg font-bold text-[#0D3F72] mb-2">
                 Questions About Our Licensing?
               </h3>
@@ -151,19 +151,19 @@ export default function LicensingPage() {
                 If you have questions about our licensing or regulatory compliance, please don&apos;t hesitate to contact us.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 text-[#0D3F72]">
-                <a href="tel:+19545550100" className="text-[#FF8C42] hover:underline font-semibold flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> (954) 555-0100
+                <a href="tel:+19545581730" className="text-[#267AB1] hover:underline font-semibold flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> (954) 558-1730
                 </a>
                 <span className="hidden sm:inline text-[#0D3F72]/30">•</span>
-                <a href="mailto:info@1stfinmiramar.com" className="text-[#FF8C42] hover:underline font-semibold">
-                  info@1stfinmiramar.com
+                <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline font-semibold">
+                  cal@mortgagefellas.com
                 </a>
               </div>
             </div>
           </div>
 
           <div className="mt-12 pt-8 border-t border-[#0D3F72]/10">
-            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-semibold transition-colors">
+            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-semibold transition-colors">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Return to Home
             </Link>

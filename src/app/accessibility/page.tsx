@@ -14,7 +14,7 @@ export default function AccessibilityPage() {
       {/* Content */}
       <div className="pt-28 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-medium mb-8 transition-colors">
+          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-medium mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Link>
@@ -92,17 +92,17 @@ export default function AccessibilityPage() {
               We welcome your feedback on the accessibility of our website. If you encounter any accessibility barriers or have suggestions for improvement, please contact us:
             </p>
 
-            <div className="bg-gradient-to-r from-[#FF8C42]/10 to-[#267AB1]/10 border-l-4 border-[#FF8C42] p-6 rounded-r-2xl mb-8">
+            <div className="bg-gradient-to-r from-[#267AB1]/10 to-[#267AB1]/10 border-l-4 border-[#267AB1] p-6 rounded-r-2xl mb-8">
               <p className="text-[#0D3F72] mb-2 flex items-center gap-2">
-                <Mail className="w-4 h-4 text-[#FF8C42]" />
-                <strong className="font-semibold">Email:</strong> <a href="mailto:info@1stfinmiramar.com" className="text-[#FF8C42] hover:underline">info@1stfinmiramar.com</a>
+                <Mail className="w-4 h-4 text-[#267AB1]" />
+                <strong className="font-semibold">Email:</strong> <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a>
               </p>
               <p className="text-[#0D3F72] mb-2 flex items-center gap-2">
-                <Phone className="w-4 h-4 text-[#FF8C42]" />
-                <strong className="font-semibold">Phone:</strong> <a href="tel:+19545550100" className="text-[#FF8C42] hover:underline">(954) 555-0100</a>
+                <Phone className="w-4 h-4 text-[#267AB1]" />
+                <strong className="font-semibold">Phone:</strong> <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a>
               </p>
               <p className="text-[#0D3F72] flex items-start gap-2">
-                <MapPin className="w-4 h-4 text-[#FF8C42] mt-1" />
+                <MapPin className="w-4 h-4 text-[#267AB1] mt-1" />
                 <span><strong className="font-semibold">Address:</strong> 53 NW 100th Ave, Plantation, FL 33324</span>
               </p>
             </div>
@@ -134,7 +134,7 @@ export default function AccessibilityPage() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-[#0D3F72]/10">
-            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-semibold transition-colors">
+            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-semibold transition-colors">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Return to Home
             </Link>

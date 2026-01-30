@@ -16,7 +16,7 @@ export function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-4 mb-6">
               <span className="text-2xl font-bold">
-                1st Financial <span className="text-[#FF8C42]">Mortgage</span>
+                The Mortgage <span className="text-[#267AB1]">Fellas</span>
               </span>
             </Link>
             
@@ -43,14 +43,9 @@ export function Footer() {
 
             {/* Social Links */}
             <div className="flex gap-3">
-              <a href="https://www.facebook.com/profile.php?id=61586206063239" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[#1877F2] transition-colors" aria-label="Facebook">
+              <a href="#" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[#1877F2] transition-colors" aria-label="Facebook">
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"/>
-                </svg>
-              </a>
-              <a href="https://www.linkedin.com/in/ivan-ramirez-6582b862/" target="_blank" rel="noopener noreferrer" className="w-9 h-9 bg-white/10 rounded-lg flex items-center justify-center hover:bg-[#0A66C2] transition-colors" aria-label="LinkedIn">
-                <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
                 </svg>
               </a>
             </div>
@@ -60,12 +55,12 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="text-white/60 hover:text-[#FF8C42] transition-colors">Home</Link></li>
-              <li><Link href="/loan-programs" className="text-white/60 hover:text-[#FF8C42] transition-colors">Loan Programs</Link></li>
-              <li><Link href="/loan-process" className="text-white/60 hover:text-[#FF8C42] transition-colors">Loan Process</Link></li>
-              <li><Link href="/calculator" className="text-white/60 hover:text-[#FF8C42] transition-colors">Mortgage Calculator</Link></li>
-              <li><Link href="/first-time-homebuyers" className="text-white/60 hover:text-[#FF8C42] transition-colors">First-Time Buyers</Link></li>
-              <li><Link href="/down-payment-assistance" className="text-white/60 hover:text-[#FF8C42] transition-colors">Down Payment Help</Link></li>
+              <li><Link href="/" className="text-white/60 hover:text-[#267AB1] transition-colors">Home</Link></li>
+              <li><Link href="/loan-programs" className="text-white/60 hover:text-[#267AB1] transition-colors">Loan Programs</Link></li>
+              <li><Link href="/loan-process" className="text-white/60 hover:text-[#267AB1] transition-colors">Loan Process</Link></li>
+              <li><Link href="/calculator" className="text-white/60 hover:text-[#267AB1] transition-colors">Mortgage Calculator</Link></li>
+              <li><Link href="/first-time-homebuyers" className="text-white/60 hover:text-[#267AB1] transition-colors">First-Time Buyers</Link></li>
+              <li><Link href="/down-payment-assistance" className="text-white/60 hover:text-[#267AB1] transition-colors">Down Payment Help</Link></li>
             </ul>
           </div>
 
@@ -74,22 +69,22 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#FF8C42] transition-colors">
+                <a href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#267AB1] transition-colors">
                   Apply for a Mortgage
                 </a>
               </li>
               <li>
-                <a href="https://nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#FF8C42] transition-colors">
+                <a href="https://nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#267AB1] transition-colors">
                   NMLS Consumer Access
                 </a>
               </li>
               <li>
-                <a href="https://www.consumerfinance.gov/owning-a-home/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#FF8C42] transition-colors">
+                <a href="https://www.consumerfinance.gov/owning-a-home/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#267AB1] transition-colors">
                   CFPB Homebuying Guide
                 </a>
               </li>
               <li>
-                <a href="https://www.floridahousing.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#FF8C42] transition-colors">
+                <a href="https://www.floridahousing.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#267AB1] transition-colors">
                   Florida Housing Programs
                 </a>
               </li>
@@ -101,20 +96,20 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="tel:+19545550100" className="flex items-center gap-2 text-white/60 hover:text-[#FF8C42] transition-colors">
-                  <Phone className="w-4 h-4 text-[#FF8C42]" />
-                  (954) 555-0100
+                <a href="tel:+19545581730" className="flex items-center gap-2 text-white/60 hover:text-[#267AB1] transition-colors">
+                  <Phone className="w-4 h-4 text-[#267AB1]" />
+                  (954) 558-1730
                 </a>
               </li>
               <li>
-                <a href="mailto:info@1stfinmiramar.com" className="flex items-center gap-2 text-white/60 hover:text-[#FF8C42] transition-colors">
-                  <Mail className="w-4 h-4 text-[#FF8C42]" />
-                  info@1stfinmiramar.com
+                <a href="mailto:cal@mortgagefellas.com" className="flex items-center gap-2 text-white/60 hover:text-[#267AB1] transition-colors">
+                  <Mail className="w-4 h-4 text-[#267AB1]" />
+                  cal@mortgagefellas.com
                 </a>
               </li>
               <li>
                 <div className="flex items-start gap-2 text-white/60">
-                  <MapPin className="w-4 h-4 text-[#FF8C42] flex-shrink-0 mt-0.5" />
+                  <MapPin className="w-4 h-4 text-[#267AB1] flex-shrink-0 mt-0.5" />
                   <span>1911 NW 150th Ave<br />Suite #104<br />Pembroke Pines, FL 33028</span>
                 </div>
               </li>
@@ -125,17 +120,17 @@ export function Footer() {
         {/* Legal Links */}
         <div className="border-t border-white/10 pt-6 pb-6">
           <div className="flex flex-wrap justify-center items-center gap-3 text-xs">
-            <Link href="/privacy-policy" className="text-white/50 hover:text-[#FF8C42] transition-colors">Privacy Policy</Link>
+            <Link href="/privacy-policy" className="text-white/50 hover:text-[#267AB1] transition-colors">Privacy Policy</Link>
             <span className="text-white/20">|</span>
-            <Link href="/terms-of-service" className="text-white/50 hover:text-[#FF8C42] transition-colors">Terms of Service</Link>
+            <Link href="/terms-of-service" className="text-white/50 hover:text-[#267AB1] transition-colors">Terms of Service</Link>
             <span className="text-white/20">|</span>
-            <Link href="/sms-policy" className="text-white/50 hover:text-[#FF8C42] transition-colors">SMS Policy</Link>
+            <Link href="/sms-policy" className="text-white/50 hover:text-[#267AB1] transition-colors">SMS Policy</Link>
             <span className="text-white/20">|</span>
-            <Link href="/legal-disclaimer" className="text-white/50 hover:text-[#FF8C42] transition-colors">Legal Disclaimer</Link>
+            <Link href="/legal-disclaimer" className="text-white/50 hover:text-[#267AB1] transition-colors">Legal Disclaimer</Link>
             <span className="text-white/20">|</span>
-            <Link href="/licensing" className="text-white/50 hover:text-[#FF8C42] transition-colors">Licensing</Link>
+            <Link href="/licensing" className="text-white/50 hover:text-[#267AB1] transition-colors">Licensing</Link>
             <span className="text-white/20">|</span>
-            <Link href="/accessibility" className="text-white/50 hover:text-[#FF8C42] transition-colors">Accessibility</Link>
+            <Link href="/accessibility" className="text-white/50 hover:text-[#267AB1] transition-colors">Accessibility</Link>
           </div>
         </div>
 
@@ -148,7 +143,7 @@ export function Footer() {
             Cal Castells - Branch Manager (NMLS #1101261) | Jose Ramirez - Sales Manager (NMLS #1057601)
           </p>
           <p className="text-xs text-white/40 text-center mb-2">
-            For licensing information, go to: <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-[#FF8C42] hover:underline">www.nmlsconsumeraccess.org</a>
+            For licensing information, go to: <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-[#267AB1] hover:underline">www.nmlsconsumeraccess.org</a>
           </p>
           <p className="text-xs text-white/40 text-center">
             © {new Date().getFullYear()} 1st Financial Mortgage. All Rights Reserved. Equal Housing Lender.

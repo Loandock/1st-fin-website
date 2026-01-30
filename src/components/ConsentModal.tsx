@@ -57,7 +57,7 @@ export function ConsentModal({ isOpen, onClose, redirectUrl }: ConsentModalProps
                 <X className="w-4 h-4 text-white" />
               </button>
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-xl flex items-center justify-center flex-shrink-0">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-xl flex items-center justify-center flex-shrink-0">
                   <Shield className="w-6 h-6 text-white" />
                 </div>
                 <div>
@@ -70,7 +70,7 @@ export function ConsentModal({ isOpen, onClose, redirectUrl }: ConsentModalProps
             {/* Content */}
             <div className="p-6 space-y-5">
               {/* Main Consent Checkbox */}
-              <div className="border-2 border-[#0D3F72]/20 rounded-2xl p-5 bg-gradient-to-br from-[#0D3F72]/5 to-[#FF8C42]/5 hover:border-[#0D3F72]/30 transition-colors">
+              <div className="border-2 border-[#0D3F72]/20 rounded-2xl p-5 bg-gradient-to-br from-[#0D3F72]/5 to-[#267AB1]/5 hover:border-[#0D3F72]/30 transition-colors">
                 <label className="flex items-start gap-4 cursor-pointer">
                   <div className="relative flex-shrink-0 mt-1">
                     <input
@@ -81,7 +81,7 @@ export function ConsentModal({ isOpen, onClose, redirectUrl }: ConsentModalProps
                     />
                     <div className={`w-6 h-6 rounded-lg border-2 flex items-center justify-center transition-all ${
                       smsConsent 
-                        ? 'bg-gradient-to-br from-[#FF8C42] to-[#267AB1] border-[#FF8C42]' 
+                        ? 'bg-gradient-to-br from-[#267AB1] to-[#267AB1] border-[#267AB1]' 
                         : 'border-gray-300 bg-white hover:border-[#0D3F72]/50'
                     }`}>
                       {smsConsent && <CheckCircle className="w-4 h-4 text-white" />}
@@ -89,10 +89,10 @@ export function ConsentModal({ isOpen, onClose, redirectUrl }: ConsentModalProps
                   </div>
                   <div className="flex-1">
                     <p className="font-semibold text-[#0D3F72] mb-2">
-                      I agree to receive communications from 1st Financial Mortgage <span className="text-[#0D3F72]/50 font-normal">(optional)</span>
+                      I agree to receive communications from The Mortgage Fellas <span className="text-[#0D3F72]/50 font-normal">(optional)</span>
                     </p>
                     <p className="text-sm text-[#0D3F72]/60 leading-relaxed">
-                      By checking this box, you consent to receive system notifications, marketing messages, SMS/text messages, and follow-up communications from 1st Financial Mortgage regarding your mortgage inquiry. Message frequency may vary. Standard message and data rates may apply. Reply STOP to opt out at any time. Reply HELP for help.
+                      By checking this box, you consent to receive system notifications, marketing messages, SMS/text messages, and follow-up communications from The Mortgage Fellas regarding your mortgage inquiry. Message frequency may vary. Standard message and data rates may apply. Reply STOP to opt out at any time. Reply HELP for help.
                     </p>
                   </div>
                 </label>
@@ -105,11 +105,11 @@ export function ConsentModal({ isOpen, onClose, redirectUrl }: ConsentModalProps
                 </p>
                 <p>
                   View our{' '}
-                  <Link href="/privacy-policy" className="text-[#FF8C42] hover:underline font-medium" onClick={onClose}>
+                  <Link href="/privacy-policy" className="text-[#267AB1] hover:underline font-medium" onClick={onClose}>
                     Privacy Policy
                   </Link>{' '}
                   and{' '}
-                  <Link href="/sms-policy" className="text-[#FF8C42] hover:underline font-medium" onClick={onClose}>
+                  <Link href="/sms-policy" className="text-[#267AB1] hover:underline font-medium" onClick={onClose}>
                     SMS Policy
                   </Link>{' '}
                   for more details.
@@ -126,7 +126,7 @@ export function ConsentModal({ isOpen, onClose, redirectUrl }: ConsentModalProps
                 </button>
                 <button
                   onClick={handleProceed}
-                  className="flex-1 px-6 py-3 font-bold rounded-full flex items-center justify-center gap-2 transition-all bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white hover:shadow-lg hover:scale-[1.02]"
+                  className="flex-1 px-6 py-3 font-bold rounded-full flex items-center justify-center gap-2 transition-all bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white hover:shadow-lg hover:scale-[1.02]"
                 >
                   Continue to Application
                   <ArrowRight className="w-4 h-4" />

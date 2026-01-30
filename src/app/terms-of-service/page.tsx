@@ -14,7 +14,7 @@ export default function TermsOfServicePage() {
       {/* Content */}
       <div className="pt-28 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-medium mb-8 transition-colors">
+          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-medium mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Link>
@@ -37,7 +37,7 @@ export default function TermsOfServicePage() {
             </section>
 
             {/* Company Info */}
-            <section className="mb-10 p-6 bg-gradient-to-r from-[#FF8C42]/10 to-[#267AB1]/10 rounded-2xl border border-[#FF8C42]/20">
+            <section className="mb-10 p-6 bg-gradient-to-r from-[#267AB1]/10 to-[#267AB1]/10 rounded-2xl border border-[#267AB1]/20">
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Company Information</h2>
               <div className="space-y-4">
                 <div>
@@ -46,12 +46,12 @@ export default function TermsOfServicePage() {
                     53 NW 100th Ave<br />
                     Plantation, FL 33324<br />
                     NMLS #1604663<br />
-                    Phone: (954) 555-0100<br />
-                    Email: info@1stfinmiramar.com
+                    Phone: (954) 558-1730<br />
+                    Email: cal@mortgagefellas.com
                   </p>
                 </div>
                 
-                <div className="pt-4 border-t border-[#FF8C42]/20">
+                <div className="pt-4 border-t border-[#267AB1]/20">
                   <h3 className="text-xl font-semibold text-[#0D3F72] mb-2">Licensed Professional</h3>
                   <p className="text-[#0D3F72]/70 leading-relaxed">
                     Cal Castells, Licensed Loan Originator<br />
@@ -164,7 +164,7 @@ export default function TermsOfServicePage() {
                 We may offer SMS notifications for loan updates, document requests, and promotional offers. Opting in to receive SMS messages is completely optional and not a condition of service.
               </p>
               <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
-                For detailed information about our SMS program, please review our <Link href="/sms-policy" className="text-[#FF8C42] hover:underline font-semibold">SMS Policy & 10DLC Compliance</Link> page.
+                For detailed information about our SMS program, please review our <Link href="/sms-policy" className="text-[#267AB1] hover:underline font-semibold">SMS Policy & 10DLC Compliance</Link> page.
               </p>
             </section>
 
@@ -172,7 +172,7 @@ export default function TermsOfServicePage() {
             <section className="mb-10">
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Privacy and Data Protection</h2>
               <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
-                Your use of our Services is also governed by our <Link href="/privacy-policy" className="text-[#FF8C42] hover:underline font-semibold">Privacy Policy</Link>, which is incorporated by reference into these Terms.
+                Your use of our Services is also governed by our <Link href="/privacy-policy" className="text-[#267AB1] hover:underline font-semibold">Privacy Policy</Link>, which is incorporated by reference into these Terms.
               </p>
             </section>
 
@@ -187,13 +187,13 @@ export default function TermsOfServicePage() {
                 <p>Licensed Loan Originator – NMLS #1603703</p>
                 <p>Guaranteed Rate – NMLS #1604663</p>
                 <p>53 NW 100th Ave, Plantation, FL 33324</p>
-                <p className="mt-3">Email: <a href="mailto:info@1stfinmiramar.com" className="text-[#FF8C42] hover:underline">info@1stfinmiramar.com</a></p>
-                <p>Phone: <a href="tel:+19545550100" className="text-[#FF8C42] hover:underline">(954) 555-0100</a></p>
+                <p className="mt-3">Email: <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a></p>
+                <p>Phone: <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a></p>
               </div>
             </section>
 
             {/* Final */}
-            <section className="mb-10 p-6 bg-[#FF8C42]/10 rounded-2xl border border-[#FF8C42]/30">
+            <section className="mb-10 p-6 bg-[#267AB1]/10 rounded-2xl border border-[#267AB1]/30">
               <p className="text-[#0D3F72]/80 leading-relaxed font-medium">
                 By using the 1st Financial Mortgage's services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy.
               </p>
@@ -201,7 +201,7 @@ export default function TermsOfServicePage() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-[#0D3F72]/10">
-            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-semibold transition-colors">
+            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-semibold transition-colors">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Return to Home
             </Link>

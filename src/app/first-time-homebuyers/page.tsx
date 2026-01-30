@@ -55,7 +55,7 @@ export default function FirstTimeHomebuyersPage() {
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-10 left-[10%] w-[600px] h-[600px] bg-gradient-to-br from-[#FF8C42]/25 to-[#267AB1]/10 rounded-full blur-[140px] animate-pulse" />
+          <div className="absolute top-10 left-[10%] w-[600px] h-[600px] bg-gradient-to-br from-[#267AB1]/25 to-[#267AB1]/10 rounded-full blur-[140px] animate-pulse" />
           <div className="absolute bottom-0 right-[5%] w-[400px] h-[400px] bg-gradient-to-br from-[#0D3F72]/15 to-transparent rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
         
@@ -67,19 +67,19 @@ export default function FirstTimeHomebuyersPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
             <div className="flex items-center gap-2 text-sm text-[#0D3F72]/60 mb-4">
-              <Link href="/" className="hover:text-[#FF8C42] transition-colors">Home</Link>
+              <Link href="/" className="hover:text-[#267AB1] transition-colors">Home</Link>
               <span>/</span>
-              <span className="text-[#FF8C42]">First-Time Homebuyers</span>
+              <span className="text-[#267AB1]">First-Time Homebuyers</span>
             </div>
             
             <div className="max-w-3xl">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#FF8C42]/10 to-[#267AB1]/10 rounded-full mb-6">
-                <Sparkles className="w-4 h-4 text-[#FF8C42]" />
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#267AB1]/10 to-[#267AB1]/10 rounded-full mb-6">
+                <Sparkles className="w-4 h-4 text-[#267AB1]" />
                 <span className="text-sm font-medium text-[#0D3F72]">Your Journey Starts Here</span>
               </div>
               
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0D3F72] leading-tight mb-6">
-                First-Time <span className="bg-gradient-to-r from-[#FF8C42] to-[#267AB1] bg-clip-text text-transparent">Homebuyer</span> Guide
+                First-Time <span className="bg-gradient-to-r from-[#267AB1] to-[#267AB1] bg-clip-text text-transparent">Homebuyer</span> Guide
               </h1>
               
               <p className="text-lg text-[#0D3F72]/60 leading-relaxed mb-8">
@@ -90,7 +90,7 @@ export default function FirstTimeHomebuyersPage() {
                 <Link href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="btn-primary">
                   Get Pre-Approved <ArrowRight className="w-5 h-5" />
                 </Link>
-                <Link href="tel:+19545550100" className="btn-outline">
+                <Link href="tel:+19545581730" className="btn-outline">
                   <Phone className="w-4 h-4" /> Contact Us
                 </Link>
               </div>
@@ -105,7 +105,7 @@ export default function FirstTimeHomebuyersPage() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
-                Why Work With <span className="text-[#FF8C42]">Us?</span>
+                Why Work With <span className="text-[#267AB1]">Us?</span>
               </h2>
               <p className="text-[#0D3F72]/60 max-w-2xl mx-auto">
                 First-time buyers need extra care. Here's what sets us apart.
@@ -122,7 +122,7 @@ export default function FirstTimeHomebuyersPage() {
             ].map((item, i) => (
               <AnimatedSection key={item.title} delay={i * 100}>
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-[#0D3F72]/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 h-full text-center">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <item.icon className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-lg font-bold text-[#0D3F72] mb-2">{item.title}</h3>
@@ -146,7 +146,7 @@ export default function FirstTimeHomebuyersPage() {
           <AnimatedSection>
             <div className="text-center mb-16">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
-                5 Steps to <span className="text-[#FF8C42]">Your First Home</span>
+                5 Steps to <span className="text-[#267AB1]">Your First Home</span>
               </h2>
               <p className="text-[#0D3F72]/60 max-w-2xl mx-auto">
                 The homebuying journey simplified into five clear milestones.
@@ -156,14 +156,14 @@ export default function FirstTimeHomebuyersPage() {
 
           <div className="relative">
             {/* Connection Line */}
-            <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-[#FF8C42] via-[#267AB1] to-[#0D3F72] -translate-y-1/2 rounded-full" />
+            <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-[#267AB1] via-[#267AB1] to-[#0D3F72] -translate-y-1/2 rounded-full" />
             
             <div className="grid lg:grid-cols-5 gap-8">
               {steps.map((step, i) => (
                 <AnimatedSection key={step.title} delay={i * 100}>
                   <div className="relative">
                     <div className="bg-white rounded-2xl p-6 shadow-xl border border-[#0D3F72]/5 hover:shadow-2xl transition-all duration-500 h-full">
-                      <div className="w-12 h-12 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-full flex items-center justify-center text-white font-bold text-lg mb-4 mx-auto lg:mx-0">
+                      <div className="w-12 h-12 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-full flex items-center justify-center text-white font-bold text-lg mb-4 mx-auto lg:mx-0">
                         {i + 1}
                       </div>
                       <div className="w-10 h-10 bg-[#0D3F72]/5 rounded-lg flex items-center justify-center mb-3">
@@ -186,7 +186,7 @@ export default function FirstTimeHomebuyersPage() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
-                Helpful <span className="text-[#FF8C42]">Resources</span>
+                Helpful <span className="text-[#267AB1]">Resources</span>
               </h2>
               <p className="text-[#0D3F72]/60">
                 Tools and information to help you prepare.
@@ -201,9 +201,9 @@ export default function FirstTimeHomebuyersPage() {
                   <div className="w-14 h-14 bg-gradient-to-br from-[#0D3F72] to-[#267AB1] rounded-2xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform duration-300">
                     <item.icon className="w-7 h-7 text-white" />
                   </div>
-                  <h3 className="text-xl font-bold text-[#0D3F72] mb-2 group-hover:text-[#FF8C42] transition-colors">{item.title}</h3>
+                  <h3 className="text-xl font-bold text-[#0D3F72] mb-2 group-hover:text-[#267AB1] transition-colors">{item.title}</h3>
                   <p className="text-[#0D3F72]/60 mb-4">{item.desc}</p>
-                  <span className="text-[#FF8C42] font-semibold inline-flex items-center gap-1 group-hover:gap-2 transition-all">
+                  <span className="text-[#267AB1] font-semibold inline-flex items-center gap-1 group-hover:gap-2 transition-all">
                     Learn More <ArrowRight className="w-4 h-4" />
                   </span>
                 </Link>
@@ -223,9 +223,9 @@ export default function FirstTimeHomebuyersPage() {
         
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10 text-center">
           <AnimatedSection>
-            <Lightbulb className="w-16 h-16 text-[#FF8C42] mx-auto mb-6" />
+            <Lightbulb className="w-16 h-16 text-[#267AB1] mx-auto mb-6" />
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Make <span className="text-[#FF8C42]">Homeownership</span> a Reality?
+              Ready to Make <span className="text-[#267AB1]">Homeownership</span> a Reality?
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Take the first step today. We'll guide you through every part of the process.
@@ -235,15 +235,15 @@ export default function FirstTimeHomebuyersPage() {
                 href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
                 Start Your Application <ArrowRight className="w-5 h-5" />
               </Link>
               <Link 
-                href="tel:+19545550100"
+                href="tel:+19545581730"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300"
               >
-                <Phone className="w-5 h-5" /> (954) 555-0100
+                <Phone className="w-5 h-5" /> (954) 558-1730
               </Link>
             </div>
           </AnimatedSection>

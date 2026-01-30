@@ -14,7 +14,7 @@ export default function PrivacyPolicyPage() {
       {/* Content */}
       <div className="pt-28 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-medium mb-8 transition-colors">
+          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-medium mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Link>
@@ -81,15 +81,15 @@ export default function PrivacyPolicyPage() {
               <div className="space-y-2 text-white/80">
                 <p><strong className="text-white">Cal Castells</strong> – Branch Manager</p>
                 <p>NMLS #1101261</p>
-                <p>Phone: <a href="tel:+19545550100" className="text-[#FF8C42] hover:underline">(954) 555-0100</a></p>
-                <p>Email: <a href="mailto:info@1stfinmiramar.com" className="text-[#FF8C42] hover:underline">info@1stfinmiramar.com</a></p>
+                <p>Phone: <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a></p>
+                <p>Email: <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a></p>
                 <p className="pt-2 text-sm">1st Financial Mortgage – NMLS #185076</p>
               </div>
             </div>
           </div>
 
           <div className="mt-12 pt-8 border-t border-[#0D3F72]/10">
-            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-semibold transition-colors">
+            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-semibold transition-colors">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Return to Home
             </Link>

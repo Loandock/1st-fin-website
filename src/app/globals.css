@@ -3,12 +3,15 @@
 @tailwind utilities;
 
 :root {
-  /* 1st Financial Mortgage Color Palette */
+  /* The Mortgage Fellas Color Palette - Blue & Silver */
   --blue-deep: #0D3F72;      /* Yale Blue - primary */
   --blue-mid: #267AB1;       /* Bright Teal Blue - secondary */
-  --accent: #FF8C42;         /* Accent Orange */
-  --accent-light: #FFA366;
-  --accent-dark: #E67830;
+  --accent: #4A90B8;         /* Steel Blue - accent */
+  --accent-light: #6BA8CC;
+  --accent-dark: #3A7A9E;
+  --silver: #B8C5D0;         /* Silver */
+  --silver-light: #D0D8E0;
+  --silver-dark: #8A9AAC;
   --alice-blue: #E1EAEF;     /* Light background */
   --azure-mist: #E9FCFE;     /* Light teal background */
   --white: #FFFFFF;
@@ -96,7 +99,7 @@
 
 /* === TEXT === */
 .gradient-text {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 50%, var(--accent-dark) 100%);
+  background: linear-gradient(135deg, var(--blue-mid) 0%, var(--accent) 50%, var(--silver) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -104,12 +107,12 @@
 
 /* === BUTTONS === */
 .btn-primary {
-  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+  background: linear-gradient(135deg, var(--blue-mid) 0%, var(--blue-deep) 100%);
   color: white;
   font-weight: 600;
   padding: 14px 28px;
   border-radius: 100px;
-  box-shadow: 0 4px 16px rgba(255, 140, 66, 0.35);
+  box-shadow: 0 4px 16px rgba(38, 122, 177, 0.35);
   transition: all 0.25s ease;
   display: inline-flex;
   align-items: center;
@@ -117,7 +120,7 @@
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(255, 140, 66, 0.45);
+  box-shadow: 0 6px 24px rgba(38, 122, 177, 0.45);
 }
 
 .btn-secondary {
@@ -164,8 +167,8 @@
   align-items: center;
   justify-content: center;
 }
-.icon-circle-gold {
-  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
+.icon-circle-accent {
+  background: linear-gradient(135deg, var(--accent), var(--blue-mid));
 }
 
 /* === NAV === */
@@ -187,7 +190,7 @@
 }
 .input:focus {
   outline: none;
-  border-color: var(--accent);
+  border-color: var(--blue-mid);
   background: var(--white);
 }
 .input::placeholder {
@@ -274,6 +277,6 @@
   background: var(--blue-tint);
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, var(--accent), var(--blue-deep));
+  background: linear-gradient(180deg, var(--blue-mid), var(--blue-deep));
   border-radius: 4px;
 }

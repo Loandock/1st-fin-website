@@ -64,8 +64,8 @@ export default function CalculatorPage() {
       <section className="relative pt-32 pb-16 overflow-hidden">
         {/* Animated Background */}
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 right-[10%] w-[400px] h-[400px] bg-gradient-to-br from-[#FF8C42]/20 to-[#267AB1]/10 rounded-full blur-[100px] animate-pulse" />
-          <div className="absolute bottom-0 left-[10%] w-[300px] h-[300px] bg-gradient-to-br from-[#0D3F72]/10 to-[#FF8C42]/5 rounded-full blur-[80px] animate-pulse" style={{ animationDelay: '1s' }} />
+          <div className="absolute top-20 right-[10%] w-[400px] h-[400px] bg-gradient-to-br from-[#267AB1]/20 to-[#267AB1]/10 rounded-full blur-[100px] animate-pulse" />
+          <div className="absolute bottom-0 left-[10%] w-[300px] h-[300px] bg-gradient-to-br from-[#0D3F72]/10 to-[#267AB1]/5 rounded-full blur-[80px] animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
         
         {/* Grid Pattern */}
@@ -77,19 +77,19 @@ export default function CalculatorPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
             <div className="flex items-center gap-2 text-sm text-[#0D3F72]/60 mb-4">
-              <Link href="/" className="hover:text-[#FF8C42] transition-colors">Home</Link>
+              <Link href="/" className="hover:text-[#267AB1] transition-colors">Home</Link>
               <span>/</span>
-              <span className="text-[#FF8C42]">Calculator</span>
+              <span className="text-[#267AB1]">Calculator</span>
             </div>
             
             <div className="max-w-3xl">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#FF8C42]/10 to-[#267AB1]/10 rounded-full mb-6">
-                <Calculator className="w-4 h-4 text-[#FF8C42]" />
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#267AB1]/10 to-[#267AB1]/10 rounded-full mb-6">
+                <Calculator className="w-4 h-4 text-[#267AB1]" />
                 <span className="text-sm font-medium text-[#0D3F72]">Free Tool</span>
               </div>
               
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0D3F72] leading-tight mb-6">
-                Mortgage <span className="bg-gradient-to-r from-[#FF8C42] to-[#267AB1] bg-clip-text text-transparent">Calculator</span>
+                Mortgage <span className="bg-gradient-to-r from-[#267AB1] to-[#267AB1] bg-clip-text text-transparent">Calculator</span>
               </h1>
               
               <p className="text-lg text-[#0D3F72]/60 leading-relaxed">
@@ -108,7 +108,7 @@ export default function CalculatorPage() {
             <AnimatedSection delay={100}>
               <div className="bg-white rounded-3xl shadow-xl border border-[#0D3F72]/5 p-8 hover:shadow-2xl transition-shadow duration-500">
                 <h2 className="text-2xl font-bold text-[#0D3F72] mb-6 flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-xl flex items-center justify-center">
+                  <div className="w-10 h-10 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-xl flex items-center justify-center">
                     <Calculator className="w-5 h-5 text-white" />
                   </div>
                   Loan Details
@@ -128,7 +128,7 @@ export default function CalculatorPage() {
                       step="10000"
                       value={homePrice}
                       onChange={(e) => setHomePrice(Number(e.target.value))}
-                      className="w-full h-2 bg-[#0D3F72]/10 rounded-lg appearance-none cursor-pointer accent-[#FF8C42]"
+                      className="w-full h-2 bg-[#0D3F72]/10 rounded-lg appearance-none cursor-pointer accent-[#267AB1]"
                     />
                     <div className="flex justify-between text-xs text-[#0D3F72]/40 mt-1">
                       <span>$100k</span>
@@ -149,7 +149,7 @@ export default function CalculatorPage() {
                       step="5000"
                       value={downPayment}
                       onChange={(e) => setDownPayment(Number(e.target.value))}
-                      className="w-full h-2 bg-[#0D3F72]/10 rounded-lg appearance-none cursor-pointer accent-[#FF8C42]"
+                      className="w-full h-2 bg-[#0D3F72]/10 rounded-lg appearance-none cursor-pointer accent-[#267AB1]"
                     />
                   </div>
 
@@ -166,7 +166,7 @@ export default function CalculatorPage() {
                       step="0.125"
                       value={interestRate}
                       onChange={(e) => setInterestRate(Number(e.target.value))}
-                      className="w-full h-2 bg-[#0D3F72]/10 rounded-lg appearance-none cursor-pointer accent-[#FF8C42]"
+                      className="w-full h-2 bg-[#0D3F72]/10 rounded-lg appearance-none cursor-pointer accent-[#267AB1]"
                     />
                     <div className="flex justify-between text-xs text-[#0D3F72]/40 mt-1">
                       <span>3%</span>
@@ -184,7 +184,7 @@ export default function CalculatorPage() {
                           onClick={() => setLoanTerm(term)}
                           className={`py-3 rounded-xl font-semibold transition-all duration-300 ${
                             loanTerm === term
-                              ? 'bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white shadow-lg scale-105'
+                              ? 'bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white shadow-lg scale-105'
                               : 'bg-[#0D3F72]/5 text-[#0D3F72] hover:bg-[#0D3F72]/10'
                           }`}
                         >
@@ -221,7 +221,7 @@ export default function CalculatorPage() {
                 </div>
 
                 {/* CTA Card */}
-                <div className="bg-gradient-to-r from-[#FF8C42]/10 to-[#267AB1]/10 rounded-3xl p-8 border border-[#FF8C42]/20">
+                <div className="bg-gradient-to-r from-[#267AB1]/10 to-[#267AB1]/10 rounded-3xl p-8 border border-[#267AB1]/20">
                   <h3 className="text-xl font-bold text-[#0D3F72] mb-3">Ready to Get Started?</h3>
                   <p className="text-[#0D3F72]/60 mb-6">Get pre-approved in as little as 24 hours with the 1st Financial Mortgage.</p>
                   <button 
@@ -248,7 +248,7 @@ export default function CalculatorPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
             <h2 className="text-3xl font-bold text-[#0D3F72] text-center mb-12">
-              What Makes Up Your <span className="text-[#FF8C42]">Payment?</span>
+              What Makes Up Your <span className="text-[#267AB1]">Payment?</span>
             </h2>
           </AnimatedSection>
 
@@ -263,7 +263,7 @@ export default function CalculatorPage() {
                 <div className="bg-white rounded-2xl p-6 shadow-lg border border-[#0D3F72]/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 h-full">
                   <div className={`w-12 h-12 rounded-xl flex items-center justify-center mb-4 ${
                     item.color === 'gold' 
-                      ? 'bg-gradient-to-br from-[#FF8C42] to-[#267AB1]' 
+                      ? 'bg-gradient-to-br from-[#267AB1] to-[#267AB1]' 
                       : 'bg-gradient-to-br from-[#0D3F72] to-[#267AB1]'
                   }`}>
                     <item.icon className="w-6 h-6 text-white" />
@@ -288,7 +288,7 @@ export default function CalculatorPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10 text-center">
           <AnimatedSection>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Numbers Look Good? <span className="text-[#FF8C42]">Let's Talk.</span>
+              Numbers Look Good? <span className="text-[#267AB1]">Let's Talk.</span>
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Get personalized guidance from Cal Castells and the team. We'll find the best loan program for your situation.
@@ -296,15 +296,15 @@ export default function CalculatorPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => setConsentModalOpen(true)}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
                 Start Your Application <ArrowRight className="w-5 h-5" />
               </button>
               <Link 
-                href="tel:+19545550100"
+                href="tel:+19545581730"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300"
               >
-                Call (954) 555-0100
+                Call (954) 558-1730
               </Link>
             </div>
           </AnimatedSection>

@@ -80,7 +80,7 @@ export default function DownPaymentAssistancePage() {
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 right-[10%] w-[500px] h-[500px] bg-gradient-to-br from-[#FF8C42]/25 to-[#267AB1]/10 rounded-full blur-[130px] animate-pulse" />
+          <div className="absolute top-20 right-[10%] w-[500px] h-[500px] bg-gradient-to-br from-[#267AB1]/25 to-[#267AB1]/10 rounded-full blur-[130px] animate-pulse" />
           <div className="absolute bottom-0 left-[5%] w-[400px] h-[400px] bg-gradient-to-br from-[#0D3F72]/15 to-transparent rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
         
@@ -92,20 +92,20 @@ export default function DownPaymentAssistancePage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
             <div className="flex items-center gap-2 text-sm text-[#0D3F72]/60 mb-4">
-              <Link href="/" className="hover:text-[#FF8C42] transition-colors">Home</Link>
+              <Link href="/" className="hover:text-[#267AB1] transition-colors">Home</Link>
               <span>/</span>
-              <span className="text-[#FF8C42]">Down Payment Assistance</span>
+              <span className="text-[#267AB1]">Down Payment Assistance</span>
             </div>
             
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#FF8C42]/10 to-[#267AB1]/10 rounded-full mb-6">
-                  <DollarSign className="w-4 h-4 text-[#FF8C42]" />
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#267AB1]/10 to-[#267AB1]/10 rounded-full mb-6">
+                  <DollarSign className="w-4 h-4 text-[#267AB1]" />
                   <span className="text-sm font-medium text-[#0D3F72]">Financial Help Available</span>
                 </div>
                 
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0D3F72] leading-tight mb-6">
-                  Down Payment <span className="bg-gradient-to-r from-[#FF8C42] to-[#267AB1] bg-clip-text text-transparent">Assistance</span>
+                  Down Payment <span className="bg-gradient-to-r from-[#267AB1] to-[#267AB1] bg-clip-text text-transparent">Assistance</span>
                 </h1>
                 
                 <p className="text-lg text-[#0D3F72]/60 leading-relaxed mb-8">
@@ -116,7 +116,7 @@ export default function DownPaymentAssistancePage() {
                   <button onClick={() => setConsentModalOpen(true)} className="btn-primary">
                     Check Eligibility <ArrowRight className="w-5 h-5" />
                   </button>
-                  <Link href="tel:+19545550100" className="btn-outline">
+                  <Link href="tel:+19545581730" className="btn-outline">
                     <Phone className="w-4 h-4" /> Ask Questions
                   </Link>
                 </div>
@@ -124,10 +124,10 @@ export default function DownPaymentAssistancePage() {
 
               <div className="hidden lg:block">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#FF8C42]/20 to-[#267AB1]/20 rounded-3xl blur-2xl" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#267AB1]/20 to-[#267AB1]/20 rounded-3xl blur-2xl" />
                   <div className="relative bg-white rounded-3xl p-8 shadow-2xl border border-[#0D3F72]/5">
                     <div className="text-center mb-6">
-                      <div className="w-16 h-16 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-2xl flex items-center justify-center mx-auto mb-4">
+                      <div className="w-16 h-16 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-2xl flex items-center justify-center mx-auto mb-4">
                         <DollarSign className="w-8 h-8 text-white" />
                       </div>
                       <p className="text-3xl font-bold text-[#0D3F72]">Up to $10,000+</p>
@@ -136,7 +136,7 @@ export default function DownPaymentAssistancePage() {
                     <div className="space-y-3">
                       {['Grants (free money!)', 'Forgivable loans', 'Deferred payments', 'Low-interest seconds'].map((item) => (
                         <div key={item} className="flex items-center gap-3">
-                          <CheckCircle className="w-5 h-5 text-[#FF8C42]" />
+                          <CheckCircle className="w-5 h-5 text-[#267AB1]" />
                           <span className="text-[#0D3F72]/70">{item}</span>
                         </div>
                       ))}
@@ -160,7 +160,7 @@ export default function DownPaymentAssistancePage() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
-                Popular <span className="text-[#FF8C42]">DPA Programs</span>
+                Popular <span className="text-[#267AB1]">DPA Programs</span>
               </h2>
               <p className="text-[#0D3F72]/60 max-w-2xl mx-auto">
                 These are some of the most common programs we help buyers access. Eligibility varies by program.
@@ -176,7 +176,7 @@ export default function DownPaymentAssistancePage() {
                     <div>
                       <span className={`inline-block px-3 py-1 rounded-full text-xs font-medium mb-2 ${
                         program.color === 'gold' 
-                          ? 'bg-[#FF8C42]/10 text-[#FF8C42]' 
+                          ? 'bg-[#267AB1]/10 text-[#267AB1]' 
                           : 'bg-[#0D3F72]/10 text-[#0D3F72]'
                       }`}>
                         {program.type}
@@ -196,7 +196,7 @@ export default function DownPaymentAssistancePage() {
                   <ul className="space-y-3">
                     {program.features.map((feature) => (
                       <li key={feature} className="flex items-center gap-3 text-[#0D3F72]/70 text-sm">
-                        <CheckCircle className="w-4 h-4 text-[#FF8C42] flex-shrink-0" />
+                        <CheckCircle className="w-4 h-4 text-[#267AB1] flex-shrink-0" />
                         {feature}
                       </li>
                     ))}
@@ -214,7 +214,7 @@ export default function DownPaymentAssistancePage() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
-                Additional <span className="text-[#FF8C42]">Options</span>
+                Additional <span className="text-[#267AB1]">Options</span>
               </h2>
               <p className="text-[#0D3F72]/60">
                 Other ways to reduce or eliminate your down payment requirement.
@@ -250,7 +250,7 @@ export default function DownPaymentAssistancePage() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-                How We <span className="text-[#FF8C42]">Help You</span>
+                How We <span className="text-[#267AB1]">Help You</span>
               </h2>
               <p className="text-white/70 max-w-2xl mx-auto">
                 Navigating DPA programs can be confusing. That's where we come in.
@@ -266,7 +266,7 @@ export default function DownPaymentAssistancePage() {
             ].map((item, i) => (
               <AnimatedSection key={item.title} delay={i * 100}>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center hover:bg-white/20 transition-all duration-300">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <item.icon className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>
@@ -280,7 +280,7 @@ export default function DownPaymentAssistancePage() {
             <div className="mt-12 text-center">
               <button 
                 onClick={() => setConsentModalOpen(true)}
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
                 Check Your Eligibility <ArrowRight className="w-5 h-5" />
               </button>

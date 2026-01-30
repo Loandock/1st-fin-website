@@ -10,11 +10,11 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: {
-    default: "1st Financial Mortgage | Miramar Branch",
-    template: "%s | 1st Financial Mortgage",
+    default: "The Mortgage Fellas | South Florida Mortgage Experts",
+    template: "%s | The Mortgage Fellas",
   },
   description:
-    "1st Financial Mortgage - Miramar Branch in Pembroke Pines, FL. Expert mortgage lending in South Florida. FHA, VA, Conventional, Investment loans. Branch NMLS #1620197.",
+    "The Mortgage Fellas - Your trusted mortgage team in Pembroke Pines, FL. Expert mortgage lending in South Florida. FHA, VA, Conventional, Investment, ITIN, DSCR loans. DBA of 1st Financial Mortgage.",
   keywords: [
     "mortgage",
     "home loan",
@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     "FHA loan",
     "VA loan",
     "refinance",
+    "The Mortgage Fellas",
     "1st Financial Mortgage",
     "Pembroke Pines mortgage",
     "Miramar mortgage",
@@ -30,10 +31,11 @@ export const metadata: Metadata = {
     "down payment assistance",
     "investment loans",
     "DSCR loans",
+    "ITIN loans",
     "jumbo loans",
   ],
-  authors: [{ name: "1st Financial Mortgage - Miramar Branch" }],
-  creator: "1st Financial Mortgage",
+  authors: [{ name: "The Mortgage Fellas" }],
+  creator: "The Mortgage Fellas",
   publisher: "1st Financial Mortgage",
   robots: {
     index: true,
@@ -49,43 +51,43 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://1stfinmiramar.com",
-    siteName: "1st Financial Mortgage",
-    title: "1st Financial Mortgage | Miramar Branch",
+    url: "https://mortgagefellas.com",
+    siteName: "The Mortgage Fellas",
+    title: "The Mortgage Fellas | South Florida Mortgage Experts",
     description:
-      "Expert mortgage lending in Pembroke Pines & South Florida. FHA, VA, Conventional, Investment loans. Branch NMLS #1620197.",
+      "Expert mortgage lending in Pembroke Pines & South Florida. FHA, VA, Conventional, Investment, ITIN, DSCR loans.",
     images: [
       {
-        url: "https://1stfinmiramar.com/team.jpg",
+        url: "https://mortgagefellas.com/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "1st Financial Mortgage - Miramar Branch Team",
+        alt: "The Mortgage Fellas - South Florida Mortgage Experts",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "1st Financial Mortgage | Miramar Branch",
+    title: "The Mortgage Fellas | South Florida Mortgage Experts",
     description:
-      "Expert mortgage lending in South Florida. FHA, VA, Conventional, Investment loans. Branch NMLS #1620197.",
+      "Expert mortgage lending in South Florida. FHA, VA, Conventional, Investment, ITIN, DSCR loans.",
     images: [
       {
-        url: "https://1stfinmiramar.com/team.jpg",
-        alt: "1st Financial Mortgage - Miramar Branch",
+        url: "https://mortgagefellas.com/og-image.jpg",
+        alt: "The Mortgage Fellas",
       },
     ],
   },
   icons: {
     icon: [
-      { url: "/favicon.ico", type: "image/x-icon" },
+      { url: "/logo.svg", type: "image/svg+xml" },
     ],
-    apple: [{ url: "/apple-touch-icon.png" }],
+    apple: [{ url: "/logo.svg" }],
   },
   manifest: "/site.webmanifest",
-  metadataBase: new URL("https://1stfinmiramar.com"),
+  metadataBase: new URL("https://mortgagefellas.com"),
   alternates: {
-    canonical: "https://1stfinmiramar.com",
+    canonical: "https://mortgagefellas.com",
   },
   category: "Finance",
 };

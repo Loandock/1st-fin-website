@@ -180,7 +180,7 @@ export default function LandingPage() {
       }
     } catch {
       setFormStatus('error');
-      setFormMessage('Something went wrong. Please try again or call us directly at (954) 555-0100.');
+      setFormMessage('Something went wrong. Please try again or call us directly at (954) 558-1730.');
     }
   };
 
@@ -201,55 +201,43 @@ export default function LandingPage() {
       <Navbar />
 
       {/* === HERO - THE WOW FACTOR === */}
-      <section id="home" className="gradient-section-1 relative min-h-screen pt-16 overflow-hidden">
-        {/* Animated Background Orbs */}
-        <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 left-[10%] w-[500px] h-[500px] bg-gradient-to-br from-[#FF8C42]/30 to-[#267AB1]/20 rounded-full blur-[100px] animate-pulse-slow" 
-               style={{ transform: `translate(${mousePos.x * 0.5}px, ${mousePos.y * 0.5}px)` }} />
-          <div className="absolute bottom-20 right-[10%] w-[400px] h-[400px] bg-gradient-to-br from-[#0D3F72]/20 to-[#FF8C42]/10 rounded-full blur-[80px] animate-pulse-slow animation-delay-1000"
-               style={{ transform: `translate(${mousePos.x * -0.3}px, ${mousePos.y * -0.3}px)` }} />
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-br from-[#267AB1]/10 to-transparent rounded-full blur-[120px]" />
+      <section id="home" className="relative min-h-screen pt-16 overflow-hidden">
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute inset-0 w-full h-full object-cover"
+          >
+            <source src="/Website-Video.mp4" type="video/mp4" />
+          </video>
+          {/* Subtle overlay for text readability */}
+          <div className="absolute inset-0 bg-black/30" />
         </div>
-
-        {/* Grid Pattern Overlay */}
-        <div className="absolute inset-0 opacity-[0.04]" style={{
-          backgroundImage: `linear-gradient(#0D3F72 1px, transparent 1px), linear-gradient(90deg, #0D3F72 1px, transparent 1px)`,
-          backgroundSize: '80px 80px'
-        }} />
-        
-        {/* Diagonal accent lines - subtle depth */}
-        <div className="absolute inset-0 opacity-[0.02]" style={{
-          backgroundImage: `repeating-linear-gradient(45deg, transparent, transparent 100px, #FF8C42 100px, #FF8C42 101px)`,
-        }} />
-        
-        {/* Gold accent dots at intersections - very subtle */}
-        <div className="absolute inset-0 opacity-[0.025]" style={{
-          backgroundImage: `radial-gradient(circle at center, #FF8C42 2px, transparent 2px)`,
-          backgroundSize: '80px 80px',
-          backgroundPosition: '40px 40px'
-        }} />
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-10 lg:py-12 relative z-10">
-          {/* BENTO GRID HERO */}
+          {/* HERO CONTENT */}
           <div className="grid grid-cols-12 gap-4 lg:gap-5 auto-rows-[minmax(80px,auto)]">
             
-            {/* Main Headline - spans 8 cols, 2 rows */}
-            <div className="col-span-12 lg:col-span-8 row-span-2 flex flex-col justify-center">
-              <div className="space-y-6">
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full shadow-sm w-fit">
+            {/* Main Headline - full width */}
+            <div className="col-span-12 row-span-2 flex flex-col justify-center">
+              <div className="space-y-6 max-w-4xl">
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full border border-white/30 w-fit">
                   <span className="relative flex h-2 w-2">
-                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#FF8C42] opacity-75"></span>
-                    <span className="relative inline-flex rounded-full h-2 w-2 bg-[#FF8C42]"></span>
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#267AB1] opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-2 w-2 bg-[#267AB1]"></span>
                   </span>
-                  <span className="text-sm font-medium text-[#0D3F72]">Español/English • Bilingual Service</span>
+                  <span className="text-sm font-medium text-white">Español/English • Bilingual Service</span>
         </div>
 
-                <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-[#0D3F72] tracking-tight">
+                <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-white tracking-tight">
                   <span className="block animate-fade-in leading-[1.1]">More Than</span>
-                  <span className="block animate-fade-in animation-delay-100 gradient-text leading-[1.2] pb-2">A Mortgage</span>
+                  <span className="block animate-fade-in animation-delay-100 text-[#C8D4E0] leading-[1.2] pb-2">A Mortgage</span>
               </h1>
               
-                <p className="text-lg lg:text-xl text-[#0D3F72]/60 max-w-xl leading-relaxed animate-fade-in animation-delay-300">
+                <p className="text-lg lg:text-xl text-white/80 max-w-xl leading-relaxed animate-fade-in animation-delay-300">
                   Helping families achieve the dream of homeownership with integrity and personalized service.
                 </p>
 
@@ -257,40 +245,32 @@ export default function LandingPage() {
                   <button onClick={() => setConsentModalOpen(true)} className="btn-primary text-base">
                     Apply Now <ArrowRight className="w-5 h-5" />
                   </button>
-                  <a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="btn-outline text-base cursor-pointer">
+                  <a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="px-6 py-3 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-full border border-white/30 hover:bg-white/20 transition-all cursor-pointer inline-flex items-center gap-2">
                     Explore Services
                   </a>
                 </div>
               </div>
             </div>
 
-            {/* Team Card - Logo */}
-            <div className="col-span-6 sm:col-span-8 lg:col-span-4 row-span-3 rounded-2xl overflow-hidden -mt-4"
-                 style={{ transform: `translate(${mousePos.x * -0.1}px, ${mousePos.y * -0.1}px)` }}>
-              <div className="relative h-full min-h-[350px] lg:min-h-[400px]">
-                <Image src="/logo.svg" alt="1st Financial Mortgage" fill className="object-contain scale-110" />
-              </div>
+            {/* Stats Row - 4 cards */}
+            <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
+              <p className="text-2xl lg:text-3xl font-bold text-white">$<Counter end={100} />M+</p>
+              <p className="text-xs text-white/60">Loans Funded</p>
             </div>
-
-            {/* Stats Row - 4 cards in even 2x2 grid */}
-            <div className="col-span-6 sm:col-span-3 glass-card rounded-2xl p-4 text-center hover-lift">
-              <p className="text-2xl lg:text-3xl font-bold text-[#0D3F72]">$<Counter end={100} />M+</p>
-              <p className="text-xs text-[#0D3F72]/50">Loans Funded</p>
+            <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
+              <p className="text-2xl lg:text-3xl font-bold text-white"><Counter end={500} />+</p>
+              <p className="text-xs text-white/60">Families Helped</p>
             </div>
-            <div className="col-span-6 sm:col-span-3 glass-card rounded-2xl p-4 text-center hover-lift">
-              <p className="text-2xl lg:text-3xl font-bold text-[#0D3F72]"><Counter end={500} />+</p>
-              <p className="text-xs text-[#0D3F72]/50">Families Helped</p>
-            </div>
-            <div className="col-span-6 sm:col-span-3 glass-card rounded-2xl p-4 text-center hover-lift">
+            <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
               <div className="flex items-center justify-center gap-1 mb-1">
-                <span className="text-2xl lg:text-3xl font-bold text-[#0D3F72]">5.0</span>
-                <Star className="w-5 h-5 fill-[#FF8C42] text-[#FF8C42]" />
+                <span className="text-2xl lg:text-3xl font-bold text-white">5.0</span>
+                <Star className="w-5 h-5 fill-[#267AB1] text-[#267AB1]" />
               </div>
-              <p className="text-xs text-[#0D3F72]/50">Client Rating</p>
+              <p className="text-xs text-white/60">Client Rating</p>
             </div>
-            <div className="col-span-6 sm:col-span-3 glass-card rounded-2xl p-4 text-center hover-lift">
-              <p className="text-2xl lg:text-3xl font-bold text-[#0D3F72]">Bilingual</p>
-              <p className="text-xs text-[#0D3F72]/50">Español/English</p>
+            <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
+              <p className="text-2xl lg:text-3xl font-bold text-white">Bilingual</p>
+              <p className="text-xs text-white/60">Español/English</p>
             </div>
           </div>
         </div>
@@ -298,27 +278,13 @@ export default function LandingPage() {
       </section>
 
       {/* === ABOUT === */}
-      <section id="about" className="gradient-section-2 py-20 lg:py-28 relative overflow-hidden">
-        {/* Vertical Lines Pattern - continues from hero */}
-        <div className="absolute inset-0 opacity-[0.035]" style={{
-          backgroundImage: `linear-gradient(90deg, #0D3F72 1px, transparent 1px)`,
-          backgroundSize: '80px 100%',
-          maskImage: 'linear-gradient(to bottom, black 0%, transparent 100%)',
-          WebkitMaskImage: 'linear-gradient(to bottom, black 0%, transparent 100%)'
-        }} />
-        {/* Dots emerging - creates transition effect */}
-        <div className="absolute inset-0 opacity-[0.04]" style={{
-          backgroundImage: `radial-gradient(#0D3F72 1.5px, transparent 1.5px)`,
-          backgroundSize: '40px 40px',
-          maskImage: 'linear-gradient(to bottom, transparent 30%, black 100%)',
-          WebkitMaskImage: 'linear-gradient(to bottom, transparent 30%, black 100%)'
-        }} />
-        {/* Subtle accent dots */}
-        <div className="absolute inset-0 opacity-[0.02]" style={{
-          backgroundImage: `radial-gradient(#FF8C42 2px, transparent 2px)`,
-          backgroundSize: '80px 80px',
-          maskImage: 'linear-gradient(to bottom, transparent 60%, black 100%)',
-          WebkitMaskImage: 'linear-gradient(to bottom, transparent 60%, black 100%)'
+      <section id="about" className="py-20 lg:py-28 relative overflow-hidden" style={{
+        background: 'linear-gradient(180deg, #0D3F72 0%, #267AB1 15%, #6BA8CC 30%, #B8C5D0 45%, #E1EAEF 55%, #B8C5D0 70%, #267AB1 85%, #0D3F72 100%)'
+      }}>
+        {/* Subtle pattern overlay */}
+        <div className="absolute inset-0 opacity-[0.05]" style={{
+          backgroundImage: `linear-gradient(90deg, rgba(255,255,255,0.3) 1px, transparent 1px)`,
+          backgroundSize: '80px 100%'
         }} />
         
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
@@ -327,9 +293,9 @@ export default function LandingPage() {
               <div className="lg:col-span-5">
                 {/* Company Logo */}
                 <div className="relative mb-6">
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#FF8C42]/30 to-[#267AB1]/20 rounded-3xl blur-2xl" />
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#267AB1]/30 to-[#267AB1]/20 rounded-3xl blur-2xl" />
                   <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white p-8">
-                    <Image src="/logo.svg" alt="1st Financial Mortgage" width={500} height={400} className="object-contain w-full" />
+                    <Image src="/logo.svg" alt="The Mortgage Fellas" width={500} height={400} className="object-contain w-full" />
                   </div>
                 </div>
 
@@ -343,7 +309,7 @@ export default function LandingPage() {
                   ].map((item, i) => (
                     <AnimatedSection key={item.label} delay={i * 100}>
                       <div className="card p-4 rounded-xl text-center">
-                        <div className={`w-10 h-10 rounded-lg flex items-center justify-center mb-2 mx-auto ${item.color === 'gold' ? 'bg-gradient-to-br from-[#FF8C42] to-[#267AB1]' : 'bg-gradient-to-br from-[#0D3F72] to-[#267AB1]'}`}>
+                        <div className={`w-10 h-10 rounded-lg flex items-center justify-center mb-2 mx-auto ${item.color === 'gold' ? 'bg-gradient-to-br from-[#267AB1] to-[#267AB1]' : 'bg-gradient-to-br from-[#0D3F72] to-[#267AB1]'}`}>
                           <item.icon className="w-5 h-5 text-white" />
                     </div>
                         <p className="text-lg font-bold text-[#0D3F72]">{item.value}</p>
@@ -356,12 +322,12 @@ export default function LandingPage() {
 
               <div className="lg:col-span-7">
                 <AnimatedSection delay={200}>
-                  <p className="text-[#FF8C42] font-bold uppercase tracking-wide text-sm mb-4">About Us</p>
-                  <h2 className="text-4xl lg:text-5xl font-bold text-[#0D3F72] leading-tight mb-6">
-                    Your Trusted Bilingual<br /><span className="gradient-text">Mortgage Team</span>
+                  <p className="text-[#B8C5D0] font-bold uppercase tracking-wide text-sm mb-4">About Us</p>
+                  <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
+                    Your Trusted Bilingual<br /><span className="text-[#B8C5D0]">Mortgage Team</span>
                   </h2>
-                  <p className="text-lg text-[#0D3F72]/60 leading-relaxed mb-8">
-                    1st Financial Mortgage&apos;s Miramar Branch is dedicated to helping South Florida families achieve homeownership. Our bilingual team brings warmth, expertise, and a solutions-oriented mindset to every client interaction.
+                  <p className="text-lg text-white/80 leading-relaxed mb-8">
+                    The Mortgage Fellas are dedicated to helping South Florida families achieve homeownership. Our bilingual team brings warmth, expertise, and a solutions-oriented mindset to every client interaction.
                   </p>
                 </AnimatedSection>
 
@@ -370,14 +336,14 @@ export default function LandingPage() {
                   <AnimatedSection delay={300}>
                     <div className="bg-white/70 backdrop-blur-sm rounded-xl p-4 border border-white">
                       <p className="text-lg font-bold text-[#0D3F72]">Jose Ramirez</p>
-                      <p className="text-sm text-[#FF8C42] font-medium">Sales Manager</p>
+                      <p className="text-sm text-[#267AB1] font-medium">Sales Manager</p>
                       <p className="text-xs text-[#0D3F72]/50 mt-1">NMLS #1057601</p>
                     </div>
                   </AnimatedSection>
                   <AnimatedSection delay={400}>
                     <div className="bg-white/70 backdrop-blur-sm rounded-xl p-4 border border-white">
                       <p className="text-lg font-bold text-[#0D3F72]">Cal Castells</p>
-                      <p className="text-sm text-[#FF8C42] font-medium">Branch Manager</p>
+                      <p className="text-sm text-[#267AB1] font-medium">Branch Manager</p>
                       <p className="text-xs text-[#0D3F72]/50 mt-1">NMLS #1101261</p>
                     </div>
                   </AnimatedSection>
@@ -391,7 +357,7 @@ export default function LandingPage() {
                   ].map((item, i) => (
                     <AnimatedSection key={item.text} delay={500 + i * 100}>
                       <div className="flex items-center gap-4 p-4 bg-white/50 rounded-xl">
-                        <div className="w-10 h-10 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-lg flex items-center justify-center flex-shrink-0">
+                        <div className="w-10 h-10 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-lg flex items-center justify-center flex-shrink-0">
                           <item.icon className="w-5 h-5 text-white" />
                   </div>
                         <p className="text-[#0D3F72] font-medium">{item.text}</p>
@@ -401,7 +367,7 @@ export default function LandingPage() {
                 </div>
 
                 <AnimatedSection delay={800}>
-                  <Link href="/about" className="inline-flex items-center gap-2 text-[#FF8C42] font-semibold hover:text-[#267AB1] transition-colors group">
+                  <Link href="/about" className="inline-flex items-center gap-2 text-white font-semibold hover:text-[#B8C5D0] transition-colors group">
                     Meet Our Team
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
@@ -421,7 +387,7 @@ export default function LandingPage() {
         }} />
         {/* Hexagonal/honeycomb subtle pattern */}
         <div className="absolute inset-0 opacity-[0.02]" style={{
-          backgroundImage: `radial-gradient(circle at 0% 50%, #FF8C42 2px, transparent 2px), radial-gradient(circle at 100% 50%, #FF8C42 2px, transparent 2px)`,
+          backgroundImage: `radial-gradient(circle at 0% 50%, #267AB1 2px, transparent 2px), radial-gradient(circle at 100% 50%, #267AB1 2px, transparent 2px)`,
           backgroundSize: '60px 35px',
           backgroundPosition: '0 0, 30px 17.5px'
         }} />
@@ -449,12 +415,12 @@ export default function LandingPage() {
             {services.map((service, i) => (
               <AnimatedSection key={service.title} delay={i * 80}>
                 <Link href={service.link} className="group card p-6 rounded-2xl h-full hover:bg-[#0D3F72] transition-colors duration-300 block">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
                     <service.icon className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-[#0D3F72] group-hover:text-white mb-2 transition-colors">{service.title}</h3>
                   <p className="text-[#0D3F72]/60 group-hover:text-white/70 mb-4 transition-colors text-sm leading-relaxed">{service.desc}</p>
-                  <span className="text-[#FF8C42] font-semibold inline-flex items-center text-sm">
+                  <span className="text-[#267AB1] font-semibold inline-flex items-center text-sm">
                     Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                   </span>
                 </Link>
@@ -469,7 +435,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
           <AnimatedSection>
             <div className="max-w-2xl mb-12">
-              <p className="text-[#FF8C42] font-bold uppercase tracking-wide text-sm mb-3">The Process</p>
+              <p className="text-[#267AB1] font-bold uppercase tracking-wide text-sm mb-3">The Process</p>
               <h2 className="text-4xl lg:text-5xl font-bold text-[#0D3F72] leading-tight">
                 Four Steps to <span className="gradient-text">Your New Home</span>
             </h2>
@@ -480,9 +446,9 @@ export default function LandingPage() {
             {process.map((step, i) => (
               <AnimatedSection key={step.title} delay={i * 100}>
                 <div className="relative">
-                  {i < 3 && <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-[#FF8C42] to-transparent z-0" />}
+                  {i < 3 && <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-[#267AB1] to-transparent z-0" />}
                   <div className="relative z-10 card p-6 rounded-2xl">
-                    <div className="w-14 h-14 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-full flex items-center justify-center text-white text-xl font-bold mb-4 shadow-lg">
+                    <div className="w-14 h-14 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-full flex items-center justify-center text-white text-xl font-bold mb-4 shadow-lg">
                       {i + 1}
                     </div>
                     <h3 className="text-lg font-bold text-[#0D3F72] mb-2">{step.title}</h3>
@@ -509,14 +475,14 @@ export default function LandingPage() {
           <AnimatedSection>
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
               <div>
-                <p className="text-[#FF8C42] font-bold uppercase tracking-wide text-sm mb-3">Testimonials</p>
+                <p className="text-[#267AB1] font-bold uppercase tracking-wide text-sm mb-3">Testimonials</p>
                 <h2 className="text-4xl lg:text-5xl font-bold text-white">What Our Clients Say</h2>
               </div>
               <button 
                 onClick={() => setConsentModalOpen(true)}
                 className="group inline-flex items-center gap-3 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 hover:bg-white/20 transition-all self-start lg:self-auto"
               >
-                <Star className="w-5 h-5 text-[#FF8C42]" />
+                <Star className="w-5 h-5 text-[#267AB1]" />
                 <span className="text-white font-semibold text-sm">Get Started Today</span>
                 <ArrowRight className="w-4 h-4 text-white group-hover:translate-x-1 transition-transform" />
               </button>
@@ -530,7 +496,7 @@ export default function LandingPage() {
               <div key={i} className="flex-shrink-0 w-[350px] bg-white rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-shadow">
                 <div className="flex gap-0.5 mb-3">
                   {[...Array(5)].map((_, j) => (
-                    <Star key={j} className="w-4 h-4 fill-[#FF8C42] text-[#FF8C42]" />
+                    <Star key={j} className="w-4 h-4 fill-[#267AB1] text-[#267AB1]" />
                   ))}
                 </div>
                 <p className="text-[#0D3F72]/80 leading-relaxed mb-4 text-sm">&quot;{t.text}&quot;</p>
@@ -553,7 +519,7 @@ export default function LandingPage() {
           <AnimatedSection>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 p-6 bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10">
               <div className="flex items-center gap-3">
-                <div className="w-12 h-12 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-full flex items-center justify-center">
                   <Home className="w-6 h-6 text-white" />
                 </div>
                 <div className="text-center sm:text-left">
@@ -563,7 +529,7 @@ export default function LandingPage() {
               </div>
               <button 
                 onClick={() => setConsentModalOpen(true)}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-[#FF8C42] text-white font-bold rounded-full hover:bg-[#E67830] transition-colors shadow-lg hover:shadow-xl"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-[#267AB1] text-white font-bold rounded-full hover:bg-[#1A5A8A] transition-colors shadow-lg hover:shadow-xl"
               >
                 Apply Now
                 <ArrowRight className="w-4 h-4" />
@@ -596,7 +562,7 @@ export default function LandingPage() {
         }} />
         {/* Gold accent diagonal - opposite direction */}
         <div className="absolute inset-0 opacity-[0.03]" style={{
-          backgroundImage: `repeating-linear-gradient(-45deg, transparent, transparent 150px, #FF8C42 150px, #FF8C42 151px)`
+          backgroundImage: `repeating-linear-gradient(-45deg, transparent, transparent 150px, #267AB1 150px, #267AB1 151px)`
         }} />
         {/* Subtle dot grid */}
         <div className="absolute inset-0 opacity-[0.02]" style={{
@@ -608,7 +574,7 @@ export default function LandingPage() {
           <AnimatedSection>
             <div className="max-w-2xl mb-16">
               <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
-                Ready to Start Your <span className="text-[#FF8C42]">Journey?</span>
+                Ready to Start Your <span className="text-[#267AB1]">Journey?</span>
               </h2>
               <p className="text-lg text-white/60">Free, no-obligation consultation. Let&apos;s find your perfect loan.</p>
             </div>
@@ -626,7 +592,7 @@ export default function LandingPage() {
                     <p className="text-[#0D3F72]/60 mb-6">{formMessage}</p>
                     <button 
                       onClick={() => setFormStatus('idle')} 
-                      className="text-[#FF8C42] font-semibold hover:underline"
+                      className="text-[#267AB1] font-semibold hover:underline"
                     >
                       Send another message
                     </button>
@@ -665,16 +631,16 @@ export default function LandingPage() {
                           type="checkbox" 
                           id="sms-optin" 
                           name="sms_optin"
-                          className="mt-1 w-4 h-4 text-[#FF8C42] border-gray-300 rounded focus:ring-[#FF8C42] focus:ring-2 cursor-pointer"
+                          className="mt-1 w-4 h-4 text-[#267AB1] border-gray-300 rounded focus:ring-[#267AB1] focus:ring-2 cursor-pointer"
                         />
                         <div className="flex-1">
                           <label htmlFor="sms-optin" className="text-sm font-medium text-[#0D3F72] cursor-pointer">
-                            I agree to receive SMS notifications and marketing texts from 1st Financial Mortgage (optional)
+                            I agree to receive SMS notifications and marketing texts from The Mortgage Fellas (optional)
                           </label>
                           <p className="text-xs text-[#0D3F72]/60 mt-2 leading-relaxed">
-                            By checking this box, you consent to receive SMS messages from 1st Financial Mortgage. Message frequency varies. Standard message and data rates may apply. Reply STOP to opt out anytime. Reply HELP for assistance. Consent is not required for purchase. View our{' '}
-                            <a href="/privacy-policy" className="text-[#FF8C42] hover:underline">Privacy Policy</a> and{' '}
-                            <a href="/sms-policy" className="text-[#FF8C42] hover:underline">SMS Policy</a>.
+                            By checking this box, you consent to receive SMS messages from The Mortgage Fellas. Message frequency varies. Standard message and data rates may apply. Reply STOP to opt out anytime. Reply HELP for assistance. Consent is not required for purchase. View our{' '}
+                            <a href="/privacy-policy" className="text-[#267AB1] hover:underline">Privacy Policy</a> and{' '}
+                            <a href="/sms-policy" className="text-[#267AB1] hover:underline">SMS Policy</a>.
                           </p>
                         </div>
                       </div>
@@ -714,13 +680,13 @@ export default function LandingPage() {
                   <h3 className="font-bold text-white mb-4">Contact</h3>
                   <div className="space-y-4">
                     {[
-                      { icon: Phone, value: "(954) 555-0100" },
-                      { icon: Mail, value: "info@1stfinmiramar.com" },
+                      { icon: Phone, value: "(954) 558-1730" },
+                      { icon: Mail, value: "cal@mortgagefellas.com" },
                       { icon: MapPin, value: "1911 NW 150th Ave, #104, Pembroke Pines, FL 33028" },
                     ].map((item) => (
                       <div key={item.value} className="flex items-center gap-3">
                         <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
-                          <item.icon className="w-4 h-4 text-[#FF8C42]" />
+                          <item.icon className="w-4 h-4 text-[#267AB1]" />
                         </div>
                         <span className="text-white/80 text-sm">{item.value}</span>
           </div>

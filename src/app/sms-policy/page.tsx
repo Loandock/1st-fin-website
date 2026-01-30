@@ -14,7 +14,7 @@ export default function SMSPolicyPage() {
       {/* Content */}
       <div className="pt-28 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto">
-          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-medium mb-8 transition-colors">
+          <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-medium mb-8 transition-colors">
             <ArrowLeft className="w-4 h-4 mr-2" />
             Back to Home
           </Link>
@@ -58,7 +58,7 @@ export default function SMSPolicyPage() {
               </p>
 
               {/* Method 1 */}
-              <div className="mb-8 p-6 bg-gradient-to-r from-[#FF8C42]/10 to-[#267AB1]/10 rounded-2xl border border-[#FF8C42]/20">
+              <div className="mb-8 p-6 bg-gradient-to-r from-[#267AB1]/10 to-[#267AB1]/10 rounded-2xl border border-[#267AB1]/20">
                 <h3 className="text-xl font-semibold text-[#0D3F72] mb-4">Method 1: Digital Consent (Web Form)</h3>
                 <p className="text-[#0D3F72]/70 mb-4">
                   When you fill out a form on our website, you'll see an optional, unchecked checkbox:
@@ -75,7 +75,7 @@ export default function SMSPolicyPage() {
               <div className="mb-8 p-6 bg-gradient-to-r from-[#0D3F72]/5 to-[#0D3F72]/10 rounded-2xl border border-[#0D3F72]/10">
                 <h3 className="text-xl font-semibold text-[#0D3F72] mb-4">Method 2: Verbal Consent (Phone or In-Person)</h3>
                 <p className="text-[#0D3F72]/70 mb-4">
-                  This method uses a double opt-in process as required by carriers for marketing messages. When you call (954) 555-0100 or visit our office, our representative will explain the SMS program and request your verbal consent.
+                  This method uses a double opt-in process as required by carriers for marketing messages. When you call (954) 558-1730 or visit our office, our representative will explain the SMS program and request your verbal consent.
                 </p>
               </div>
 
@@ -83,7 +83,7 @@ export default function SMSPolicyPage() {
               <div className="mb-8 p-6 bg-white rounded-2xl border border-[#0D3F72]/10">
                 <h3 className="text-xl font-semibold text-[#0D3F72] mb-4">Method 3: Opt-In by Keyword</h3>
                 <p className="text-[#0D3F72]/70 mb-4">
-                  Text <strong>START</strong>, <strong>YES</strong>, <strong>SUBSCRIBE</strong>, or <strong>JOIN</strong> to (954) 555-0100 to opt in.
+                  Text <strong>START</strong>, <strong>YES</strong>, <strong>SUBSCRIBE</strong>, or <strong>JOIN</strong> to (954) 558-1730 to opt in.
                 </p>
               </div>
             </section>
@@ -120,9 +120,9 @@ export default function SMSPolicyPage() {
               <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
                 Reply <strong>HELP</strong> or <strong>INFO</strong> to any message to receive assistance:
               </p>
-              <div className="bg-[#FF8C42]/10 p-4 rounded-xl border border-[#FF8C42]/30 mb-4">
+              <div className="bg-[#267AB1]/10 p-4 rounded-xl border border-[#267AB1]/30 mb-4">
                 <p className="text-sm italic text-[#0D3F72]/70">
-                  "1st Financial Mortgage: For help, call (954) 555-0100 or email info@1stfinmiramar.com. Msg&data rates may apply. Reply STOP to opt out."
+                  "1st Financial Mortgage: For help, call (954) 558-1730 or email cal@mortgagefellas.com. Msg&data rates may apply. Reply STOP to opt out."
                 </p>
               </div>
             </section>
@@ -132,7 +132,7 @@ export default function SMSPolicyPage() {
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Privacy and Data Protection</h2>
               <ul className="space-y-3 ml-6 mb-4">
                 <li className="text-[#0D3F72]/70 leading-relaxed list-disc">We will <strong>not sell or share</strong> your mobile phone number with third parties for promotional or marketing purposes</li>
-                <li className="text-[#0D3F72]/70 leading-relaxed list-disc">Your SMS data is protected in accordance with our <Link href="/privacy-policy" className="text-[#FF8C42] hover:underline">Privacy Policy</Link></li>
+                <li className="text-[#0D3F72]/70 leading-relaxed list-disc">Your SMS data is protected in accordance with our <Link href="/privacy-policy" className="text-[#267AB1] hover:underline">Privacy Policy</Link></li>
                 <li className="text-[#0D3F72]/70 leading-relaxed list-disc">All consent records are stored securely with timestamps</li>
               </ul>
             </section>
@@ -156,19 +156,19 @@ export default function SMSPolicyPage() {
             </section>
 
             {/* Important Notice */}
-            <section className="mb-10 p-6 bg-[#FF8C42]/10 rounded-2xl border border-[#FF8C42]/30">
+            <section className="mb-10 p-6 bg-[#267AB1]/10 rounded-2xl border border-[#267AB1]/30">
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Important Notice</h2>
               <ul className="space-y-3">
                 <li className="text-[#0D3F72]/80 leading-relaxed flex items-start">
-                  <span className="text-[#FF8C42] mr-2 mt-1">✓</span>
+                  <span className="text-[#267AB1] mr-2 mt-1">✓</span>
                   <span>Consent to receive SMS messages is <strong>not a condition of purchase</strong> or obtaining services</span>
                 </li>
                 <li className="text-[#0D3F72]/80 leading-relaxed flex items-start">
-                  <span className="text-[#FF8C42] mr-2 mt-1">✓</span>
+                  <span className="text-[#267AB1] mr-2 mt-1">✓</span>
                   <span>You may still use our services even if you choose not to opt in to SMS communications</span>
                 </li>
                 <li className="text-[#0D3F72]/80 leading-relaxed flex items-start">
-                  <span className="text-[#FF8C42] mr-2 mt-1">✓</span>
+                  <span className="text-[#267AB1] mr-2 mt-1">✓</span>
                   <span>You can opt out at any time without affecting your service or relationship with us</span>
                 </li>
               </ul>
@@ -181,8 +181,8 @@ export default function SMSPolicyPage() {
                 <p className="font-semibold text-white mb-2">Cal Castells – 1st Financial Mortgage</p>
                 <p>Licensed Loan Originator – NMLS #1603703</p>
                 <p>Guaranteed Rate – NMLS #1604663</p>
-                <p className="mt-3">Phone: <a href="tel:+19545550100" className="text-[#FF8C42] hover:underline">(954) 555-0100</a></p>
-                <p>Email: <a href="mailto:info@1stfinmiramar.com" className="text-[#FF8C42] hover:underline">info@1stfinmiramar.com</a></p>
+                <p className="mt-3">Phone: <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a></p>
+                <p>Email: <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a></p>
               </div>
             </section>
 
@@ -190,14 +190,14 @@ export default function SMSPolicyPage() {
             <section className="mb-10 p-6 bg-[#0D3F72]/5 rounded-2xl border border-[#0D3F72]/10">
               <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Related Policies</h2>
               <ul className="space-y-2">
-                <li><Link href="/privacy-policy" className="text-[#FF8C42] font-semibold hover:underline">Privacy Policy</Link></li>
-                <li><Link href="/terms-of-service" className="text-[#FF8C42] font-semibold hover:underline">Terms of Service</Link></li>
+                <li><Link href="/privacy-policy" className="text-[#267AB1] font-semibold hover:underline">Privacy Policy</Link></li>
+                <li><Link href="/terms-of-service" className="text-[#267AB1] font-semibold hover:underline">Terms of Service</Link></li>
               </ul>
             </section>
           </div>
 
           <div className="mt-12 pt-8 border-t border-[#0D3F72]/10">
-            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#FF8C42] font-semibold transition-colors">
+            <Link href="/" className="inline-flex items-center text-[#0D3F72] hover:text-[#267AB1] font-semibold transition-colors">
               <ArrowLeft className="w-4 h-4 mr-2" />
               Return to Home
             </Link>

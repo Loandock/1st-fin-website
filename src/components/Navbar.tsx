@@ -88,10 +88,11 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-4 lg:px-8 relative">
           <div className="flex items-center justify-between h-14 lg:h-16">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
+            <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
+              <Image src="/logo.svg" alt="The Mortgage Fellas" width={40} height={40} className="w-10 h-10" />
               <div className="hidden sm:block">
-                <span className="text-lg lg:text-xl font-bold text-[#0D3F72]">1st Financial</span>
-                <span className="text-lg lg:text-xl font-bold text-[#FF8C42]"> Mortgage</span>
+                <span className="text-lg lg:text-xl font-bold text-[#0D3F72]">The Mortgage</span>
+                <span className="text-lg lg:text-xl font-bold text-[#267AB1]"> Fellas</span>
               </div>
             </Link>
 
@@ -139,16 +140,16 @@ export function Navbar() {
                       <Link 
                         key={link.name} 
                         href={link.href}
-                        className="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-[#FF8C42]/5 hover:to-[#267AB1]/5 transition-all duration-300 group"
+                        className="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-[#267AB1]/5 hover:to-[#267AB1]/5 transition-all duration-300 group"
                       >
-                        <div className="w-10 h-10 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-[#FF8C42]/20 transition-all duration-300">
+                        <div className="w-10 h-10 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-[#267AB1]/20 transition-all duration-300">
                           <link.icon className="w-5 h-5 text-white" />
                         </div>
                         <div className="flex-1 min-w-0">
-                          <p className="font-semibold text-[#0D3F72] text-sm group-hover:text-[#FF8C42] transition-colors">{link.name}</p>
+                          <p className="font-semibold text-[#0D3F72] text-sm group-hover:text-[#267AB1] transition-colors">{link.name}</p>
                           <p className="text-xs text-[#0D3F72]/50 truncate">{link.desc}</p>
                         </div>
-                        <ArrowRight className="w-4 h-4 text-[#0D3F72]/20 group-hover:text-[#FF8C42] group-hover:translate-x-1 transition-all" />
+                        <ArrowRight className="w-4 h-4 text-[#0D3F72]/20 group-hover:text-[#267AB1] group-hover:translate-x-1 transition-all" />
                       </Link>
                     ))}
                   </div>
@@ -170,17 +171,17 @@ export function Navbar() {
             {/* Right Side */}
             <div className="hidden lg:flex items-center gap-3">
               <a 
-                href="tel:+19545550100" 
+                href="tel:+19545581730" 
                 className="text-sm text-[#0D3F72]/60 hover:text-[#0D3F72] flex items-center gap-2 transition-colors duration-300 px-3 py-2 rounded-full hover:bg-[#0D3F72]/5"
               >
                 <div className="w-8 h-8 bg-[#0D3F72]/10 rounded-full flex items-center justify-center">
                   <Phone className="w-3.5 h-3.5 text-[#0D3F72]" />
                 </div>
-                <span className="font-semibold">(954) 555-0100</span>
+                <span className="font-semibold">(954) 558-1730</span>
               </a>
               <button 
                 onClick={() => setConsentModalOpen(true)}
-                className="relative group px-5 py-2.5 bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white font-semibold rounded-full shadow-lg shadow-[#FF8C42]/25 hover:shadow-xl hover:shadow-[#FF8C42]/30 hover:scale-105 transition-all duration-300"
+                className="relative group px-5 py-2.5 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-full shadow-lg shadow-[#267AB1]/25 hover:shadow-xl hover:shadow-[#267AB1]/30 hover:scale-105 transition-all duration-300"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   Apply Now
@@ -256,7 +257,7 @@ export function Navbar() {
                       onClick={() => setMobileMenuOpen(false)}
                       className="flex items-center gap-3 py-3 px-3 text-[#0D3F72]/70 hover:text-[#0D3F72] hover:bg-[#0D3F72]/5 rounded-xl transition-all"
                     >
-                      <div className="w-8 h-8 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-lg flex items-center justify-center">
+                      <div className="w-8 h-8 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-lg flex items-center justify-center">
                         <link.icon className="w-4 h-4 text-white" />
                       </div>
                       <span className="font-medium text-sm">{link.name}</span>
@@ -286,18 +287,18 @@ export function Navbar() {
             {/* CTA Section */}
             <div className="border-t border-[#0D3F72]/10 pt-4 space-y-3">
               <a 
-                href="tel:+19545550100"
+                href="tel:+19545581730"
                 className="flex items-center justify-center gap-2 py-3 px-4 bg-[#0D3F72]/5 rounded-xl text-[#0D3F72] font-medium"
               >
                 <Phone className="w-4 h-4" /> 
-                (954) 555-0100
+                (954) 558-1730
               </a>
               <button 
                 onClick={() => {
                   setMobileMenuOpen(false);
                   setConsentModalOpen(true);
                 }}
-                className="w-full py-3.5 px-4 bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white font-semibold rounded-xl shadow-lg shadow-[#FF8C42]/20 flex items-center justify-center gap-2"
+                className="w-full py-3.5 px-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl shadow-lg shadow-[#267AB1]/20 flex items-center justify-center gap-2"
               >
                 Apply Now
                 <Sparkles className="w-4 h-4" />
