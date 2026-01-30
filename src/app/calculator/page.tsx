@@ -57,7 +57,7 @@ export default function CalculatorPage() {
   const totalInterest = totalPayment - loanAmount;
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFF8F0] via-white to-[#F5F0FF]">
+    <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
 
       {/* Hero Section */}
@@ -288,7 +288,7 @@ export default function CalculatorPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10 text-center">
           <AnimatedSection>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Numbers Look Good? <span className="text-[#267AB1]">Let's Talk.</span>
+              Numbers Look Good? <span className="text-[#B8C5D0]">Let&apos;s Talk.</span>
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Get personalized guidance from Cal Castells and the team. We'll find the best loan program for your situation.
@@ -296,15 +296,15 @@ export default function CalculatorPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => setConsentModalOpen(true)}
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-[#0D3F72] font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
                 Start Your Application <ArrowRight className="w-5 h-5" />
               </button>
               <Link 
-                href="tel:+19545581730"
+                href="tel:+17862628718"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300"
               >
-                Call (954) 558-1730
+                Call (786) 262-8718
               </Link>
             </div>
           </AnimatedSection>

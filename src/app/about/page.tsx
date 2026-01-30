@@ -94,6 +94,7 @@ export default function AboutPage() {
       name: "Cal Castells",
       title: "Branch Manager",
       nmls: "1101261",
+      image: "/cal.jpeg",
       description: "Cal brings years of experience in mortgage lending and team leadership. As Branch Manager, he ensures every client receives personalized attention and expert guidance throughout their home financing journey.",
       highlights: [
         "Expert in investment property financing",
@@ -105,19 +106,20 @@ export default function AboutPage() {
       name: "Jose Ramirez",
       title: "Sales Manager",
       nmls: "1057601",
+      image: "/jose.jpeg",
       description: "Jose is dedicated to helping families achieve their homeownership dreams. With a focus on first-time buyers and community outreach, he excels at making the mortgage process simple and accessible.",
       highlights: [
         "First-time homebuyer specialist",
-        "Down payment assistance expert",
+        "ITIN & Non-QM loan expert",
         "Bilingual service (English/Spanish)"
       ]
     }
   ];
 
   const stats = [
-    { icon: Target, value: 100, suffix: "M+", label: "Loans Funded", prefix: "$", color: "gold" },
-    { icon: Users, value: 500, suffix: "+", label: "Families Helped", color: "purple" },
-    { icon: Sparkles, value: 10, suffix: "+", label: "Years Experience", color: "purple" },
+    { icon: Target, value: 700, suffix: "M+", label: "Loans Funded", prefix: "$", color: "gold" },
+    { icon: Users, value: 1300, suffix: "+", label: "Families Helped", color: "purple" },
+    { icon: Sparkles, value: 20, suffix: "+", label: "Years Experience", color: "purple" },
     { icon: Star, value: 0, suffix: "Bilingual", label: "Español/English", color: "gold" },
   ];
 
@@ -128,7 +130,7 @@ export default function AboutPage() {
       "Bank Statement Loans (Self-Employed)",
       "HELOC & Cash-Out Refinance",
       "FHA & VA Loans",
-      "Down Payment Assistance Programs"
+      "Conventional & Jumbo Loans"
     ],
     services: [
       "Investment Property Financing",
@@ -141,11 +143,11 @@ export default function AboutPage() {
   };
 
   const whyChoose = [
-    { title: "$100M+ Loans Funded", desc: "Proven track record of getting deals done for families across South Florida" },
+    { title: "$700M+ Loans Funded", desc: "Proven track record of getting deals done for families across South Florida" },
     { title: "ITIN & Non-QM Expert", desc: "Specializing in ITIN, DSCR, Bank Statement, and investor loans" },
     { title: "Bilingual Excellence", desc: "Fluent in English and Spanish, serving diverse communities with ease" },
     { title: "Community Focused", desc: "Passionate about growing homeownership in the Hispanic community" },
-    { title: "500+ Families Helped", desc: "Hundreds of happy homeowners trust us with their biggest investment" },
+    { title: "1300+ Families Helped", desc: "Over a thousand happy homeowners trust us with their biggest investment" },
     { title: "Local Expertise", desc: "Deep knowledge of the South Florida market and housing programs" }
   ];
 
@@ -198,7 +200,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Floating badge */}
-                <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#267AB1] to-[#267AB1] px-6 py-3 rounded-full shadow-xl border-4 border-[#0D3F72]">
+                <div className="absolute -bottom-6 left-1/2 -translate-x-1/2 bg-white px-6 py-3 rounded-full shadow-xl border-4 border-[#267AB1]">
                   <p className="text-[#0D3F72] font-black text-sm whitespace-nowrap">Miramar Branch</p>
                 </div>
               </div>
@@ -206,8 +208,8 @@ export default function AboutPage() {
 
             {/* Right: Info */}
             <AnimatedSection className="lg:w-3/5 text-center lg:text-left mt-8 lg:mt-0" delay={200}>
-              <div className="inline-block bg-[#267AB1]/20 backdrop-blur-sm px-4 py-2 rounded-full border border-[#267AB1]/40 mb-4">
-                <p className="text-[#267AB1] font-bold text-sm uppercase tracking-widest">About Our Team</p>
+              <div className="inline-block bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full border border-white/40 mb-4">
+                <p className="text-white font-bold text-sm uppercase tracking-widest">About Our Team</p>
               </div>
               
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white mb-4">
@@ -226,7 +228,7 @@ export default function AboutPage() {
               <div className="grid grid-cols-2 gap-3 max-w-md mx-auto lg:mx-0 mb-8">
                 {stats.map((stat) => (
                   <div key={stat.label} className="bg-white/10 backdrop-blur-sm rounded-xl p-4 border border-white/20 hover:bg-white/15 transition-colors">
-                    <div className="text-3xl font-black text-[#267AB1] mb-1">
+                    <div className="text-3xl font-black text-white mb-1">
                       {'prefix' in stat && stat.prefix}{stat.value > 0 ? <Counter end={stat.value} suffix={stat.suffix} /> : stat.suffix}
                     </div>
                     <div className="text-xs text-white/70 uppercase tracking-wide">{stat.label}</div>
@@ -237,10 +239,10 @@ export default function AboutPage() {
               {/* Quick contact */}
               <div className="flex flex-col sm:flex-row flex-wrap gap-3 justify-center lg:justify-start">
                 <a 
-                  href="tel:+19545581730"
-                  className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-[#0D3F72] font-bold rounded-full hover:shadow-lg hover:scale-105 transition-all"
+                  href="tel:+17862628718"
+                  className="inline-flex items-center justify-center px-6 py-3 bg-white text-[#0D3F72] font-bold rounded-full hover:shadow-lg hover:scale-105 transition-all"
                 >
-                  <Phone className="w-4 h-4 mr-2" /> (954) 558-1730
+                  <Phone className="w-4 h-4 mr-2" /> (786) 262-8718
                 </a>
                 <a 
                   href="mailto:cal@mortgagefellas.com"
@@ -299,11 +301,15 @@ export default function AboutPage() {
               {teamMembers.map((member, idx) => (
                 <AnimatedSection key={member.name} delay={idx * 150}>
                   <div className="bg-white rounded-3xl shadow-xl p-8 border border-gray-100 h-full hover:shadow-2xl transition-shadow">
-                    <div className="flex items-start gap-4 mb-6">
-                      <div className="w-16 h-16 bg-gradient-to-br from-[#0D3F72] to-[#267AB1] rounded-2xl flex items-center justify-center flex-shrink-0">
-                        <span className="text-white font-bold text-xl">
-                          {member.name.split(' ').map(n => n[0]).join('')}
-                        </span>
+                    <div className="flex items-start gap-5 mb-6">
+                      <div className="w-28 h-28 rounded-2xl overflow-hidden flex-shrink-0 shadow-lg">
+                        <Image 
+                          src={member.image} 
+                          alt={member.name}
+                          width={112}
+                          height={112}
+                          className="w-full h-full object-cover"
+                        />
                       </div>
                       <div>
                         <h3 className="text-2xl font-bold text-[#0D3F72]">{member.name}</h3>
@@ -335,7 +341,7 @@ export default function AboutPage() {
             <div className="bg-gradient-to-br from-[#0D3F72] to-[#267AB1] rounded-3xl p-8 text-white mb-16">
               <div className="flex items-center gap-3 mb-6">
                 <div className="w-12 h-12 bg-white/20 rounded-xl flex items-center justify-center">
-                  <Award className="w-6 h-6 text-[#267AB1]" />
+                  <Award className="w-6 h-6 text-white" />
                 </div>
                 <h2 className="text-3xl font-bold">Why Choose Us?</h2>
               </div>
@@ -343,8 +349,8 @@ export default function AboutPage() {
               <div className="grid md:grid-cols-2 gap-4">
                 {whyChoose.map((item) => (
                   <div key={item.title} className="flex items-start gap-3 group">
-                    <div className="w-8 h-8 rounded-full bg-[#267AB1]/20 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-[#267AB1]/30 transition-colors">
-                      <CheckCircle className="w-4 h-4 text-[#267AB1]" />
+                    <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-white/30 transition-colors">
+                      <CheckCircle className="w-4 h-4 text-white" />
                     </div>
                     <div>
                       <h3 className="font-bold text-white mb-0.5">{item.title}</h3>
@@ -455,15 +461,15 @@ export default function AboutPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <button 
                     onClick={() => setConsentModalOpen(true)}
-                    className="inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-[#0D3F72] font-bold rounded-full hover:shadow-lg hover:scale-105 transition-all"
+                    className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#0D3F72] font-bold rounded-full hover:shadow-lg hover:scale-105 transition-all"
                   >
                     Apply for a Mortgage <ArrowRight className="w-5 h-5 ml-2" />
                   </button>
                   <a 
-                    href="tel:+19545581730"
+                    href="tel:+17862628718"
                     className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#0D3F72] font-bold rounded-full hover:bg-gray-50 transition-all"
                   >
-                    <Phone className="w-5 h-5 mr-2" /> (954) 558-1730
+                    <Phone className="w-5 h-5 mr-2" /> (786) 262-8718
                   </a>
                   <a 
                     href="mailto:cal@mortgagefellas.com"

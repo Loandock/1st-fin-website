@@ -17,7 +17,7 @@
   --white: #FFFFFF;
   --black: #0D0D0D;
   
-  /* Background gradients */
+  /* Background gradients - seamless flow */
   --warm-start: #E1EAEF;
   --warm-mid: #EDF3F6;
   --cream: #F5F9FB;
@@ -38,24 +38,30 @@
   }
 }
 
-/* === GRADIENT SECTIONS === */
+/* === GRADIENT SECTIONS - SEAMLESS FLOW === */
+/* Hero has video, so About starts light */
 .gradient-section-1 {
   background: linear-gradient(180deg, var(--warm-start) 0%, var(--warm-mid) 50%, var(--cream) 100%);
 }
+/* About: cream → white → blue-tint */
 .gradient-section-2 {
   background: linear-gradient(180deg, var(--cream) 0%, var(--white) 40%, var(--blue-tint) 100%);
 }
+/* Services: blue-tint → blue-wash */
 .gradient-section-3 {
   background: linear-gradient(180deg, var(--blue-tint) 0%, var(--blue-wash) 100%);
 }
+/* Process: blue-wash → gradually to dark blue */
 .gradient-section-4 {
-  background: linear-gradient(180deg, var(--blue-wash) 0%, var(--blue-soft) 30%, #7BBAD0 60%, #4A98B8 85%, var(--blue-deep) 100%);
+  background: linear-gradient(180deg, var(--blue-wash) 0%, var(--blue-soft) 30%, #7BBAD0 55%, #4A8AB8 75%, var(--blue-deep) 100%);
 }
+/* Testimonials: solid dark blue */
 .gradient-section-5 {
   background: var(--blue-deep);
 }
+/* Contact: dark blue → lighter → white */
 .gradient-section-6 {
-  background: linear-gradient(180deg, var(--blue-deep) 0%, #1A5A8A 30%, var(--blue-wash) 65%, var(--white) 100%);
+  background: linear-gradient(180deg, var(--blue-deep) 0%, #1A5A8A 25%, var(--blue-wash) 60%, var(--white) 100%);
 }
 .gradient-footer {
   background: var(--black);

@@ -127,7 +127,7 @@ export default function LandingPage() {
     { icon: Shield, title: "ITIN Loans", desc: "No SSN? No problem. Homeownership is possible with ITIN financing.", link: "/loan-programs" },
     { icon: TrendingUp, title: "Bank Statement Loans", desc: "Self-employed? Use bank statements instead of tax returns.", link: "/loan-programs" },
     { icon: DollarSign, title: "HELOC & Cash-Out", desc: "Tap into your home's equity for renovations, debt, or investments.", link: "/loan-programs" },
-    { icon: Clock, title: "Down Payment Help", desc: "Programs to help cover your down payment and closing costs.", link: "/down-payment-assistance" },
+    { icon: Clock, title: "Fast Pre-Approval", desc: "Get pre-approved in as little as 24 hours and shop with confidence.", link: "/loan-process" },
   ];
 
   const process = [
@@ -180,20 +180,20 @@ export default function LandingPage() {
       }
     } catch {
       setFormStatus('error');
-      setFormMessage('Something went wrong. Please try again or call us directly at (954) 558-1730.');
+      setFormMessage('Something went wrong. Please try again or call us directly at (786) 262-8718.');
     }
   };
 
   const testimonials = [
-    { name: "Evelin M.", location: "First-Time Buyer", text: "The team was excellent. Always willing to help and answered every question I had, no matter if big or small. It also helped tremendously that they're bilingual!" },
-    { name: "Maria B.", location: "Home Buyer", text: "The purchase of a house and the mortgage application can be stressful. The team made it easier for me. With patience they explained the whole process." },
-    { name: "Juan C.", location: "Home Buyer", text: "They were great, with us every step of the way. They answered every phone call and questions we had and helped make the process the easiest." },
-    { name: "John G.", location: "First-Time Buyer", text: "This experience was amazing from start to finish. The team walks you through the process with care and patience. They also help you stay educated." },
-    { name: "Leydi G.", location: "Home Buyer", text: "Excellent team. I was very happy to have achieved my dream of buying a home. I 100% recommend this team; all of their work was highly efficient!" },
-    { name: "Cesar V.", location: "First-Time Buyer", text: "Really good service! I had a great experience for a first time home buyer!" },
-    { name: "Lucy C.", location: "Home Buyer", text: "The best team. Thank you so much for your help." },
-    { name: "Jorge A.", location: "Home Buyer", text: "Excellent work team attentive to everything we seek, God bless you!" },
-    { name: "Alma V.", location: "Home Buyer", text: "Excellent job, professional, and highly recommended." },
+    { name: "Designsby K", location: "First-Time Buyer", text: "I had the pleasure of working with the team to purchase my first home, and I couldn't be more grateful for their expertise and support throughout the entire process." },
+    { name: "Janely G.", location: "Home Buyer", text: "I had a wonderful experience working with the team to purchase our second home. What I thought was going to be another headache turned out to be the most smooth and stress-free experience!" },
+    { name: "Jany L.", location: "Home Buyer", text: "I am very grateful to everyone who contributed at 1st Financial who helped me buy my apartment. I 100% recommend this company!" },
+    { name: "Jonathan P.", location: "First-Time Buyer", text: "Great experience as a first time home buyer. The team was able to explain everything to my family. They are very knowledgeable and friendly, the kind of team you need when buying a home." },
+    { name: "Jayson C.", location: "Home Buyer", text: "The team helped my parents with their home purchase. They don't speak English and he was super patient and cooperative throughout the process. We'd never have gotten it done without them!" },
+    { name: "Hiosvany G.", location: "Home Buyer", text: "Awesome! Made the whole experience go super smooth! The best!" },
+    { name: "Roberto G.", location: "Home Buyer", text: "Great service! The team was very professional and always there to answer any questions I had." },
+    { name: "Daymara G.", location: "First-Time Buyer", text: "As first-time buyers, my husband and I had many doubts and fears, but the work was spectacular. Having someone like them is everything every buyer needs!" },
+    { name: "Javier J.", location: "Home Buyer", text: "My people! There is no obstacle when it comes to a purchase. Good word, formal, legal... the best!" },
   ];
 
   return (
@@ -254,19 +254,16 @@ export default function LandingPage() {
 
             {/* Stats Row - 4 cards */}
             <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
-              <p className="text-2xl lg:text-3xl font-bold text-white">$<Counter end={100} />M+</p>
+              <p className="text-2xl lg:text-3xl font-bold text-white">$<Counter end={700} />M+</p>
               <p className="text-xs text-white/60">Loans Funded</p>
             </div>
             <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
-              <p className="text-2xl lg:text-3xl font-bold text-white"><Counter end={500} />+</p>
+              <p className="text-2xl lg:text-3xl font-bold text-white"><Counter end={1300} />+</p>
               <p className="text-xs text-white/60">Families Helped</p>
             </div>
             <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
-              <div className="flex items-center justify-center gap-1 mb-1">
-                <span className="text-2xl lg:text-3xl font-bold text-white">5.0</span>
-                <Star className="w-5 h-5 fill-[#267AB1] text-[#267AB1]" />
-              </div>
-              <p className="text-xs text-white/60">Client Rating</p>
+              <p className="text-2xl lg:text-3xl font-bold text-white"><Counter end={20} />+</p>
+              <p className="text-xs text-white/60">Years Experience</p>
             </div>
             <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
               <p className="text-2xl lg:text-3xl font-bold text-white">Bilingual</p>
@@ -278,13 +275,11 @@ export default function LandingPage() {
       </section>
 
       {/* === ABOUT === */}
-      <section id="about" className="py-20 lg:py-28 relative overflow-hidden" style={{
-        background: 'linear-gradient(180deg, #0D3F72 0%, #267AB1 15%, #6BA8CC 30%, #B8C5D0 45%, #E1EAEF 55%, #B8C5D0 70%, #267AB1 85%, #0D3F72 100%)'
-      }}>
+      <section id="about" className="gradient-section-2 py-20 lg:py-28 relative overflow-hidden">
         {/* Subtle pattern overlay */}
-        <div className="absolute inset-0 opacity-[0.05]" style={{
-          backgroundImage: `linear-gradient(90deg, rgba(255,255,255,0.3) 1px, transparent 1px)`,
-          backgroundSize: '80px 100%'
+        <div className="absolute inset-0 opacity-[0.03]" style={{
+          backgroundImage: `linear-gradient(#0D3F72 1px, transparent 1px), linear-gradient(90deg, #0D3F72 1px, transparent 1px)`,
+          backgroundSize: '60px 60px'
         }} />
         
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
@@ -302,9 +297,9 @@ export default function LandingPage() {
                 {/* Stats Grid */}
                 <div className="grid grid-cols-2 gap-3">
                   {[
-                    { icon: Target, value: "$100M+", label: "Loans Funded", color: "gold" },
-                    { icon: Users, value: "500+", label: "Families Helped", color: "purple" },
-                    { icon: Clock, value: "10+", label: "Years Experience", color: "purple" },
+                    { icon: Target, value: "$700M+", label: "Loans Funded", color: "gold" },
+                    { icon: Users, value: "1300+", label: "Families Helped", color: "purple" },
+                    { icon: Clock, value: "20+", label: "Years Experience", color: "purple" },
                     { icon: Sparkles, value: "Bilingual", label: "Español/English", color: "gold" },
                   ].map((item, i) => (
                     <AnimatedSection key={item.label} delay={i * 100}>
@@ -322,11 +317,11 @@ export default function LandingPage() {
 
               <div className="lg:col-span-7">
                 <AnimatedSection delay={200}>
-                  <p className="text-[#B8C5D0] font-bold uppercase tracking-wide text-sm mb-4">About Us</p>
-                  <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-                    Your Trusted Bilingual<br /><span className="text-[#B8C5D0]">Mortgage Team</span>
+                  <p className="text-[#267AB1] font-bold uppercase tracking-wide text-sm mb-4">About Us</p>
+                  <h2 className="text-4xl lg:text-5xl font-bold text-[#0D3F72] leading-tight mb-6">
+                    Your Trusted Bilingual<br /><span className="gradient-text">Mortgage Team</span>
                   </h2>
-                  <p className="text-lg text-white/80 leading-relaxed mb-8">
+                  <p className="text-lg text-[#0D3F72]/70 leading-relaxed mb-8">
                     The Mortgage Fellas are dedicated to helping South Florida families achieve homeownership. Our bilingual team brings warmth, expertise, and a solutions-oriented mindset to every client interaction.
                   </p>
                 </AnimatedSection>
@@ -334,14 +329,14 @@ export default function LandingPage() {
                 {/* Team Members */}
                 <div className="grid sm:grid-cols-2 gap-4 mb-6">
                   <AnimatedSection delay={300}>
-                    <div className="bg-white/70 backdrop-blur-sm rounded-xl p-4 border border-white">
+                    <div className="card rounded-xl p-4">
                       <p className="text-lg font-bold text-[#0D3F72]">Jose Ramirez</p>
                       <p className="text-sm text-[#267AB1] font-medium">Sales Manager</p>
                       <p className="text-xs text-[#0D3F72]/50 mt-1">NMLS #1057601</p>
                     </div>
                   </AnimatedSection>
                   <AnimatedSection delay={400}>
-                    <div className="bg-white/70 backdrop-blur-sm rounded-xl p-4 border border-white">
+                    <div className="card rounded-xl p-4">
                       <p className="text-lg font-bold text-[#0D3F72]">Cal Castells</p>
                       <p className="text-sm text-[#267AB1] font-medium">Branch Manager</p>
                       <p className="text-xs text-[#0D3F72]/50 mt-1">NMLS #1101261</p>
@@ -351,13 +346,13 @@ export default function LandingPage() {
 
                 <div className="space-y-4 mb-6">
                   {[
-                    { icon: Heart, text: "$100M+ in loans funded for families across South Florida" },
+                    { icon: Heart, text: "$700M+ in loans funded for families across South Florida" },
                     { icon: Shield, text: "Specializing in ITIN, DSCR, Bank Statement & Investor loans" },
-                    { icon: TrendingUp, text: "Expert in first-time buyer and down payment assistance" },
+                    { icon: TrendingUp, text: "20+ years of combined mortgage lending experience" },
                   ].map((item, i) => (
                     <AnimatedSection key={item.text} delay={500 + i * 100}>
-                      <div className="flex items-center gap-4 p-4 bg-white/50 rounded-xl">
-                        <div className="w-10 h-10 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-lg flex items-center justify-center flex-shrink-0">
+                      <div className="flex items-center gap-4 p-4 card rounded-xl">
+                        <div className="w-10 h-10 bg-gradient-to-br from-[#267AB1] to-[#0D3F72] rounded-lg flex items-center justify-center flex-shrink-0">
                           <item.icon className="w-5 h-5 text-white" />
                   </div>
                         <p className="text-[#0D3F72] font-medium">{item.text}</p>
@@ -367,7 +362,7 @@ export default function LandingPage() {
                 </div>
 
                 <AnimatedSection delay={800}>
-                  <Link href="/about" className="inline-flex items-center gap-2 text-white font-semibold hover:text-[#B8C5D0] transition-colors group">
+                  <Link href="/about" className="inline-flex items-center gap-2 text-[#0D3F72] font-semibold hover:text-[#267AB1] transition-colors group">
                     Meet Our Team
                     <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
                   </Link>
@@ -380,27 +375,17 @@ export default function LandingPage() {
 
       {/* === SERVICES === */}
       <section id="services" className="gradient-section-3 py-20 lg:py-28 relative overflow-hidden">
-        {/* Dots pattern - full coverage */}
-        <div className="absolute inset-0 opacity-[0.05]" style={{
+        {/* Dots pattern */}
+        <div className="absolute inset-0 opacity-[0.04]" style={{
           backgroundImage: `radial-gradient(#0D3F72 1.5px, transparent 1.5px)`,
           backgroundSize: '40px 40px'
-        }} />
-        {/* Hexagonal/honeycomb subtle pattern */}
-        <div className="absolute inset-0 opacity-[0.02]" style={{
-          backgroundImage: `radial-gradient(circle at 0% 50%, #267AB1 2px, transparent 2px), radial-gradient(circle at 100% 50%, #267AB1 2px, transparent 2px)`,
-          backgroundSize: '60px 35px',
-          backgroundPosition: '0 0, 30px 17.5px'
-        }} />
-        {/* Diagonal lines for depth */}
-        <div className="absolute inset-0 opacity-[0.015]" style={{
-          backgroundImage: `repeating-linear-gradient(-45deg, transparent, transparent 120px, #0D3F72 120px, #0D3F72 121px)`
         }} />
         
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
             <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
               <div>
-                <p className="text-[#0D3F72] font-bold uppercase tracking-wide text-sm mb-3">Our Services</p>
+                <p className="text-[#267AB1] font-bold uppercase tracking-wide text-sm mb-3">Our Services</p>
                 <h2 className="text-4xl lg:text-5xl font-bold text-[#0D3F72]">
                   Solutions for <span className="gradient-text">Every Need</span>
             </h2>
@@ -414,13 +399,13 @@ export default function LandingPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {services.map((service, i) => (
               <AnimatedSection key={service.title} delay={i * 80}>
-                <Link href={service.link} className="group card p-6 rounded-2xl h-full hover:bg-[#0D3F72] transition-colors duration-300 block">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
+                <Link href={service.link} className="group card p-6 rounded-2xl h-full hover:bg-[#0D3F72] transition-colors duration-300 block hover-lift">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#0D3F72] to-[#267AB1] rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform">
                     <service.icon className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-[#0D3F72] group-hover:text-white mb-2 transition-colors">{service.title}</h3>
                   <p className="text-[#0D3F72]/60 group-hover:text-white/70 mb-4 transition-colors text-sm leading-relaxed">{service.desc}</p>
-                  <span className="text-[#267AB1] font-semibold inline-flex items-center text-sm">
+                  <span className="text-[#267AB1] group-hover:text-white/80 font-semibold inline-flex items-center text-sm transition-colors">
                     Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                   </span>
                 </Link>
@@ -446,9 +431,9 @@ export default function LandingPage() {
             {process.map((step, i) => (
               <AnimatedSection key={step.title} delay={i * 100}>
                 <div className="relative">
-                  {i < 3 && <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-[#267AB1] to-transparent z-0" />}
-                  <div className="relative z-10 card p-6 rounded-2xl">
-                    <div className="w-14 h-14 bg-gradient-to-br from-[#267AB1] to-[#267AB1] rounded-full flex items-center justify-center text-white text-xl font-bold mb-4 shadow-lg">
+                  {i < 3 && <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-[#0D3F72] to-transparent z-0" />}
+                  <div className="relative z-10 card p-6 rounded-2xl hover-lift">
+                    <div className="w-14 h-14 bg-gradient-to-br from-[#0D3F72] to-[#267AB1] rounded-full flex items-center justify-center text-white text-xl font-bold mb-4 shadow-lg">
                       {i + 1}
                     </div>
                     <h3 className="text-lg font-bold text-[#0D3F72] mb-2">{step.title}</h3>
@@ -461,7 +446,7 @@ export default function LandingPage() {
 
           <AnimatedSection delay={400}>
             <div className="mt-12 text-center">
-              <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="btn-secondary text-lg cursor-pointer">
+              <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="btn-primary text-lg cursor-pointer">
                 Start Your Application <ArrowRight className="w-5 h-5" />
               </a>
             </div>
@@ -574,7 +559,7 @@ export default function LandingPage() {
           <AnimatedSection>
             <div className="max-w-2xl mb-16">
               <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
-                Ready to Start Your <span className="text-[#267AB1]">Journey?</span>
+                Ready to Start Your <span className="text-[#B8C5D0]">Journey?</span>
               </h2>
               <p className="text-lg text-white/60">Free, no-obligation consultation. Let&apos;s find your perfect loan.</p>
             </div>
@@ -680,7 +665,7 @@ export default function LandingPage() {
                   <h3 className="font-bold text-white mb-4">Contact</h3>
                   <div className="space-y-4">
                     {[
-                      { icon: Phone, value: "(954) 558-1730" },
+                      { icon: Phone, value: "(786) 262-8718" },
                       { icon: Mail, value: "cal@mortgagefellas.com" },
                       { icon: MapPin, value: "1911 NW 150th Ave, #104, Pembroke Pines, FL 33028" },
                     ].map((item) => (

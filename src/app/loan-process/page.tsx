@@ -47,7 +47,7 @@ const processSteps = [
 
 export default function LoanProcessPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFF8F0] via-white to-[#F5F0FF]">
+    <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
 
       {/* Hero */}
@@ -89,7 +89,7 @@ export default function LoanProcessPage() {
                   <Link href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="btn-primary">
                     Start Step 1 <ArrowRight className="w-5 h-5" />
                   </Link>
-                  <Link href="tel:+19545581730" className="btn-outline">
+                  <Link href="tel:+17862628718" className="btn-outline">
                     <Phone className="w-4 h-4" /> Call Us
                   </Link>
                 </div>
@@ -177,7 +177,7 @@ export default function LoanProcessPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10 text-center">
           <AnimatedSection>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Begin <span className="text-[#267AB1]">Your Journey?</span>
+              Ready to Begin <span className="text-[#B8C5D0]">Your Journey?</span>
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Take the first step today. Get pre-approved and know exactly where you stand.
@@ -192,10 +192,10 @@ export default function LoanProcessPage() {
                 Start Your Application <ArrowRight className="w-5 h-5" />
               </Link>
               <Link 
-                href="tel:+19545581730"
+                href="tel:+17862628718"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300"
               >
-                <Phone className="w-5 h-5" /> (954) 558-1730
+                <Phone className="w-5 h-5" /> (786) 262-8718
               </Link>
             </div>
           </AnimatedSection>

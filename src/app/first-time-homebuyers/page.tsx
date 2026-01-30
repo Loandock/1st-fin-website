@@ -7,7 +7,7 @@ import { Footer } from '@/components/Footer';
 import { ConsentModal } from '@/components/ConsentModal';
 import { 
   ArrowRight, CheckCircle, Key, FileText, Users, Heart, Shield,
-  Sparkles, Clock, Target, BookOpen, Home, DollarSign, Phone,
+  Sparkles, Clock, Target, BookOpen, Home, Phone,
   GraduationCap, Lightbulb
 } from 'lucide-react';
 
@@ -42,14 +42,13 @@ const steps = [
 ];
 
 const resources = [
-  { icon: DollarSign, title: 'Down Payment Assistance', desc: 'Programs that help cover your down payment and closing costs.', link: '/down-payment-assistance' },
   { icon: BookOpen, title: 'Loan Programs', desc: 'FHA, VA, USDA, and conventional options for first-time buyers.', link: '/loan-programs' },
   { icon: GraduationCap, title: 'Mortgage Calculator', desc: 'Estimate your monthly payment and see what you can afford.', link: '/calculator' },
 ];
 
 export default function FirstTimeHomebuyersPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFF8F0] via-white to-[#F5F0FF]">
+    <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
 
       {/* Hero */}
@@ -90,7 +89,7 @@ export default function FirstTimeHomebuyersPage() {
                 <Link href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="btn-primary">
                   Get Pre-Approved <ArrowRight className="w-5 h-5" />
                 </Link>
-                <Link href="tel:+19545581730" className="btn-outline">
+                <Link href="tel:+17862628718" className="btn-outline">
                   <Phone className="w-4 h-4" /> Contact Us
                 </Link>
               </div>
@@ -116,7 +115,7 @@ export default function FirstTimeHomebuyersPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { icon: Heart, title: 'Patient Guidance', desc: 'No question is too small. We explain everything in plain English.' },
-              { icon: Shield, title: 'Down Payment Help', desc: 'Access to assistance programs that can cover your down payment.' },
+              { icon: Shield, title: 'ITIN & Non-QM Expert', desc: 'Specializing in creative financing solutions for all borrowers.' },
               { icon: Clock, title: 'Fast Pre-Approval', desc: 'Get your pre-approval letter in as little as 24 hours.' },
               { icon: Users, title: 'Bilingual Support', desc: 'Se habla español. We speak your language.' },
             ].map((item, i) => (
@@ -225,7 +224,7 @@ export default function FirstTimeHomebuyersPage() {
           <AnimatedSection>
             <Lightbulb className="w-16 h-16 text-[#267AB1] mx-auto mb-6" />
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Make <span className="text-[#267AB1]">Homeownership</span> a Reality?
+              Ready to Make <span className="text-[#B8C5D0]">Homeownership</span> a Reality?
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Take the first step today. We'll guide you through every part of the process.
@@ -240,10 +239,10 @@ export default function FirstTimeHomebuyersPage() {
                 Start Your Application <ArrowRight className="w-5 h-5" />
               </Link>
               <Link 
-                href="tel:+19545581730"
+                href="tel:+17862628718"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300"
               >
-                <Phone className="w-5 h-5" /> (954) 558-1730
+                <Phone className="w-5 h-5" /> (786) 262-8718
               </Link>
             </div>
           </AnimatedSection>

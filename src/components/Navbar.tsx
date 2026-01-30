@@ -1,13 +1,12 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { 
   Menu, X, Phone, ChevronDown, 
   Home, Building2, Calculator, FileText, 
-  DollarSign, ArrowRight, Sparkles
+  ArrowRight, Sparkles
 } from 'lucide-react';
 import { ConsentModal } from './ConsentModal';
 
@@ -62,7 +61,6 @@ export function Navbar() {
     { name: 'Loan Programs', href: '/loan-programs', icon: Building2, desc: 'FHA, VA, Conventional & more' },
     { name: 'Loan Process', href: '/loan-process', icon: FileText, desc: 'Step-by-step guide' },
     { name: 'First-Time Buyers', href: '/first-time-homebuyers', icon: Home, desc: 'Start your journey' },
-    { name: 'Down Payment Help', href: '/down-payment-assistance', icon: DollarSign, desc: 'Assistance programs' },
     { name: 'Calculator', href: '/calculator', icon: Calculator, desc: 'Estimate payments' },
   ];
 
@@ -88,12 +86,9 @@ export function Navbar() {
         <div className="max-w-7xl mx-auto px-4 lg:px-8 relative">
           <div className="flex items-center justify-between h-14 lg:h-16">
             {/* Logo */}
-            <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
-              <Image src="/logo.svg" alt="The Mortgage Fellas" width={40} height={40} className="w-10 h-10" />
-              <div className="hidden sm:block">
-                <span className="text-lg lg:text-xl font-bold text-[#0D3F72]">The Mortgage</span>
-                <span className="text-lg lg:text-xl font-bold text-[#267AB1]"> Fellas</span>
-              </div>
+            <Link href="/" className="flex items-center group flex-shrink-0">
+              <span className="text-lg lg:text-xl font-bold text-[#0D3F72]">The Mortgage</span>
+              <span className="text-lg lg:text-xl font-bold text-[#267AB1]"> Fellas</span>
             </Link>
 
             {/* Desktop Navigation - Centered pill */}
@@ -171,13 +166,13 @@ export function Navbar() {
             {/* Right Side */}
             <div className="hidden lg:flex items-center gap-3">
               <a 
-                href="tel:+19545581730" 
+                href="tel:+17862628718" 
                 className="text-sm text-[#0D3F72]/60 hover:text-[#0D3F72] flex items-center gap-2 transition-colors duration-300 px-3 py-2 rounded-full hover:bg-[#0D3F72]/5"
               >
                 <div className="w-8 h-8 bg-[#0D3F72]/10 rounded-full flex items-center justify-center">
                   <Phone className="w-3.5 h-3.5 text-[#0D3F72]" />
                 </div>
-                <span className="font-semibold">(954) 558-1730</span>
+                <span className="font-semibold">(786) 262-8718</span>
               </a>
               <button 
                 onClick={() => setConsentModalOpen(true)}
@@ -287,11 +282,11 @@ export function Navbar() {
             {/* CTA Section */}
             <div className="border-t border-[#0D3F72]/10 pt-4 space-y-3">
               <a 
-                href="tel:+19545581730"
+                href="tel:+17862628718"
                 className="flex items-center justify-center gap-2 py-3 px-4 bg-[#0D3F72]/5 rounded-xl text-[#0D3F72] font-medium"
               >
                 <Phone className="w-4 h-4" /> 
-                (954) 558-1730
+                (786) 262-8718
               </a>
               <button 
                 onClick={() => {

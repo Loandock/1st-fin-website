@@ -8,7 +8,7 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function LegalDisclaimerPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFF8F0] via-white to-[#F5F0FF]">
+    <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
 
       {/* Content */}
@@ -76,7 +76,7 @@ export default function LegalDisclaimerPage() {
                 <p><strong className="text-[#0D3F72]">Cal Castells</strong> – Licensed Loan Originator</p>
                 <p>NMLS #1603703</p>
                 <p className="mt-2">
-                  Phone: <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a>
+                  Phone: <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a>
                 </p>
                 <p>
                   Email: <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a>

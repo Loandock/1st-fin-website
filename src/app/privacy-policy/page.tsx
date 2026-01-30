@@ -8,7 +8,7 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function PrivacyPolicyPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFF8F0] via-white to-[#F5F0FF]">
+    <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
 
       {/* Content */}
@@ -81,7 +81,7 @@ export default function PrivacyPolicyPage() {
               <div className="space-y-2 text-white/80">
                 <p><strong className="text-white">Cal Castells</strong> – Branch Manager</p>
                 <p>NMLS #1101261</p>
-                <p>Phone: <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a></p>
+                <p>Phone: <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a></p>
                 <p>Email: <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a></p>
                 <p className="pt-2 text-sm">1st Financial Mortgage – NMLS #185076</p>
               </div>

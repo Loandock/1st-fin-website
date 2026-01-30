@@ -60,7 +60,6 @@ export function Footer() {
               <li><Link href="/loan-process" className="text-white/60 hover:text-[#267AB1] transition-colors">Loan Process</Link></li>
               <li><Link href="/calculator" className="text-white/60 hover:text-[#267AB1] transition-colors">Mortgage Calculator</Link></li>
               <li><Link href="/first-time-homebuyers" className="text-white/60 hover:text-[#267AB1] transition-colors">First-Time Buyers</Link></li>
-              <li><Link href="/down-payment-assistance" className="text-white/60 hover:text-[#267AB1] transition-colors">Down Payment Help</Link></li>
             </ul>
           </div>
 
@@ -96,9 +95,9 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="tel:+19545581730" className="flex items-center gap-2 text-white/60 hover:text-[#267AB1] transition-colors">
+                <a href="tel:+17862628718" className="flex items-center gap-2 text-white/60 hover:text-[#267AB1] transition-colors">
                   <Phone className="w-4 h-4 text-[#267AB1]" />
-                  (954) 558-1730
+                  (786) 262-8718
                 </a>
               </li>
               <li>

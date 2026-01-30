@@ -8,7 +8,7 @@ import { ArrowLeft, Mail, MapPin, Phone } from 'lucide-react';
 
 export default function AccessibilityPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFF8F0] via-white to-[#F5F0FF]">
+    <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
 
       {/* Content */}
@@ -99,7 +99,7 @@ export default function AccessibilityPage() {
               </p>
               <p className="text-[#0D3F72] mb-2 flex items-center gap-2">
                 <Phone className="w-4 h-4 text-[#267AB1]" />
-                <strong className="font-semibold">Phone:</strong> <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a>
+                <strong className="font-semibold">Phone:</strong> <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a>
               </p>
               <p className="text-[#0D3F72] flex items-start gap-2">
                 <MapPin className="w-4 h-4 text-[#267AB1] mt-1" />

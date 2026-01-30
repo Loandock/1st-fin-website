@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "Miramar mortgage",
     "South Florida mortgage",
     "Florida mortgage lender",
-    "down payment assistance",
+    "bank statement loans",
     "investment loans",
     "DSCR loans",
     "ITIN loans",

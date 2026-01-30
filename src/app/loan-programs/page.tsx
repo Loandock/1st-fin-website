@@ -114,7 +114,7 @@ const loanPrograms = [
 
 export default function LoanProgramsPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFF8F0] via-white to-[#F5F0FF]">
+    <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
 
       {/* Hero */}
@@ -155,7 +155,7 @@ export default function LoanProgramsPage() {
                 <Link href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="btn-primary">
                   Get Pre-Approved <ArrowRight className="w-5 h-5" />
                 </Link>
-                <Link href="tel:+19545581730" className="btn-outline">
+                <Link href="tel:+17862628718" className="btn-outline">
                   Talk to an Expert
                 </Link>
               </div>
@@ -222,10 +222,10 @@ export default function LoanProgramsPage() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-                Why Choose <span className="text-[#267AB1]">Cal Castells?</span>
+                Why Choose <span className="text-[#B8C5D0]">The Mortgage Fellas?</span>
               </h2>
               <p className="text-white/70 max-w-2xl mx-auto">
-                $100M+ in loans funded. Bilingual expert (Español/English) specializing in ITIN, DSCR, and Non-QM loans.
+                $100M+ in loans funded. Bilingual experts (Español/English) specializing in ITIN, DSCR, and Non-QM loans.
               </p>
             </div>
           </AnimatedSection>
@@ -254,7 +254,7 @@ export default function LoanProgramsPage() {
                 href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-white text-[#0D3F72] font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
                 Find Your Loan Program <ArrowRight className="w-5 h-5" />
               </Link>

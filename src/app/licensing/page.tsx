@@ -90,7 +90,7 @@ export default function LicensingPage() {
             
             <div className="bg-white border border-[#0D3F72]/10 rounded-2xl p-6 mb-8 shadow-lg">
               <p className="text-[#0D3F72] mb-1">
-                <strong className="font-semibold">Phone:</strong> <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a>
+                <strong className="font-semibold">Phone:</strong> <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a>
               </p>
               <p className="text-[#0D3F72] mb-1">
                 <strong className="font-semibold">Email:</strong> <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a>
@@ -151,8 +151,8 @@ export default function LicensingPage() {
                 If you have questions about our licensing or regulatory compliance, please don&apos;t hesitate to contact us.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 text-[#0D3F72]">
-                <a href="tel:+19545581730" className="text-[#267AB1] hover:underline font-semibold flex items-center gap-2">
-                  <Phone className="w-4 h-4" /> (954) 558-1730
+                <a href="tel:+17862628718" className="text-[#267AB1] hover:underline font-semibold flex items-center gap-2">
+                  <Phone className="w-4 h-4" /> (786) 262-8718
                 </a>
                 <span className="hidden sm:inline text-[#0D3F72]/30">•</span>
                 <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline font-semibold">

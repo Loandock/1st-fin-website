@@ -8,7 +8,7 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function SMSPolicyPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFF8F0] via-white to-[#F5F0FF]">
+    <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
 
       {/* Content */}
@@ -75,7 +75,7 @@ export default function SMSPolicyPage() {
               <div className="mb-8 p-6 bg-gradient-to-r from-[#0D3F72]/5 to-[#0D3F72]/10 rounded-2xl border border-[#0D3F72]/10">
                 <h3 className="text-xl font-semibold text-[#0D3F72] mb-4">Method 2: Verbal Consent (Phone or In-Person)</h3>
                 <p className="text-[#0D3F72]/70 mb-4">
-                  This method uses a double opt-in process as required by carriers for marketing messages. When you call (954) 558-1730 or visit our office, our representative will explain the SMS program and request your verbal consent.
+                  This method uses a double opt-in process as required by carriers for marketing messages. When you call (786) 262-8718 or visit our office, our representative will explain the SMS program and request your verbal consent.
                 </p>
               </div>
 
@@ -83,7 +83,7 @@ export default function SMSPolicyPage() {
               <div className="mb-8 p-6 bg-white rounded-2xl border border-[#0D3F72]/10">
                 <h3 className="text-xl font-semibold text-[#0D3F72] mb-4">Method 3: Opt-In by Keyword</h3>
                 <p className="text-[#0D3F72]/70 mb-4">
-                  Text <strong>START</strong>, <strong>YES</strong>, <strong>SUBSCRIBE</strong>, or <strong>JOIN</strong> to (954) 558-1730 to opt in.
+                  Text <strong>START</strong>, <strong>YES</strong>, <strong>SUBSCRIBE</strong>, or <strong>JOIN</strong> to (786) 262-8718 to opt in.
                 </p>
               </div>
             </section>
@@ -122,7 +122,7 @@ export default function SMSPolicyPage() {
               </p>
               <div className="bg-[#267AB1]/10 p-4 rounded-xl border border-[#267AB1]/30 mb-4">
                 <p className="text-sm italic text-[#0D3F72]/70">
-                  "1st Financial Mortgage: For help, call (954) 558-1730 or email cal@mortgagefellas.com. Msg&data rates may apply. Reply STOP to opt out."
+                  "1st Financial Mortgage: For help, call (786) 262-8718 or email cal@mortgagefellas.com. Msg&data rates may apply. Reply STOP to opt out."
                 </p>
               </div>
             </section>
@@ -181,7 +181,7 @@ export default function SMSPolicyPage() {
                 <p className="font-semibold text-white mb-2">Cal Castells – 1st Financial Mortgage</p>
                 <p>Licensed Loan Originator – NMLS #1603703</p>
                 <p>Guaranteed Rate – NMLS #1604663</p>
-                <p className="mt-3">Phone: <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a></p>
+                <p className="mt-3">Phone: <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a></p>
                 <p>Email: <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a></p>
               </div>
             </section>

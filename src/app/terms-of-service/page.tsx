@@ -8,7 +8,7 @@ import { ArrowLeft } from 'lucide-react';
 
 export default function TermsOfServicePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-[#FFF8F0] via-white to-[#F5F0FF]">
+    <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
 
       {/* Content */}
@@ -46,7 +46,7 @@ export default function TermsOfServicePage() {
                     53 NW 100th Ave<br />
                     Plantation, FL 33324<br />
                     NMLS #1604663<br />
-                    Phone: (954) 558-1730<br />
+                    Phone: (786) 262-8718<br />
                     Email: cal@mortgagefellas.com
                   </p>
                 </div>
@@ -188,7 +188,7 @@ export default function TermsOfServicePage() {
                 <p>Guaranteed Rate – NMLS #1604663</p>
                 <p>53 NW 100th Ave, Plantation, FL 33324</p>
                 <p className="mt-3">Email: <a href="mailto:cal@mortgagefellas.com" className="text-[#267AB1] hover:underline">cal@mortgagefellas.com</a></p>
-                <p>Phone: <a href="tel:+19545581730" className="text-[#267AB1] hover:underline">(954) 558-1730</a></p>
+                <p>Phone: <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a></p>
               </div>
             </section>
 
