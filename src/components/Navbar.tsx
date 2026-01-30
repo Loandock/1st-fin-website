@@ -8,15 +8,13 @@ import {
   Home, Building2, Calculator, FileText, 
   ArrowRight, Sparkles
 } from 'lucide-react';
-import { ConsentModal } from './ConsentModal';
-
-const APPLICATION_URL = "https://1stfinmortgage.com/apply"; // TODO: Update with actual application URL
+import { GetStartedModal } from './GetStartedModal';
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [dropdownOpen, setDropdownOpen] = useState(false);
-  const [consentModalOpen, setConsentModalOpen] = useState(false);
+  const [getStartedModalOpen, setGetStartedModalOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -175,7 +173,7 @@ export function Navbar() {
                 <span className="font-semibold">(786) 262-8718</span>
               </a>
               <button 
-                onClick={() => setConsentModalOpen(true)}
+                onClick={() => setGetStartedModalOpen(true)}
                 className="relative group px-5 py-2.5 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-full shadow-lg shadow-[#267AB1]/25 hover:shadow-xl hover:shadow-[#267AB1]/30 hover:scale-105 transition-all duration-300"
               >
                 <span className="relative z-10 flex items-center gap-2">
@@ -291,7 +289,7 @@ export function Navbar() {
               <button 
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  setConsentModalOpen(true);
+                  setGetStartedModalOpen(true);
                 }}
                 className="w-full py-3.5 px-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl shadow-lg shadow-[#267AB1]/20 flex items-center justify-center gap-2"
               >
@@ -308,11 +306,10 @@ export function Navbar() {
         </div>
       </div>
 
-      {/* Consent Modal */}
-      <ConsentModal
-        isOpen={consentModalOpen}
-        onClose={() => setConsentModalOpen(false)}
-        redirectUrl={APPLICATION_URL}
+      {/* Get Started Modal */}
+      <GetStartedModal
+        isOpen={getStartedModalOpen}
+        onClose={() => setGetStartedModalOpen(false)}
       />
     </>
   );

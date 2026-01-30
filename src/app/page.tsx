@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
-import { ConsentModal } from "@/components/ConsentModal";
+import { GetStartedModal } from "@/components/GetStartedModal";
 import {
   Home,
   Phone,
@@ -79,9 +79,7 @@ export default function LandingPage() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [formStatus, setFormStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
   const [formMessage, setFormMessage] = useState('');
-  const [consentModalOpen, setConsentModalOpen] = useState(false);
-  
-  const APPLICATION_URL = "https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605";
+  const [getStartedModalOpen, setGetStartedModalOpen] = useState(false);
   const [phoneNumber, setPhoneNumber] = useState('');
 
   // Format phone number as (XXX) XXX-XXXX
@@ -242,7 +240,7 @@ export default function LandingPage() {
                 </p>
 
                 <div className="flex flex-wrap gap-3 pt-2 animate-fade-in animation-delay-500">
-                  <button onClick={() => setConsentModalOpen(true)} className="btn-primary text-base">
+                  <button onClick={() => setGetStartedModalOpen(true)} className="btn-primary text-base">
                     Get Started <ArrowRight className="w-5 h-5" />
                   </button>
                   <a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="px-6 py-3 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-full border border-white/30 hover:bg-white/20 transition-all cursor-pointer inline-flex items-center gap-2">
@@ -464,7 +462,7 @@ export default function LandingPage() {
                 <h2 className="text-4xl lg:text-5xl font-bold text-white">What Our Clients Say</h2>
               </div>
               <button 
-                onClick={() => setConsentModalOpen(true)}
+                onClick={() => setGetStartedModalOpen(true)}
                 className="group inline-flex items-center gap-3 px-6 py-3 bg-white/10 backdrop-blur-sm rounded-full border border-white/20 hover:bg-white/20 transition-all self-start lg:self-auto"
               >
                 <Star className="w-5 h-5 text-[#267AB1]" />
@@ -513,7 +511,7 @@ export default function LandingPage() {
                 </div>
               </div>
               <button 
-                onClick={() => setConsentModalOpen(true)}
+                onClick={() => setGetStartedModalOpen(true)}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-[#267AB1] text-white font-bold rounded-full hover:bg-[#1A5A8A] transition-colors shadow-lg hover:shadow-xl"
               >
                 Get Started
@@ -716,11 +714,10 @@ export default function LandingPage() {
       {/* === FOOTER === */}
       <Footer />
 
-      {/* Consent Modal */}
-      <ConsentModal
-        isOpen={consentModalOpen}
-        onClose={() => setConsentModalOpen(false)}
-        redirectUrl={APPLICATION_URL}
+      {/* Get Started Modal */}
+      <GetStartedModal
+        isOpen={getStartedModalOpen}
+        onClose={() => setGetStartedModalOpen(false)}
       />
     </div>
   );
