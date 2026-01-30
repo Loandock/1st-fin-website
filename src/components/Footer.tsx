@@ -107,6 +107,12 @@ export function Footer() {
                 </a>
               </li>
               <li>
+                <a href="mailto:jose@mortgagefellas.com" className="flex items-center gap-2 text-white/60 hover:text-[#267AB1] transition-colors">
+                  <Mail className="w-4 h-4 text-[#267AB1]" />
+                  jose@mortgagefellas.com
+                </a>
+              </li>
+              <li>
                 <div className="flex items-start gap-2 text-white/60">
                   <MapPin className="w-4 h-4 text-[#267AB1] flex-shrink-0 mt-0.5" />
                   <span>1911 NW 150th Ave<br />Suite #104<br />Pembroke Pines, FL 33028</span>

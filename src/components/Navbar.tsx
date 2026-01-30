@@ -179,7 +179,7 @@ export function Navbar() {
                 className="relative group px-5 py-2.5 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-full shadow-lg shadow-[#267AB1]/25 hover:shadow-xl hover:shadow-[#267AB1]/30 hover:scale-105 transition-all duration-300"
               >
                 <span className="relative z-10 flex items-center gap-2">
-                  Apply Now
+                  Get Started
                   <Sparkles className="w-4 h-4" />
                 </span>
               </button>
@@ -295,7 +295,7 @@ export function Navbar() {
                 }}
                 className="w-full py-3.5 px-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl shadow-lg shadow-[#267AB1]/20 flex items-center justify-center gap-2"
               >
-                Apply Now
+                Get Started
                 <Sparkles className="w-4 h-4" />
               </button>
             </div>

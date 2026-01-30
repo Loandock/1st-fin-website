@@ -243,7 +243,7 @@ export default function LandingPage() {
 
                 <div className="flex flex-wrap gap-3 pt-2 animate-fade-in animation-delay-500">
                   <button onClick={() => setConsentModalOpen(true)} className="btn-primary text-base">
-                    Apply Now <ArrowRight className="w-5 h-5" />
+                    Get Started <ArrowRight className="w-5 h-5" />
                   </button>
                   <a href="#services" onClick={(e) => scrollToSection(e, 'services')} className="px-6 py-3 bg-white/10 backdrop-blur-sm text-white font-semibold rounded-full border border-white/30 hover:bg-white/20 transition-all cursor-pointer inline-flex items-center gap-2">
                     Explore Services
@@ -516,7 +516,7 @@ export default function LandingPage() {
                 onClick={() => setConsentModalOpen(true)}
                 className="inline-flex items-center gap-2 px-6 py-3 bg-[#267AB1] text-white font-bold rounded-full hover:bg-[#1A5A8A] transition-colors shadow-lg hover:shadow-xl"
               >
-                Apply Now
+                Get Started
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>
@@ -664,19 +664,28 @@ export default function LandingPage() {
                 <div className="card-dark p-6 rounded-2xl">
                   <h3 className="font-bold text-white mb-4">Contact</h3>
                   <div className="space-y-4">
-                    {[
-                      { icon: Phone, value: "(786) 262-8718" },
-                      { icon: Mail, value: "cal@mortgagefellas.com" },
-                      { icon: MapPin, value: "1911 NW 150th Ave, #104, Pembroke Pines, FL 33028" },
-                    ].map((item) => (
-                      <div key={item.value} className="flex items-center gap-3">
-                        <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
-                          <item.icon className="w-4 h-4 text-[#267AB1]" />
-                        </div>
-                        <span className="text-white/80 text-sm">{item.value}</span>
-          </div>
-                    ))}
-        </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center">
+                        <Phone className="w-4 h-4 text-[#267AB1]" />
+                      </div>
+                      <span className="text-white/80 text-sm">(786) 262-8718</span>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <Mail className="w-4 h-4 text-[#267AB1]" />
+                      </div>
+                      <div className="text-white/80 text-sm">
+                        <p>cal@mortgagefellas.com</p>
+                        <p>jose@mortgagefellas.com</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                        <MapPin className="w-4 h-4 text-[#267AB1]" />
+                      </div>
+                      <span className="text-white/80 text-sm">1911 NW 150th Ave, #104, Pembroke Pines, FL 33028</span>
+                    </div>
+                  </div>
                 </div>
               </AnimatedSection>
 

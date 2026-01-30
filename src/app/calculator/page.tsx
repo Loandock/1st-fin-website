@@ -228,7 +228,7 @@ export default function CalculatorPage() {
                     onClick={() => setConsentModalOpen(true)}
                     className="btn-primary w-full justify-center"
                   >
-                    Apply Now <ArrowRight className="w-5 h-5" />
+                    Get Started <ArrowRight className="w-5 h-5" />
                   </button>
                 </div>
               </div>
