@@ -53,35 +53,35 @@ export default function LoanProcessPage() {
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-20 right-[5%] w-[500px] h-[500px] bg-gradient-to-br from-[#194080]/20 to-[#194080]/5 rounded-full blur-[120px] animate-pulse" />
-          <div className="absolute bottom-0 left-[10%] w-[400px] h-[400px] bg-gradient-to-br from-[#D3B16F]/15 to-transparent rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s' }} />
+          <div className="absolute top-20 right-[5%] w-[500px] h-[500px] bg-gradient-to-br from-[#0D3F72]/20 to-[#0D3F72]/5 rounded-full blur-[120px] animate-pulse" />
+          <div className="absolute bottom-0 left-[10%] w-[400px] h-[400px] bg-gradient-to-br from-[#FF8C42]/15 to-transparent rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
         
         <div className="absolute inset-0 opacity-[0.03]" style={{
-          backgroundImage: `linear-gradient(90deg, #194080 1px, transparent 1px)`,
+          backgroundImage: `linear-gradient(90deg, #0D3F72 1px, transparent 1px)`,
           backgroundSize: '80px 80px'
         }} />
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
-            <div className="flex items-center gap-2 text-sm text-[#194080]/60 mb-4">
-              <Link href="/" className="hover:text-[#D3B16F] transition-colors">Home</Link>
+            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/60 mb-4">
+              <Link href="/" className="hover:text-[#FF8C42] transition-colors">Home</Link>
               <span>/</span>
-              <span className="text-[#D3B16F]">Loan Process</span>
+              <span className="text-[#FF8C42]">Loan Process</span>
             </div>
             
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div>
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#D3B16F]/10 to-[#5673A2]/10 rounded-full mb-6">
-                  <Clock className="w-4 h-4 text-[#D3B16F]" />
-                  <span className="text-sm font-medium text-[#194080]">12 Simple Steps</span>
+                <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#FF8C42]/10 to-[#267AB1]/10 rounded-full mb-6">
+                  <Clock className="w-4 h-4 text-[#FF8C42]" />
+                  <span className="text-sm font-medium text-[#0D3F72]">12 Simple Steps</span>
                 </div>
                 
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#194080] leading-tight mb-6">
-                  Your Path to <span className="bg-gradient-to-r from-[#D3B16F] to-[#5673A2] bg-clip-text text-transparent">Homeownership</span>
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0D3F72] leading-tight mb-6">
+                  Your Path to <span className="bg-gradient-to-r from-[#FF8C42] to-[#267AB1] bg-clip-text text-transparent">Homeownership</span>
                 </h1>
                 
-                <p className="text-lg text-[#194080]/60 leading-relaxed mb-8">
+                <p className="text-lg text-[#0D3F72]/60 leading-relaxed mb-8">
                   The mortgage process doesn't have to be confusing. We break it down into clear, manageable steps and guide you every step of the way.
                 </p>
 
@@ -89,7 +89,7 @@ export default function LoanProcessPage() {
                   <Link href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="btn-primary">
                     Start Step 1 <ArrowRight className="w-5 h-5" />
                   </Link>
-                  <Link href="tel:+14046432230" className="btn-outline">
+                  <Link href="tel:+19545550100" className="btn-outline">
                     <Phone className="w-4 h-4" /> Call Us
                   </Link>
                 </div>
@@ -97,22 +97,22 @@ export default function LoanProcessPage() {
 
               <div className="hidden lg:block">
                 <div className="relative">
-                  <div className="absolute inset-0 bg-gradient-to-br from-[#D3B16F]/20 to-[#5673A2]/20 rounded-3xl blur-2xl" />
-                  <div className="relative bg-white rounded-3xl p-8 shadow-2xl border border-[#194080]/5">
+                  <div className="absolute inset-0 bg-gradient-to-br from-[#FF8C42]/20 to-[#267AB1]/20 rounded-3xl blur-2xl" />
+                  <div className="relative bg-white rounded-3xl p-8 shadow-2xl border border-[#0D3F72]/5">
                     <div className="flex items-center gap-4 mb-6">
-                      <div className="w-12 h-12 bg-gradient-to-br from-[#194080] to-[#5673A2] rounded-xl flex items-center justify-center">
+                      <div className="w-12 h-12 bg-gradient-to-br from-[#0D3F72] to-[#267AB1] rounded-xl flex items-center justify-center">
                         <Clock className="w-6 h-6 text-white" />
                       </div>
                       <div>
-                        <p className="text-2xl font-bold text-[#194080]">30-45 Days</p>
-                        <p className="text-sm text-[#194080]/60">Average closing time</p>
+                        <p className="text-2xl font-bold text-[#0D3F72]">30-45 Days</p>
+                        <p className="text-sm text-[#0D3F72]/60">Average closing time</p>
                       </div>
                     </div>
                     <div className="space-y-3">
                       {['Pre-approval in 24 hours', 'Dedicated loan officer', 'Regular status updates', 'On-time closings'].map((item) => (
                         <div key={item} className="flex items-center gap-3">
-                          <CheckCircle className="w-5 h-5 text-[#D3B16F]" />
-                          <span className="text-[#194080]/70">{item}</span>
+                          <CheckCircle className="w-5 h-5 text-[#FF8C42]" />
+                          <span className="text-[#0D3F72]/70">{item}</span>
                         </div>
                       ))}
                     </div>
@@ -127,18 +127,18 @@ export default function LoanProcessPage() {
       {/* Process Steps */}
       <section className="py-20 relative overflow-hidden">
         <div className="absolute inset-0 opacity-[0.04]" style={{
-          backgroundImage: `radial-gradient(#194080 2px, transparent 2px)`,
+          backgroundImage: `radial-gradient(#0D3F72 2px, transparent 2px)`,
           backgroundSize: '40px 40px'
         }} />
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
             <div className="text-center mb-16">
-              <h2 className="text-3xl lg:text-4xl font-bold text-[#194080] mb-4">
-                The Complete <span className="text-[#D3B16F]">Mortgage Journey</span>
+              <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
+                The Complete <span className="text-[#FF8C42]">Mortgage Journey</span>
               </h2>
-              <p className="text-[#194080]/60 max-w-2xl mx-auto">
-                From first call to closing day, here's exactly what to expect when working with the IR Mortgages.
+              <p className="text-[#0D3F72]/60 max-w-2xl mx-auto">
+                From first call to closing day, here's exactly what to expect when working with the 1st Financial Mortgage.
               </p>
             </div>
           </AnimatedSection>
@@ -146,18 +146,18 @@ export default function LoanProcessPage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {processSteps.map((item, i) => (
               <AnimatedSection key={item.step} delay={i * 60}>
-                <div className="group relative bg-white rounded-2xl p-6 shadow-lg border border-[#194080]/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 h-full">
+                <div className="group relative bg-white rounded-2xl p-6 shadow-lg border border-[#0D3F72]/5 hover:shadow-xl hover:-translate-y-1 transition-all duration-500 h-full">
                   {/* Step Number */}
-                  <div className="absolute -top-3 -left-3 w-10 h-10 bg-gradient-to-br from-[#D3B16F] to-[#5673A2] rounded-full flex items-center justify-center text-white font-bold shadow-lg group-hover:scale-110 transition-transform duration-300">
+                  <div className="absolute -top-3 -left-3 w-10 h-10 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-full flex items-center justify-center text-white font-bold shadow-lg group-hover:scale-110 transition-transform duration-300">
                     {item.step}
                   </div>
                   
                   <div className="pt-4">
-                    <div className="w-12 h-12 bg-[#194080]/5 rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#194080]/10 transition-colors duration-300">
-                      <item.icon className="w-6 h-6 text-[#194080]" />
+                    <div className="w-12 h-12 bg-[#0D3F72]/5 rounded-xl flex items-center justify-center mb-4 group-hover:bg-[#0D3F72]/10 transition-colors duration-300">
+                      <item.icon className="w-6 h-6 text-[#0D3F72]" />
                     </div>
-                    <h3 className="text-lg font-bold text-[#194080] mb-2">{item.title}</h3>
-                    <p className="text-sm text-[#194080]/60">{item.desc}</p>
+                    <h3 className="text-lg font-bold text-[#0D3F72] mb-2">{item.title}</h3>
+                    <p className="text-sm text-[#0D3F72]/60">{item.desc}</p>
                   </div>
                 </div>
               </AnimatedSection>
@@ -168,7 +168,7 @@ export default function LoanProcessPage() {
 
       {/* CTA */}
       <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#194080] to-[#5673A2]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0D3F72] to-[#267AB1]" />
         <div className="absolute inset-0 opacity-10" style={{
           backgroundImage: `linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.1) 50%, transparent 60%)`,
           backgroundSize: '20px 20px'
@@ -177,7 +177,7 @@ export default function LoanProcessPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10 text-center">
           <AnimatedSection>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Begin <span className="text-[#D3B16F]">Your Journey?</span>
+              Ready to Begin <span className="text-[#FF8C42]">Your Journey?</span>
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Take the first step today. Get pre-approved and know exactly where you stand.
@@ -187,15 +187,15 @@ export default function LoanProcessPage() {
                 href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#D3B16F] to-[#5673A2] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
                 Start Your Application <ArrowRight className="w-5 h-5" />
               </Link>
               <Link 
-                href="tel:+14046432230"
+                href="tel:+19545550100"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300"
               >
-                <Phone className="w-5 h-5" /> (404) 643-2230
+                <Phone className="w-5 h-5" /> (954) 555-0100
               </Link>
             </div>
           </AnimatedSection>

@@ -11,7 +11,7 @@ import {
 } from 'lucide-react';
 import { ConsentModal } from './ConsentModal';
 
-const APPLICATION_URL = "https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605";
+const APPLICATION_URL = "https://1stfinmortgage.com/apply"; // TODO: Update with actual application URL
 
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -81,7 +81,7 @@ export function Navbar() {
         {/* Background layer */}
         <div className={`absolute inset-0 transition-all duration-500 ${
           isScrolled 
-            ? 'bg-white/95 backdrop-blur-xl shadow-lg shadow-black/5 border-b border-[#194080]/5' 
+            ? 'bg-white/95 backdrop-blur-xl shadow-lg shadow-black/5 border-b border-[#0D3F72]/5' 
             : 'bg-white/70 backdrop-blur-md'
         }`} />
         
@@ -89,17 +89,14 @@ export function Navbar() {
           <div className="flex items-center justify-between h-14 lg:h-16">
             {/* Logo */}
             <Link href="/" className="flex items-center gap-3 group flex-shrink-0">
-              <div className="relative w-14 h-14 lg:w-16 lg:h-16 transition-transform duration-300 group-hover:scale-105">
-                <Image src="/logo.svg" alt="IR Mortgages" fill className="object-contain" />
-              </div>
               <div className="hidden sm:block">
-                <span className="text-lg lg:text-xl font-bold text-[#194080]">IR</span>
-                <span className="text-lg lg:text-xl font-bold text-[#D3B16F]"> Mortgages</span>
+                <span className="text-lg lg:text-xl font-bold text-[#0D3F72]">1st Financial</span>
+                <span className="text-lg lg:text-xl font-bold text-[#FF8C42]"> Mortgage</span>
               </div>
             </Link>
 
             {/* Desktop Navigation - Centered pill */}
-            <div className="hidden lg:flex items-center bg-[#194080]/5 rounded-full px-1.5 py-1.5">
+            <div className="hidden lg:flex items-center bg-[#0D3F72]/5 rounded-full px-1.5 py-1.5">
               {mainLinks.map((link) => (
                 <Link 
                   key={link.name} 
@@ -107,8 +104,8 @@ export function Navbar() {
                   onClick={(e) => handleAnchorClick(e, link.href)}
                   className={`px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
                     pathname === link.href 
-                      ? 'bg-[#194080] text-white shadow-md' 
-                      : 'text-[#194080]/70 hover:text-[#194080] hover:bg-[#194080]/10'
+                      ? 'bg-[#0D3F72] text-white shadow-md' 
+                      : 'text-[#0D3F72]/70 hover:text-[#0D3F72] hover:bg-[#0D3F72]/10'
                   }`}
                 >
                   {link.name}
@@ -123,8 +120,8 @@ export function Navbar() {
               >
                 <button className={`flex items-center gap-1.5 px-4 py-2 text-sm font-medium rounded-full transition-all duration-300 ${
                   dropdownOpen 
-                    ? 'bg-[#194080] text-white shadow-md' 
-                    : 'text-[#194080]/70 hover:text-[#194080] hover:bg-[#194080]/10'
+                    ? 'bg-[#0D3F72] text-white shadow-md' 
+                    : 'text-[#0D3F72]/70 hover:text-[#0D3F72] hover:bg-[#0D3F72]/10'
                 }`}>
                   Resources
                   <ChevronDown className={`w-3.5 h-3.5 transition-transform duration-300 ${dropdownOpen ? 'rotate-180' : ''}`} />
@@ -133,25 +130,25 @@ export function Navbar() {
                 <div className={`absolute top-full left-1/2 -translate-x-1/2 pt-3 transition-all duration-300 ${
                   dropdownOpen ? 'opacity-100 visible translate-y-0' : 'opacity-0 invisible -translate-y-2 pointer-events-none'
                 }`}>
-                  <div className="w-80 bg-white rounded-2xl shadow-2xl shadow-[#194080]/10 border border-[#194080]/5 p-2 overflow-hidden">
+                  <div className="w-80 bg-white rounded-2xl shadow-2xl shadow-[#0D3F72]/10 border border-[#0D3F72]/5 p-2 overflow-hidden">
                     {/* Dropdown header */}
                     <div className="px-3 py-2 mb-1">
-                      <p className="text-xs font-semibold text-[#194080]/40 uppercase tracking-wider">Explore Resources</p>
+                      <p className="text-xs font-semibold text-[#0D3F72]/40 uppercase tracking-wider">Explore Resources</p>
                     </div>
                     {resourceLinks.map((link) => (
                       <Link 
                         key={link.name} 
                         href={link.href}
-                        className="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-[#D3B16F]/5 hover:to-[#5673A2]/5 transition-all duration-300 group"
+                        className="flex items-center gap-3 p-3 rounded-xl hover:bg-gradient-to-r hover:from-[#FF8C42]/5 hover:to-[#267AB1]/5 transition-all duration-300 group"
                       >
-                        <div className="w-10 h-10 bg-gradient-to-br from-[#D3B16F] to-[#5673A2] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-[#D3B16F]/20 transition-all duration-300">
+                        <div className="w-10 h-10 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 group-hover:shadow-lg group-hover:shadow-[#FF8C42]/20 transition-all duration-300">
                           <link.icon className="w-5 h-5 text-white" />
                         </div>
                         <div className="flex-1 min-w-0">
-                          <p className="font-semibold text-[#194080] text-sm group-hover:text-[#D3B16F] transition-colors">{link.name}</p>
-                          <p className="text-xs text-[#194080]/50 truncate">{link.desc}</p>
+                          <p className="font-semibold text-[#0D3F72] text-sm group-hover:text-[#FF8C42] transition-colors">{link.name}</p>
+                          <p className="text-xs text-[#0D3F72]/50 truncate">{link.desc}</p>
                         </div>
-                        <ArrowRight className="w-4 h-4 text-[#194080]/20 group-hover:text-[#D3B16F] group-hover:translate-x-1 transition-all" />
+                        <ArrowRight className="w-4 h-4 text-[#0D3F72]/20 group-hover:text-[#FF8C42] group-hover:translate-x-1 transition-all" />
                       </Link>
                     ))}
                   </div>
@@ -163,7 +160,7 @@ export function Navbar() {
                   key={link.name} 
                   href={link.href}
                   onClick={(e) => handleAnchorClick(e, link.href)}
-                  className="px-4 py-2 text-sm font-medium text-[#194080]/70 hover:text-[#194080] hover:bg-[#194080]/10 rounded-full transition-all duration-300"
+                  className="px-4 py-2 text-sm font-medium text-[#0D3F72]/70 hover:text-[#0D3F72] hover:bg-[#0D3F72]/10 rounded-full transition-all duration-300"
                 >
                   {link.name}
                 </Link>
@@ -173,17 +170,17 @@ export function Navbar() {
             {/* Right Side */}
             <div className="hidden lg:flex items-center gap-3">
               <a 
-                href="tel:+14046432230" 
-                className="text-sm text-[#194080]/60 hover:text-[#194080] flex items-center gap-2 transition-colors duration-300 px-3 py-2 rounded-full hover:bg-[#194080]/5"
+                href="tel:+19545550100" 
+                className="text-sm text-[#0D3F72]/60 hover:text-[#0D3F72] flex items-center gap-2 transition-colors duration-300 px-3 py-2 rounded-full hover:bg-[#0D3F72]/5"
               >
-                <div className="w-8 h-8 bg-[#194080]/10 rounded-full flex items-center justify-center">
-                  <Phone className="w-3.5 h-3.5 text-[#194080]" />
+                <div className="w-8 h-8 bg-[#0D3F72]/10 rounded-full flex items-center justify-center">
+                  <Phone className="w-3.5 h-3.5 text-[#0D3F72]" />
                 </div>
-                <span className="font-semibold">(404) 643-2230</span>
+                <span className="font-semibold">(954) 555-0100</span>
               </a>
               <button 
                 onClick={() => setConsentModalOpen(true)}
-                className="relative group px-5 py-2.5 bg-gradient-to-r from-[#D3B16F] to-[#5673A2] text-white font-semibold rounded-full shadow-lg shadow-[#D3B16F]/25 hover:shadow-xl hover:shadow-[#D3B16F]/30 hover:scale-105 transition-all duration-300"
+                className="relative group px-5 py-2.5 bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white font-semibold rounded-full shadow-lg shadow-[#FF8C42]/25 hover:shadow-xl hover:shadow-[#FF8C42]/30 hover:scale-105 transition-all duration-300"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   Apply Now
@@ -194,10 +191,10 @@ export function Navbar() {
 
             {/* Mobile Menu Button */}
             <button 
-              className="lg:hidden p-2.5 rounded-xl bg-[#194080]/5 hover:bg-[#194080]/10 transition-colors"
+              className="lg:hidden p-2.5 rounded-xl bg-[#0D3F72]/5 hover:bg-[#0D3F72]/10 transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
-              {mobileMenuOpen ? <X className="w-5 h-5 text-[#194080]" /> : <Menu className="w-5 h-5 text-[#194080]" />}
+              {mobileMenuOpen ? <X className="w-5 h-5 text-[#0D3F72]" /> : <Menu className="w-5 h-5 text-[#0D3F72]" />}
             </button>
           </div>
         </div>
@@ -216,7 +213,7 @@ export function Navbar() {
         />
         
         {/* Menu Panel */}
-        <div className={`absolute top-[72px] left-4 right-4 bg-white rounded-2xl shadow-2xl shadow-[#194080]/10 overflow-hidden transition-all duration-500 ${
+        <div className={`absolute top-[72px] left-4 right-4 bg-white rounded-2xl shadow-2xl shadow-[#0D3F72]/10 overflow-hidden transition-all duration-500 ${
           mobileMenuOpen ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-4'
         }`}>
           <div className="p-4 max-h-[70vh] overflow-y-auto">
@@ -232,8 +229,8 @@ export function Navbar() {
                   }}
                   className={`block py-3 px-4 rounded-xl font-medium transition-all ${
                     pathname === link.href 
-                      ? 'bg-[#194080] text-white' 
-                      : 'text-[#194080] hover:bg-[#194080]/5'
+                      ? 'bg-[#0D3F72] text-white' 
+                      : 'text-[#0D3F72] hover:bg-[#0D3F72]/5'
                   }`}
                 >
                   {link.name}
@@ -242,10 +239,10 @@ export function Navbar() {
             </div>
 
             {/* Resources Accordion */}
-            <div className="border-t border-[#194080]/10 pt-4 mb-4">
+            <div className="border-t border-[#0D3F72]/10 pt-4 mb-4">
               <button 
                 onClick={() => setDropdownOpen(!dropdownOpen)}
-                className="flex items-center justify-between w-full py-3 px-4 text-[#194080] font-medium rounded-xl hover:bg-[#194080]/5 transition-colors"
+                className="flex items-center justify-between w-full py-3 px-4 text-[#0D3F72] font-medium rounded-xl hover:bg-[#0D3F72]/5 transition-colors"
               >
                 <span>Resources</span>
                 <ChevronDown className={`w-5 h-5 transition-transform duration-300 ${dropdownOpen ? 'rotate-180' : ''}`} />
@@ -257,9 +254,9 @@ export function Navbar() {
                       key={link.name} 
                       href={link.href}
                       onClick={() => setMobileMenuOpen(false)}
-                      className="flex items-center gap-3 py-3 px-3 text-[#194080]/70 hover:text-[#194080] hover:bg-[#194080]/5 rounded-xl transition-all"
+                      className="flex items-center gap-3 py-3 px-3 text-[#0D3F72]/70 hover:text-[#0D3F72] hover:bg-[#0D3F72]/5 rounded-xl transition-all"
                     >
-                      <div className="w-8 h-8 bg-gradient-to-br from-[#D3B16F] to-[#5673A2] rounded-lg flex items-center justify-center">
+                      <div className="w-8 h-8 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-lg flex items-center justify-center">
                         <link.icon className="w-4 h-4 text-white" />
                       </div>
                       <span className="font-medium text-sm">{link.name}</span>
@@ -270,7 +267,7 @@ export function Navbar() {
             </div>
 
             {/* End Links */}
-            <div className="space-y-1 border-t border-[#194080]/10 pt-4 mb-4">
+            <div className="space-y-1 border-t border-[#0D3F72]/10 pt-4 mb-4">
               {endLinks.map((link) => (
                 <Link 
                   key={link.name} 
@@ -279,7 +276,7 @@ export function Navbar() {
                     handleAnchorClick(e, link.href);
                     setMobileMenuOpen(false);
                   }}
-                  className="block py-3 px-4 text-[#194080] font-medium rounded-xl hover:bg-[#194080]/5 transition-colors"
+                  className="block py-3 px-4 text-[#0D3F72] font-medium rounded-xl hover:bg-[#0D3F72]/5 transition-colors"
                 >
                   {link.name}
                 </Link>
@@ -287,20 +284,20 @@ export function Navbar() {
             </div>
 
             {/* CTA Section */}
-            <div className="border-t border-[#194080]/10 pt-4 space-y-3">
+            <div className="border-t border-[#0D3F72]/10 pt-4 space-y-3">
               <a 
-                href="tel:+14046432230"
-                className="flex items-center justify-center gap-2 py-3 px-4 bg-[#194080]/5 rounded-xl text-[#194080] font-medium"
+                href="tel:+19545550100"
+                className="flex items-center justify-center gap-2 py-3 px-4 bg-[#0D3F72]/5 rounded-xl text-[#0D3F72] font-medium"
               >
                 <Phone className="w-4 h-4" /> 
-                (404) 643-2230
+                (954) 555-0100
               </a>
               <button 
                 onClick={() => {
                   setMobileMenuOpen(false);
                   setConsentModalOpen(true);
                 }}
-                className="w-full py-3.5 px-4 bg-gradient-to-r from-[#D3B16F] to-[#5673A2] text-white font-semibold rounded-xl shadow-lg shadow-[#D3B16F]/20 flex items-center justify-center gap-2"
+                className="w-full py-3.5 px-4 bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white font-semibold rounded-xl shadow-lg shadow-[#FF8C42]/20 flex items-center justify-center gap-2"
               >
                 Apply Now
                 <Sparkles className="w-4 h-4" />
@@ -308,8 +305,8 @@ export function Navbar() {
             </div>
             
             {/* Footer */}
-            <p className="text-xs text-center text-[#194080]/40 pt-4 pb-2">
-              Español/English • NMLS #2059278
+            <p className="text-xs text-center text-[#0D3F72]/40 pt-4 pb-2">
+              Español/English • Branch NMLS #1620197
             </p>
           </div>
         </div>

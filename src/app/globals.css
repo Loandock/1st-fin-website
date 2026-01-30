@@ -3,23 +3,24 @@
 @tailwind utilities;
 
 :root {
-  /* IR Mortgages Color Palette */
-  --blue-deep: #194080;
-  --blue-mid: #5673A2;
-  --gold: #D3B16F;
-  --gold-light: #e0c48a;
-  --gold-dark: #b89a5a;
-  --alabaster: #E6E7EA;
-  --white: #FEFEFE;
+  /* 1st Financial Mortgage Color Palette */
+  --blue-deep: #0D3F72;      /* Yale Blue - primary */
+  --blue-mid: #267AB1;       /* Bright Teal Blue - secondary */
+  --accent: #FF8C42;         /* Accent Orange */
+  --accent-light: #FFA366;
+  --accent-dark: #E67830;
+  --alice-blue: #E1EAEF;     /* Light background */
+  --azure-mist: #E9FCFE;     /* Light teal background */
+  --white: #FFFFFF;
   --black: #0D0D0D;
   
   /* Background gradients */
-  --warm-start: #f2f1ef;
-  --warm-mid: #f5f4f2;
-  --cream: #faf9f7;
-  --blue-tint: #f0f4fa;
-  --blue-wash: #e0e8f5;
-  --blue-soft: #c8d6ed;
+  --warm-start: #E1EAEF;
+  --warm-mid: #EDF3F6;
+  --cream: #F5F9FB;
+  --blue-tint: #E9FCFE;
+  --blue-wash: #D4EEF2;
+  --blue-soft: #B8DDE5;
 }
 
 @layer base {
@@ -45,13 +46,13 @@
   background: linear-gradient(180deg, var(--blue-tint) 0%, var(--blue-wash) 100%);
 }
 .gradient-section-4 {
-  background: linear-gradient(180deg, var(--blue-wash) 0%, var(--blue-soft) 30%, #a0b8d8 60%, #6080b0 85%, var(--blue-deep) 100%);
+  background: linear-gradient(180deg, var(--blue-wash) 0%, var(--blue-soft) 30%, #7BBAD0 60%, #4A98B8 85%, var(--blue-deep) 100%);
 }
 .gradient-section-5 {
   background: var(--blue-deep);
 }
 .gradient-section-6 {
-  background: linear-gradient(180deg, var(--blue-deep) 0%, #3a5a8a 30%, var(--blue-wash) 65%, var(--white) 100%);
+  background: linear-gradient(180deg, var(--blue-deep) 0%, #1A5A8A 30%, var(--blue-wash) 65%, var(--white) 100%);
 }
 .gradient-footer {
   background: var(--black);
@@ -59,10 +60,10 @@
 
 /* === GLASS CARD === */
 .glass-card {
-  background: rgba(254, 254, 254, 0.7);
+  background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(20px);
-  border: 1px solid rgba(254, 254, 254, 0.8);
-  box-shadow: 0 4px 30px rgba(25, 64, 128, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 30px rgba(13, 63, 114, 0.08);
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -70,18 +71,18 @@
 .card {
   background: var(--white);
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(25, 64, 128, 0.08);
+  box-shadow: 0 4px 20px rgba(13, 63, 114, 0.08);
   transition: all 0.3s ease;
 }
 .card:hover {
-  box-shadow: 0 8px 30px rgba(25, 64, 128, 0.12);
+  box-shadow: 0 8px 30px rgba(13, 63, 114, 0.12);
 }
 
 .card-dark {
   background: var(--blue-deep);
   color: white;
   border-radius: 16px;
-  box-shadow: 0 8px 30px rgba(25, 64, 128, 0.4);
+  box-shadow: 0 8px 30px rgba(13, 63, 114, 0.4);
 }
 
 /* === HOVER LIFT === */
@@ -90,12 +91,12 @@
 }
 .hover-lift:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 40px rgba(25, 64, 128, 0.15);
+  box-shadow: 0 12px 40px rgba(13, 63, 114, 0.15);
 }
 
 /* === TEXT === */
 .gradient-text {
-  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--gold-dark) 100%);
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 50%, var(--accent-dark) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -103,12 +104,12 @@
 
 /* === BUTTONS === */
 .btn-primary {
-  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
-  color: var(--black);
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-dark) 100%);
+  color: white;
   font-weight: 600;
   padding: 14px 28px;
   border-radius: 100px;
-  box-shadow: 0 4px 16px rgba(211, 177, 111, 0.35);
+  box-shadow: 0 4px 16px rgba(255, 140, 66, 0.35);
   transition: all 0.25s ease;
   display: inline-flex;
   align-items: center;
@@ -116,7 +117,7 @@
 }
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(211, 177, 111, 0.45);
+  box-shadow: 0 6px 24px rgba(255, 140, 66, 0.45);
 }
 
 .btn-secondary {
@@ -125,7 +126,7 @@
   font-weight: 600;
   padding: 14px 28px;
   border-radius: 100px;
-  box-shadow: 0 4px 16px rgba(25, 64, 128, 0.25);
+  box-shadow: 0 4px 16px rgba(13, 63, 114, 0.25);
   transition: all 0.25s ease;
   display: inline-flex;
   align-items: center;
@@ -133,7 +134,7 @@
 }
 .btn-secondary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 24px rgba(25, 64, 128, 0.35);
+  box-shadow: 0 6px 24px rgba(13, 63, 114, 0.35);
 }
 
 .btn-outline {
@@ -164,21 +165,21 @@
   justify-content: center;
 }
 .icon-circle-gold {
-  background: linear-gradient(135deg, var(--gold), var(--gold-dark));
+  background: linear-gradient(135deg, var(--accent), var(--accent-dark));
 }
 
 /* === NAV === */
 .nav-scrolled {
-  background: rgba(254, 254, 254, 0.95);
+  background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(20px);
-  box-shadow: 0 2px 20px rgba(25, 64, 128, 0.08);
+  box-shadow: 0 2px 20px rgba(13, 63, 114, 0.08);
 }
 
 /* === FORM === */
 .input {
   width: 100%;
   padding: 14px 18px;
-  background: var(--alabaster);
+  background: var(--alice-blue);
   border: 2px solid transparent;
   border-radius: 12px;
   font-size: 0.95rem;
@@ -186,7 +187,7 @@
 }
 .input:focus {
   outline: none;
-  border-color: var(--gold);
+  border-color: var(--accent);
   background: var(--white);
 }
 .input::placeholder {
@@ -273,6 +274,6 @@
   background: var(--blue-tint);
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, var(--gold), var(--blue-deep));
+  background: linear-gradient(180deg, var(--accent), var(--blue-deep));
   border-radius: 4px;
 }

@@ -120,34 +120,34 @@ export default function LoanProgramsPage() {
       {/* Hero */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-10 left-[5%] w-[500px] h-[500px] bg-gradient-to-br from-[#D3B16F]/20 to-[#5673A2]/10 rounded-full blur-[120px] animate-pulse" />
-          <div className="absolute bottom-0 right-[10%] w-[400px] h-[400px] bg-gradient-to-br from-[#194080]/15 to-transparent rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s' }} />
+          <div className="absolute top-10 left-[5%] w-[500px] h-[500px] bg-gradient-to-br from-[#FF8C42]/20 to-[#267AB1]/10 rounded-full blur-[120px] animate-pulse" />
+          <div className="absolute bottom-0 right-[10%] w-[400px] h-[400px] bg-gradient-to-br from-[#0D3F72]/15 to-transparent rounded-full blur-[100px] animate-pulse" style={{ animationDelay: '1s' }} />
         </div>
         
         <div className="absolute inset-0 opacity-[0.03]" style={{
-          backgroundImage: `linear-gradient(#194080 1px, transparent 1px), linear-gradient(90deg, #194080 1px, transparent 1px)`,
+          backgroundImage: `linear-gradient(#0D3F72 1px, transparent 1px), linear-gradient(90deg, #0D3F72 1px, transparent 1px)`,
           backgroundSize: '60px 60px'
         }} />
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
-            <div className="flex items-center gap-2 text-sm text-[#194080]/60 mb-4">
-              <Link href="/" className="hover:text-[#D3B16F] transition-colors">Home</Link>
+            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/60 mb-4">
+              <Link href="/" className="hover:text-[#FF8C42] transition-colors">Home</Link>
               <span>/</span>
-              <span className="text-[#D3B16F]">Loan Programs</span>
+              <span className="text-[#FF8C42]">Loan Programs</span>
             </div>
             
             <div className="max-w-3xl">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#194080]/10 to-[#194080]/5 rounded-full mb-6">
-                <Building2 className="w-4 h-4 text-[#194080]" />
-                <span className="text-sm font-medium text-[#194080]">10 Loan Types • ITIN & Non-QM Expert</span>
+              <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-[#0D3F72]/10 to-[#0D3F72]/5 rounded-full mb-6">
+                <Building2 className="w-4 h-4 text-[#0D3F72]" />
+                <span className="text-sm font-medium text-[#0D3F72]">10 Loan Types • ITIN & Non-QM Expert</span>
               </div>
               
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#194080] leading-tight mb-6">
-                Loan Programs for <span className="bg-gradient-to-r from-[#D3B16F] to-[#5673A2] bg-clip-text text-transparent">Every Situation</span>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0D3F72] leading-tight mb-6">
+                Loan Programs for <span className="bg-gradient-to-r from-[#FF8C42] to-[#267AB1] bg-clip-text text-transparent">Every Situation</span>
               </h1>
               
-              <p className="text-lg text-[#194080]/60 leading-relaxed mb-8">
+              <p className="text-lg text-[#0D3F72]/60 leading-relaxed mb-8">
                 ITIN, DSCR, Bank Statement, HELOC, Investor loans — we specialize in creative financing solutions. Traditional programs too. Let&apos;s find your path to homeownership.
               </p>
 
@@ -155,7 +155,7 @@ export default function LoanProgramsPage() {
                 <Link href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="btn-primary">
                   Get Pre-Approved <ArrowRight className="w-5 h-5" />
                 </Link>
-                <Link href="tel:+14046432230" className="btn-outline">
+                <Link href="tel:+19545550100" className="btn-outline">
                   Talk to an Expert
                 </Link>
               </div>
@@ -167,7 +167,7 @@ export default function LoanProgramsPage() {
       {/* Loan Programs Grid */}
       <section className="py-16 relative overflow-hidden">
         <div className="absolute inset-0 opacity-[0.04]" style={{
-          backgroundImage: `radial-gradient(#194080 2px, transparent 2px)`,
+          backgroundImage: `radial-gradient(#0D3F72 2px, transparent 2px)`,
           backgroundSize: '40px 40px'
         }} />
 
@@ -175,33 +175,33 @@ export default function LoanProgramsPage() {
           <div className="grid md:grid-cols-2 gap-6">
             {loanPrograms.map((program, i) => (
               <AnimatedSection key={program.title} delay={i * 80}>
-                <div className="group bg-white rounded-3xl p-8 shadow-lg border border-[#194080]/5 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 h-full">
+                <div className="group bg-white rounded-3xl p-8 shadow-lg border border-[#0D3F72]/5 hover:shadow-2xl hover:-translate-y-1 transition-all duration-500 h-full">
                   <div className="flex items-start gap-4 mb-6">
                     <div className={`w-14 h-14 rounded-2xl flex items-center justify-center flex-shrink-0 transition-transform duration-300 group-hover:scale-110 ${
                       program.color === 'gold' 
-                        ? 'bg-gradient-to-br from-[#D3B16F] to-[#5673A2]' 
-                        : 'bg-gradient-to-br from-[#194080] to-[#5673A2]'
+                        ? 'bg-gradient-to-br from-[#FF8C42] to-[#267AB1]' 
+                        : 'bg-gradient-to-br from-[#0D3F72] to-[#267AB1]'
                     }`}>
                       <program.icon className="w-7 h-7 text-white" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-[#194080] mb-1">{program.title}</h3>
-                      <p className="text-[#194080]/60 text-sm">{program.desc}</p>
+                      <h3 className="text-xl font-bold text-[#0D3F72] mb-1">{program.title}</h3>
+                      <p className="text-[#0D3F72]/60 text-sm">{program.desc}</p>
                     </div>
                   </div>
 
                   <ul className="space-y-3 mb-6">
                     {program.features.map((feature) => (
-                      <li key={feature} className="flex items-center gap-3 text-[#194080]/70 text-sm">
-                        <CheckCircle className="w-4 h-4 text-[#D3B16F] flex-shrink-0" />
+                      <li key={feature} className="flex items-center gap-3 text-[#0D3F72]/70 text-sm">
+                        <CheckCircle className="w-4 h-4 text-[#FF8C42] flex-shrink-0" />
                         {feature}
                       </li>
                     ))}
                   </ul>
 
-                  <div className="pt-4 border-t border-[#194080]/10">
-                    <p className="text-xs text-[#194080]/50 mb-1">Ideal for:</p>
-                    <p className="text-sm font-medium text-[#194080]">{program.ideal}</p>
+                  <div className="pt-4 border-t border-[#0D3F72]/10">
+                    <p className="text-xs text-[#0D3F72]/50 mb-1">Ideal for:</p>
+                    <p className="text-sm font-medium text-[#0D3F72]">{program.ideal}</p>
                   </div>
                 </div>
               </AnimatedSection>
@@ -212,7 +212,7 @@ export default function LoanProgramsPage() {
 
       {/* Why Choose Us */}
       <section className="py-20 relative overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-r from-[#194080] to-[#5673A2]" />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0D3F72] to-[#267AB1]" />
         <div className="absolute inset-0 opacity-10" style={{
           backgroundImage: `linear-gradient(45deg, transparent 40%, rgba(255,255,255,0.1) 50%, transparent 60%)`,
           backgroundSize: '20px 20px'
@@ -222,7 +222,7 @@ export default function LoanProgramsPage() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-                Why Choose <span className="text-[#D3B16F]">Ivan Ramirez?</span>
+                Why Choose <span className="text-[#FF8C42]">Cal Castells?</span>
               </h2>
               <p className="text-white/70 max-w-2xl mx-auto">
                 $100M+ in loans funded. Bilingual expert (Español/English) specializing in ITIN, DSCR, and Non-QM loans.
@@ -238,7 +238,7 @@ export default function LoanProgramsPage() {
             ].map((item, i) => (
               <AnimatedSection key={item.title} delay={i * 100}>
                 <div className="bg-white/10 backdrop-blur-sm rounded-2xl p-6 text-center hover:bg-white/20 transition-all duration-300">
-                  <div className="w-14 h-14 bg-gradient-to-br from-[#D3B16F] to-[#5673A2] rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <div className="w-14 h-14 bg-gradient-to-br from-[#FF8C42] to-[#267AB1] rounded-2xl flex items-center justify-center mx-auto mb-4">
                     <item.icon className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-lg font-bold text-white mb-2">{item.title}</h3>
@@ -254,7 +254,7 @@ export default function LoanProgramsPage() {
                 href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#D3B16F] to-[#5673A2] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gradient-to-r from-[#FF8C42] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
                 Find Your Loan Program <ArrowRight className="w-5 h-5" />
               </Link>

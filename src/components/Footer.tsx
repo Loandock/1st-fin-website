@@ -15,11 +15,8 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-4 mb-6">
-              <div className="relative w-20 h-20">
-                <Image src="/logo.svg" alt="IR Mortgages" fill className="object-contain" />
-              </div>
               <span className="text-2xl font-bold">
-                IR <span className="text-[#D3B16F]">Mortgages</span>
+                1st Financial <span className="text-[#FF8C42]">Mortgage</span>
               </span>
             </Link>
             
@@ -34,13 +31,13 @@ export function Footer() {
                 </svg>
               </div>
               <div className="text-sm">
-                <p className="font-semibold mb-1">Guaranteed Rate, Inc</p>
-                <p className="text-white/60 text-xs mb-1">DBA Certainty Home Lending</p>
-                <p className="text-white/60 mb-1">1735 North Brown Road</p>
-                <p className="text-white/60 mb-1">Suite 180</p>
-                <p className="text-white/60 mb-1">Lawrenceville, GA 30043</p>
-                <p className="text-white/60">NMLS #2611</p>
-                <p className="text-white/60">LO NMLS #2059278</p>
+                <p className="font-semibold mb-1">1st Financial Mortgage</p>
+                <p className="text-white/60 text-xs mb-1">Miramar Branch</p>
+                <p className="text-white/60 mb-1">1911 NW 150th Ave</p>
+                <p className="text-white/60 mb-1">Suite #104</p>
+                <p className="text-white/60 mb-1">Pembroke Pines, FL 33028</p>
+                <p className="text-white/60">Branch NMLS #1620197</p>
+                <p className="text-white/60">Company NMLS #185076</p>
               </div>
             </div>
 
@@ -63,12 +60,12 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="text-white/60 hover:text-[#D3B16F] transition-colors">Home</Link></li>
-              <li><Link href="/loan-programs" className="text-white/60 hover:text-[#D3B16F] transition-colors">Loan Programs</Link></li>
-              <li><Link href="/loan-process" className="text-white/60 hover:text-[#D3B16F] transition-colors">Loan Process</Link></li>
-              <li><Link href="/calculator" className="text-white/60 hover:text-[#D3B16F] transition-colors">Mortgage Calculator</Link></li>
-              <li><Link href="/first-time-homebuyers" className="text-white/60 hover:text-[#D3B16F] transition-colors">First-Time Buyers</Link></li>
-              <li><Link href="/down-payment-assistance" className="text-white/60 hover:text-[#D3B16F] transition-colors">Down Payment Help</Link></li>
+              <li><Link href="/" className="text-white/60 hover:text-[#FF8C42] transition-colors">Home</Link></li>
+              <li><Link href="/loan-programs" className="text-white/60 hover:text-[#FF8C42] transition-colors">Loan Programs</Link></li>
+              <li><Link href="/loan-process" className="text-white/60 hover:text-[#FF8C42] transition-colors">Loan Process</Link></li>
+              <li><Link href="/calculator" className="text-white/60 hover:text-[#FF8C42] transition-colors">Mortgage Calculator</Link></li>
+              <li><Link href="/first-time-homebuyers" className="text-white/60 hover:text-[#FF8C42] transition-colors">First-Time Buyers</Link></li>
+              <li><Link href="/down-payment-assistance" className="text-white/60 hover:text-[#FF8C42] transition-colors">Down Payment Help</Link></li>
             </ul>
           </div>
 
@@ -77,23 +74,23 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#D3B16F] transition-colors">
+                <a href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#FF8C42] transition-colors">
                   Apply for a Mortgage
                 </a>
               </li>
               <li>
-                <a href="https://nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#D3B16F] transition-colors">
+                <a href="https://nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#FF8C42] transition-colors">
                   NMLS Consumer Access
                 </a>
               </li>
               <li>
-                <a href="https://www.consumerfinance.gov/owning-a-home/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#D3B16F] transition-colors">
+                <a href="https://www.consumerfinance.gov/owning-a-home/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#FF8C42] transition-colors">
                   CFPB Homebuying Guide
                 </a>
               </li>
               <li>
-                <a href="https://www.dca.ga.gov/safe-affordable-housing/homeownership-programs" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#D3B16F] transition-colors">
-                  Georgia Housing Programs
+                <a href="https://www.floridahousing.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#FF8C42] transition-colors">
+                  Florida Housing Programs
                 </a>
               </li>
             </ul>
@@ -104,21 +101,21 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="tel:+14046432230" className="flex items-center gap-2 text-white/60 hover:text-[#D3B16F] transition-colors">
-                  <Phone className="w-4 h-4 text-[#D3B16F]" />
-                  (404) 643-2230
+                <a href="tel:+19545550100" className="flex items-center gap-2 text-white/60 hover:text-[#FF8C42] transition-colors">
+                  <Phone className="w-4 h-4 text-[#FF8C42]" />
+                  (954) 555-0100
                 </a>
               </li>
               <li>
-                <a href="mailto:ivan@irmortgages.com" className="flex items-center gap-2 text-white/60 hover:text-[#D3B16F] transition-colors">
-                  <Mail className="w-4 h-4 text-[#D3B16F]" />
-                  ivan@irmortgages.com
+                <a href="mailto:info@1stfinmiramar.com" className="flex items-center gap-2 text-white/60 hover:text-[#FF8C42] transition-colors">
+                  <Mail className="w-4 h-4 text-[#FF8C42]" />
+                  info@1stfinmiramar.com
                 </a>
               </li>
               <li>
                 <div className="flex items-start gap-2 text-white/60">
-                  <MapPin className="w-4 h-4 text-[#D3B16F] flex-shrink-0 mt-0.5" />
-                  <span>1735 North Brown Road<br />Suite 180<br />Lawrenceville, GA 30043</span>
+                  <MapPin className="w-4 h-4 text-[#FF8C42] flex-shrink-0 mt-0.5" />
+                  <span>1911 NW 150th Ave<br />Suite #104<br />Pembroke Pines, FL 33028</span>
                 </div>
               </li>
             </ul>
@@ -128,30 +125,33 @@ export function Footer() {
         {/* Legal Links */}
         <div className="border-t border-white/10 pt-6 pb-6">
           <div className="flex flex-wrap justify-center items-center gap-3 text-xs">
-            <Link href="/privacy-policy" className="text-white/50 hover:text-[#D3B16F] transition-colors">Privacy Policy</Link>
+            <Link href="/privacy-policy" className="text-white/50 hover:text-[#FF8C42] transition-colors">Privacy Policy</Link>
             <span className="text-white/20">|</span>
-            <Link href="/terms-of-service" className="text-white/50 hover:text-[#D3B16F] transition-colors">Terms of Service</Link>
+            <Link href="/terms-of-service" className="text-white/50 hover:text-[#FF8C42] transition-colors">Terms of Service</Link>
             <span className="text-white/20">|</span>
-            <Link href="/sms-policy" className="text-white/50 hover:text-[#D3B16F] transition-colors">SMS Policy</Link>
+            <Link href="/sms-policy" className="text-white/50 hover:text-[#FF8C42] transition-colors">SMS Policy</Link>
             <span className="text-white/20">|</span>
-            <Link href="/legal-disclaimer" className="text-white/50 hover:text-[#D3B16F] transition-colors">Legal Disclaimer</Link>
+            <Link href="/legal-disclaimer" className="text-white/50 hover:text-[#FF8C42] transition-colors">Legal Disclaimer</Link>
             <span className="text-white/20">|</span>
-            <Link href="/licensing" className="text-white/50 hover:text-[#D3B16F] transition-colors">Licensing</Link>
+            <Link href="/licensing" className="text-white/50 hover:text-[#FF8C42] transition-colors">Licensing</Link>
             <span className="text-white/20">|</span>
-            <Link href="/accessibility" className="text-white/50 hover:text-[#D3B16F] transition-colors">Accessibility</Link>
+            <Link href="/accessibility" className="text-white/50 hover:text-[#FF8C42] transition-colors">Accessibility</Link>
           </div>
         </div>
 
         {/* Copyright */}
         <div className="border-t border-white/10 pt-6">
           <p className="text-xs text-white/40 text-center mb-2">
-            Ivan Ramirez is a licensed Loan Originator (NMLS #2059278) with Guaranteed Rate, Inc DBA Certainty Home Lending (NMLS #2611).
+            1st Financial Mortgage - Miramar Branch (NMLS #1620197). 1st Financial Mortgage Company NMLS #185076.
           </p>
           <p className="text-xs text-white/40 text-center mb-2">
-            For licensing information, go to: <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-[#D3B16F] hover:underline">www.nmlsconsumeraccess.org</a>
+            Cal Castells - Branch Manager (NMLS #1101261) | Jose Ramirez - Sales Manager (NMLS #1057601)
+          </p>
+          <p className="text-xs text-white/40 text-center mb-2">
+            For licensing information, go to: <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="text-[#FF8C42] hover:underline">www.nmlsconsumeraccess.org</a>
           </p>
           <p className="text-xs text-white/40 text-center">
-            © {new Date().getFullYear()} Ivan Ramirez. All Rights Reserved. Equal Housing Lender.
+            © {new Date().getFullYear()} 1st Financial Mortgage. All Rights Reserved. Equal Housing Lender.
           </p>
         </div>
       </div>
