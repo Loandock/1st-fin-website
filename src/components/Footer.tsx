@@ -68,9 +68,9 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#267AB1] transition-colors">
-                  Apply for a Mortgage
-                </a>
+                <Link href="/calculator" className="text-white/60 hover:text-[#267AB1] transition-colors">
+                  Mortgage Calculator
+                </Link>
               </li>
               <li>
                 <a href="https://nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#267AB1] transition-colors">

@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { GetStartedModal } from '@/components/GetStartedModal';
 import { 
   ArrowRight, CheckCircle, FileText, CreditCard, ClipboardCheck,
   Calculator, Users, Search, Key, Phone, MessageSquare, Home,
@@ -46,6 +47,8 @@ const processSteps = [
 ];
 
 export default function LoanProcessPage() {
+  const [modalOpen, setModalOpen] = useState(false);
+  
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
@@ -86,9 +89,9 @@ export default function LoanProcessPage() {
                 </p>
 
                 <div className="flex flex-wrap gap-4">
-                  <Link href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="btn-primary">
-                    Start Step 1 <ArrowRight className="w-5 h-5" />
-                  </Link>
+                  <button onClick={() => setModalOpen(true)} className="btn-primary">
+                    Get Started <ArrowRight className="w-5 h-5" />
+                  </button>
                   <Link href="tel:+17862628718" className="btn-outline">
                     <Phone className="w-4 h-4" /> Call Us
                   </Link>
@@ -183,14 +186,12 @@ export default function LoanProcessPage() {
               Take the first step today. Get pre-approved and know exactly where you stand.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link 
-                href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button 
+                onClick={() => setModalOpen(true)}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
-                Start Your Application <ArrowRight className="w-5 h-5" />
-              </Link>
+                Get Started <ArrowRight className="w-5 h-5" />
+              </button>
               <Link 
                 href="tel:+17862628718"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300"
@@ -203,6 +204,8 @@ export default function LoanProcessPage() {
       </section>
 
       <Footer />
+      
+      <GetStartedModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </div>
   );
 }

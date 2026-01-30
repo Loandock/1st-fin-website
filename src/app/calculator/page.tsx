@@ -4,13 +4,12 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
-import { ConsentModal } from '@/components/ConsentModal';
+import { GetStartedModal } from '@/components/GetStartedModal';
 import { 
   Calculator, DollarSign, Percent, Calendar, ArrowRight,
   Home, TrendingUp, Shield, PiggyBank
 } from 'lucide-react';
 
-const APPLICATION_URL = "https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605";
 
 // Animation hook
 function useScrollAnimation() {
@@ -313,10 +312,9 @@ export default function CalculatorPage() {
 
       <Footer />
 
-      <ConsentModal
+      <GetStartedModal
         isOpen={consentModalOpen}
         onClose={() => setConsentModalOpen(false)}
-        redirectUrl={APPLICATION_URL}
       />
     </div>
   );

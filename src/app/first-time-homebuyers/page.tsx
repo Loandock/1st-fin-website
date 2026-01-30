@@ -4,14 +4,13 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
-import { ConsentModal } from '@/components/ConsentModal';
+import { GetStartedModal } from '@/components/GetStartedModal';
 import { 
   ArrowRight, CheckCircle, Key, FileText, Users, Heart, Shield,
   Sparkles, Clock, Target, BookOpen, Home, Phone,
   GraduationCap, Lightbulb
 } from 'lucide-react';
 
-const APPLICATION_URL = "https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605";
 
 function useScrollAnimation() {
   const ref = useRef<HTMLDivElement>(null);
@@ -47,6 +46,8 @@ const resources = [
 ];
 
 export default function FirstTimeHomebuyersPage() {
+  const [modalOpen, setModalOpen] = useState(false);
+  
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
@@ -86,9 +87,9 @@ export default function FirstTimeHomebuyersPage() {
               </p>
 
               <div className="flex flex-wrap gap-4">
-                <Link href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="btn-primary">
+                <button onClick={() => setModalOpen(true)} className="btn-primary">
                   Get Pre-Approved <ArrowRight className="w-5 h-5" />
-                </Link>
+                </button>
                 <Link href="tel:+17862628718" className="btn-outline">
                   <Phone className="w-4 h-4" /> Contact Us
                 </Link>
@@ -230,14 +231,12 @@ export default function FirstTimeHomebuyersPage() {
               Take the first step today. We'll guide you through every part of the process.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link 
-                href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button 
+                onClick={() => setModalOpen(true)}
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
-                Start Your Application <ArrowRight className="w-5 h-5" />
-              </Link>
+                Get Started <ArrowRight className="w-5 h-5" />
+              </button>
               <Link 
                 href="tel:+17862628718"
                 className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/10 text-white font-semibold rounded-xl hover:bg-white/20 transition-all duration-300"
@@ -250,6 +249,8 @@ export default function FirstTimeHomebuyersPage() {
       </section>
 
       <Footer />
+      
+      <GetStartedModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </div>
   );
 }

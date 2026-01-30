@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+import { GetStartedModal } from '@/components/GetStartedModal';
 import { 
   ArrowRight, CheckCircle, Building2, Shield, Users, DollarSign,
   TrendingUp, Wallet, Key, BadgeCheck, Home, Sparkles
@@ -113,6 +114,8 @@ const loanPrograms = [
 ];
 
 export default function LoanProgramsPage() {
+  const [modalOpen, setModalOpen] = useState(false);
+  
   return (
     <div className="min-h-screen bg-gradient-to-b from-[#E1EAEF] via-white to-[#E9FCFE]">
       <Navbar />
@@ -152,9 +155,9 @@ export default function LoanProgramsPage() {
               </p>
 
               <div className="flex flex-wrap gap-4">
-                <Link href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605" target="_blank" rel="noopener noreferrer" className="btn-primary">
-                  Get Pre-Approved <ArrowRight className="w-5 h-5" />
-                </Link>
+                <button onClick={() => setModalOpen(true)} className="btn-primary">
+                  Get Started <ArrowRight className="w-5 h-5" />
+                </button>
                 <Link href="tel:+17862628718" className="btn-outline">
                   Talk to an Expert
                 </Link>
@@ -250,20 +253,20 @@ export default function LoanProgramsPage() {
 
           <AnimatedSection delay={300}>
             <div className="mt-12 text-center">
-              <Link 
-                href="https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605"
-                target="_blank"
-                rel="noopener noreferrer"
+              <button 
+                onClick={() => setModalOpen(true)}
                 className="inline-flex items-center gap-2 px-8 py-4 bg-white text-[#0D3F72] font-semibold rounded-xl hover:shadow-lg hover:scale-105 transition-all duration-300"
               >
                 Find Your Loan Program <ArrowRight className="w-5 h-5" />
-              </Link>
+              </button>
             </div>
           </AnimatedSection>
         </div>
       </section>
 
       <Footer />
+      
+      <GetStartedModal isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </div>
   );
 }

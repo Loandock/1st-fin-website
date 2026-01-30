@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
-import { ConsentModal } from '@/components/ConsentModal';
+import { GetStartedModal } from '@/components/GetStartedModal';
 import { 
   ArrowLeft, 
   Briefcase, 
@@ -26,7 +26,6 @@ import {
   Sparkles
 } from 'lucide-react';
 
-const APPLICATION_URL = "https://apply.certaintyhomelending.com/apply/loan-purpose?emp-id=38605";
 
 // Scroll animation hook
 function useScrollAnimation() {
@@ -495,10 +494,9 @@ export default function AboutPage() {
 
       <Footer />
 
-      <ConsentModal
+      <GetStartedModal
         isOpen={consentModalOpen}
         onClose={() => setConsentModalOpen(false)}
-        redirectUrl={APPLICATION_URL}
       />
     </div>
   );
