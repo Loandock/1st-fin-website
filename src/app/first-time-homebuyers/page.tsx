@@ -66,7 +66,7 @@ export default function FirstTimeHomebuyersPage() {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
-            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/60 mb-4">
+            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/75 mb-4">
               <Link href="/" className="hover:text-[#267AB1] transition-colors">Home</Link>
               <span>/</span>
               <span className="text-[#267AB1]">First-Time Homebuyers</span>
@@ -82,7 +82,7 @@ export default function FirstTimeHomebuyersPage() {
                 First-Time <span className="bg-gradient-to-r from-[#267AB1] to-[#267AB1] bg-clip-text text-transparent">Homebuyer</span> Guide
               </h1>
               
-              <p className="text-lg text-[#0D3F72]/60 leading-relaxed mb-8">
+              <p className="text-lg text-[#0D3F72]/75 leading-relaxed mb-8">
                 Buying your first home is exciting — and we're here to make it less overwhelming. From pre-approval to closing, the 1st Financial Mortgage guides you every step of the way.
               </p>
 
@@ -107,7 +107,7 @@ export default function FirstTimeHomebuyersPage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
                 Why Work With <span className="text-[#267AB1]">Us?</span>
               </h2>
-              <p className="text-[#0D3F72]/60 max-w-2xl mx-auto">
+              <p className="text-[#0D3F72]/75 max-w-2xl mx-auto">
                 First-time buyers need extra care. Here's what sets us apart.
               </p>
             </div>
@@ -126,7 +126,7 @@ export default function FirstTimeHomebuyersPage() {
                     <item.icon className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-lg font-bold text-[#0D3F72] mb-2">{item.title}</h3>
-                  <p className="text-sm text-[#0D3F72]/60">{item.desc}</p>
+                  <p className="text-sm text-[#0D3F72]/75">{item.desc}</p>
                 </div>
               </AnimatedSection>
             ))}
@@ -148,7 +148,7 @@ export default function FirstTimeHomebuyersPage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
                 5 Steps to <span className="text-[#267AB1]">Your First Home</span>
               </h2>
-              <p className="text-[#0D3F72]/60 max-w-2xl mx-auto">
+              <p className="text-[#0D3F72]/75 max-w-2xl mx-auto">
                 The homebuying journey simplified into five clear milestones.
               </p>
             </div>
@@ -170,7 +170,7 @@ export default function FirstTimeHomebuyersPage() {
                         <step.icon className="w-5 h-5 text-[#0D3F72]" />
                       </div>
                       <h3 className="text-lg font-bold text-[#0D3F72] mb-2">{step.title}</h3>
-                      <p className="text-sm text-[#0D3F72]/60">{step.desc}</p>
+                      <p className="text-sm text-[#0D3F72]/75">{step.desc}</p>
                     </div>
                   </div>
                 </AnimatedSection>
@@ -188,7 +188,7 @@ export default function FirstTimeHomebuyersPage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
                 Helpful <span className="text-[#267AB1]">Resources</span>
               </h2>
-              <p className="text-[#0D3F72]/60">
+              <p className="text-[#0D3F72]/75">
                 Tools and information to help you prepare.
               </p>
             </div>
@@ -202,7 +202,7 @@ export default function FirstTimeHomebuyersPage() {
                     <item.icon className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-[#0D3F72] mb-2 group-hover:text-[#267AB1] transition-colors">{item.title}</h3>
-                  <p className="text-[#0D3F72]/60 mb-4">{item.desc}</p>
+                  <p className="text-[#0D3F72]/75 mb-4">{item.desc}</p>
                   <span className="text-[#267AB1] font-semibold inline-flex items-center gap-1 group-hover:gap-2 transition-all">
                     Learn More <ArrowRight className="w-4 h-4" />
                   </span>
@@ -225,7 +225,7 @@ export default function FirstTimeHomebuyersPage() {
           <AnimatedSection>
             <Lightbulb className="w-16 h-16 text-[#267AB1] mx-auto mb-6" />
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Make <span className="text-[#B8C5D0]">Homeownership</span> a Reality?
+              Ready to Make <span className="text-[#7BBAD0]">Homeownership</span> a Reality?
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Take the first step today. We'll guide you through every part of the process.

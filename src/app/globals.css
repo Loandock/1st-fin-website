@@ -105,7 +105,7 @@
 
 /* === TEXT === */
 .gradient-text {
-  background: linear-gradient(135deg, var(--blue-mid) 0%, var(--accent) 50%, var(--silver) 100%);
+  background: linear-gradient(135deg, var(--blue-mid) 0%, var(--accent) 60%, var(--blue-deep) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -273,6 +273,19 @@
 }
 .animation-delay-1000 {
   animation-delay: 1000ms;
+}
+
+/* === GET STARTED GLOW PULSE === */
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 4px 20px rgba(38, 122, 177, 0.45);
+  }
+  50% {
+    box-shadow: 0 4px 30px rgba(38, 122, 177, 0.7), 0 0 40px rgba(38, 122, 177, 0.25);
+  }
+}
+.animate-glow-pulse {
+  animation: glow-pulse 2.5s ease-in-out infinite;
 }
 
 /* === SCROLLBAR === */

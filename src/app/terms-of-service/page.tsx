@@ -23,7 +23,7 @@ export default function TermsOfServicePage() {
             Terms of Service
           </h1>
           
-          <p className="text-sm text-[#0D3F72]/50 mb-8">
+          <p className="text-sm text-[#0D3F72]/70 mb-8">
             Last Updated: January 28, 2026
           </p>
 

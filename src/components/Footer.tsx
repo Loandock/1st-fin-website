@@ -32,12 +32,12 @@ export function Footer() {
               </div>
               <div className="text-sm">
                 <p className="font-semibold mb-1">1st Financial Mortgage</p>
-                <p className="text-white/60 text-xs mb-1">Miramar Branch</p>
-                <p className="text-white/60 mb-1">1911 NW 150th Ave</p>
-                <p className="text-white/60 mb-1">Suite #104</p>
-                <p className="text-white/60 mb-1">Pembroke Pines, FL 33028</p>
-                <p className="text-white/60">Branch NMLS #1620197</p>
-                <p className="text-white/60">Company NMLS #185076</p>
+                <p className="text-white/80 text-xs mb-1">Miramar Branch</p>
+                <p className="text-white/80 mb-1">1911 NW 150th Ave</p>
+                <p className="text-white/80 mb-1">Suite #104</p>
+                <p className="text-white/80 mb-1">Pembroke Pines, FL 33028</p>
+                <p className="text-white/80">Branch NMLS #1620197</p>
+                <p className="text-white/80">Company NMLS #185076</p>
               </div>
             </div>
 
@@ -55,11 +55,11 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/" className="text-white/60 hover:text-[#267AB1] transition-colors">Home</Link></li>
-              <li><Link href="/loan-programs" className="text-white/60 hover:text-[#267AB1] transition-colors">Loan Programs</Link></li>
-              <li><Link href="/loan-process" className="text-white/60 hover:text-[#267AB1] transition-colors">Loan Process</Link></li>
-              <li><Link href="/calculator" className="text-white/60 hover:text-[#267AB1] transition-colors">Mortgage Calculator</Link></li>
-              <li><Link href="/first-time-homebuyers" className="text-white/60 hover:text-[#267AB1] transition-colors">First-Time Buyers</Link></li>
+              <li><Link href="/" className="text-white/80 hover:text-[#267AB1] transition-colors">Home</Link></li>
+              <li><Link href="/loan-programs" className="text-white/80 hover:text-[#267AB1] transition-colors">Loan Programs</Link></li>
+              <li><Link href="/loan-process" className="text-white/80 hover:text-[#267AB1] transition-colors">Loan Process</Link></li>
+              <li><Link href="/calculator" className="text-white/80 hover:text-[#267AB1] transition-colors">Mortgage Calculator</Link></li>
+              <li><Link href="/first-time-homebuyers" className="text-white/80 hover:text-[#267AB1] transition-colors">First-Time Buyers</Link></li>
             </ul>
           </div>
 
@@ -68,22 +68,22 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Resources</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/calculator" className="text-white/60 hover:text-[#267AB1] transition-colors">
+                <Link href="/calculator" className="text-white/80 hover:text-[#267AB1] transition-colors">
                   Mortgage Calculator
                 </Link>
               </li>
               <li>
-                <a href="https://nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#267AB1] transition-colors">
+                <a href="https://nmlsconsumeraccess.org/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#267AB1] transition-colors">
                   NMLS Consumer Access
                 </a>
               </li>
               <li>
-                <a href="https://www.consumerfinance.gov/owning-a-home/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#267AB1] transition-colors">
+                <a href="https://www.consumerfinance.gov/owning-a-home/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#267AB1] transition-colors">
                   CFPB Homebuying Guide
                 </a>
               </li>
               <li>
-                <a href="https://www.floridahousing.org/" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-[#267AB1] transition-colors">
+                <a href="https://www.floridahousing.org/" target="_blank" rel="noopener noreferrer" className="text-white/80 hover:text-[#267AB1] transition-colors">
                   Florida Housing Programs
                 </a>
               </li>
@@ -95,25 +95,25 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
             <ul className="space-y-3 text-sm">
               <li>
-                <a href="tel:+17862628718" className="flex items-center gap-2 text-white/60 hover:text-[#267AB1] transition-colors">
+                <a href="tel:+17862628718" className="flex items-center gap-2 text-white/80 hover:text-[#267AB1] transition-colors">
                   <Phone className="w-4 h-4 text-[#267AB1]" />
                   (786) 262-8718
                 </a>
               </li>
               <li>
-                <a href="mailto:cal@mortgagefellas.com" className="flex items-center gap-2 text-white/60 hover:text-[#267AB1] transition-colors">
+                <a href="mailto:cal@mortgagefellas.com" className="flex items-center gap-2 text-white/80 hover:text-[#267AB1] transition-colors">
                   <Mail className="w-4 h-4 text-[#267AB1]" />
                   cal@mortgagefellas.com
                 </a>
               </li>
               <li>
-                <a href="mailto:jose@mortgagefellas.com" className="flex items-center gap-2 text-white/60 hover:text-[#267AB1] transition-colors">
+                <a href="mailto:jose@mortgagefellas.com" className="flex items-center gap-2 text-white/80 hover:text-[#267AB1] transition-colors">
                   <Mail className="w-4 h-4 text-[#267AB1]" />
                   jose@mortgagefellas.com
                 </a>
               </li>
               <li>
-                <div className="flex items-start gap-2 text-white/60">
+                <div className="flex items-start gap-2 text-white/80">
                   <MapPin className="w-4 h-4 text-[#267AB1] flex-shrink-0 mt-0.5" />
                   <span>1911 NW 150th Ave<br />Suite #104<br />Pembroke Pines, FL 33028</span>
                 </div>

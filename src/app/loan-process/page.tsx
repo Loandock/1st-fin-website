@@ -67,7 +67,7 @@ export default function LoanProcessPage() {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
-            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/60 mb-4">
+            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/75 mb-4">
               <Link href="/" className="hover:text-[#267AB1] transition-colors">Home</Link>
               <span>/</span>
               <span className="text-[#267AB1]">Loan Process</span>
@@ -84,7 +84,7 @@ export default function LoanProcessPage() {
                   Your Path to <span className="bg-gradient-to-r from-[#267AB1] to-[#267AB1] bg-clip-text text-transparent">Homeownership</span>
                 </h1>
                 
-                <p className="text-lg text-[#0D3F72]/60 leading-relaxed mb-8">
+                <p className="text-lg text-[#0D3F72]/75 leading-relaxed mb-8">
                   The mortgage process doesn't have to be confusing. We break it down into clear, manageable steps and guide you every step of the way.
                 </p>
 
@@ -108,7 +108,7 @@ export default function LoanProcessPage() {
                       </div>
                       <div>
                         <p className="text-2xl font-bold text-[#0D3F72]">30-45 Days</p>
-                        <p className="text-sm text-[#0D3F72]/60">Average closing time</p>
+                        <p className="text-sm text-[#0D3F72]/75">Average closing time</p>
                       </div>
                     </div>
                     <div className="space-y-3">
@@ -140,7 +140,7 @@ export default function LoanProcessPage() {
               <h2 className="text-3xl lg:text-4xl font-bold text-[#0D3F72] mb-4">
                 The Complete <span className="text-[#267AB1]">Mortgage Journey</span>
               </h2>
-              <p className="text-[#0D3F72]/60 max-w-2xl mx-auto">
+              <p className="text-[#0D3F72]/75 max-w-2xl mx-auto">
                 From first call to closing day, here's exactly what to expect when working with the 1st Financial Mortgage.
               </p>
             </div>
@@ -160,7 +160,7 @@ export default function LoanProcessPage() {
                       <item.icon className="w-6 h-6 text-[#0D3F72]" />
                     </div>
                     <h3 className="text-lg font-bold text-[#0D3F72] mb-2">{item.title}</h3>
-                    <p className="text-sm text-[#0D3F72]/60">{item.desc}</p>
+                    <p className="text-sm text-[#0D3F72]/75">{item.desc}</p>
                   </div>
                 </div>
               </AnimatedSection>
@@ -180,7 +180,7 @@ export default function LoanProcessPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10 text-center">
           <AnimatedSection>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Ready to Begin <span className="text-[#B8C5D0]">Your Journey?</span>
+              Ready to Begin <span className="text-[#7BBAD0]">Your Journey?</span>
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Take the first step today. Get pre-approved and know exactly where you stand.

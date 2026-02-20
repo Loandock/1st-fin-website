@@ -134,7 +134,7 @@ export default function LoanProgramsPage() {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
-            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/60 mb-4">
+            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/75 mb-4">
               <Link href="/" className="hover:text-[#267AB1] transition-colors">Home</Link>
               <span>/</span>
               <span className="text-[#267AB1]">Loan Programs</span>
@@ -150,7 +150,7 @@ export default function LoanProgramsPage() {
                 Loan Programs for <span className="bg-gradient-to-r from-[#267AB1] to-[#267AB1] bg-clip-text text-transparent">Every Situation</span>
               </h1>
               
-              <p className="text-lg text-[#0D3F72]/60 leading-relaxed mb-8">
+              <p className="text-lg text-[#0D3F72]/75 leading-relaxed mb-8">
                 ITIN, DSCR, Bank Statement, HELOC, Investor loans — we specialize in creative financing solutions. Traditional programs too. Let&apos;s find your path to homeownership.
               </p>
 
@@ -189,7 +189,7 @@ export default function LoanProgramsPage() {
                     </div>
                     <div>
                       <h3 className="text-xl font-bold text-[#0D3F72] mb-1">{program.title}</h3>
-                      <p className="text-[#0D3F72]/60 text-sm">{program.desc}</p>
+                      <p className="text-[#0D3F72]/75 text-sm">{program.desc}</p>
                     </div>
                   </div>
 
@@ -203,7 +203,7 @@ export default function LoanProgramsPage() {
                   </ul>
 
                   <div className="pt-4 border-t border-[#0D3F72]/10">
-                    <p className="text-xs text-[#0D3F72]/50 mb-1">Ideal for:</p>
+                    <p className="text-xs text-[#0D3F72]/70 mb-1">Ideal for:</p>
                     <p className="text-sm font-medium text-[#0D3F72]">{program.ideal}</p>
                   </div>
                 </div>
@@ -225,7 +225,7 @@ export default function LoanProgramsPage() {
           <AnimatedSection>
             <div className="text-center mb-12">
               <h2 className="text-3xl lg:text-4xl font-bold text-white mb-4">
-                Why Choose <span className="text-[#B8C5D0]">The Mortgage Fellas?</span>
+                Why Choose <span className="text-[#7BBAD0]">The Mortgage Fellas?</span>
               </h2>
               <p className="text-white/70 max-w-2xl mx-auto">
                 $100M+ in loans funded. Bilingual experts (Español/English) specializing in ITIN, DSCR, and Non-QM loans.

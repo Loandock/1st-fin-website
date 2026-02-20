@@ -219,7 +219,7 @@ export default function AboutPage() {
                 Bilingual Mortgage Experts • Español/English
               </p>
               
-              <p className="text-lg text-white/60 mb-8 max-w-2xl mx-auto lg:mx-0">
+              <p className="text-lg text-white/80 mb-8 max-w-2xl mx-auto lg:mx-0">
                 Serving Broward County & South Florida | Passionate About Homeownership
               </p>
 
@@ -313,7 +313,7 @@ export default function AboutPage() {
                       <div>
                         <h3 className="text-2xl font-bold text-[#0D3F72]">{member.name}</h3>
                         <p className="text-[#267AB1] font-semibold">{member.title}</p>
-                        <p className="text-sm text-[#0D3F72]/60">NMLS #{member.nmls}</p>
+                        <p className="text-sm text-[#0D3F72]/75">NMLS #{member.nmls}</p>
                       </div>
                     </div>
                     
@@ -353,7 +353,7 @@ export default function AboutPage() {
                     </div>
                     <div>
                       <h3 className="font-bold text-white mb-0.5">{item.title}</h3>
-                      <p className="text-sm text-white/60">{item.desc}</p>
+                      <p className="text-sm text-white/80">{item.desc}</p>
                     </div>
                   </div>
                 ))}
@@ -425,7 +425,7 @@ export default function AboutPage() {
                   <div>
                     <h3 className="text-lg font-bold text-[#0D3F72]">Branch NMLS</h3>
                     <p className="text-[#267AB1] font-semibold">#1620197</p>
-                    <p className="text-sm text-[#0D3F72]/60">Miramar Branch</p>
+                    <p className="text-sm text-[#0D3F72]/75">Miramar Branch</p>
                   </div>
                 </div>
 
@@ -436,7 +436,7 @@ export default function AboutPage() {
                   <div>
                     <h3 className="text-lg font-bold text-[#0D3F72]">Company NMLS</h3>
                     <p className="text-[#267AB1] font-semibold">#185076</p>
-                    <p className="text-sm text-[#0D3F72]/60">1st Financial Mortgage</p>
+                    <p className="text-sm text-[#0D3F72]/75">1st Financial Mortgage</p>
                   </div>
                 </div>
               </div>
@@ -484,7 +484,7 @@ export default function AboutPage() {
           {/* Disclaimer */}
           <AnimatedSection>
             <div className="mt-12 p-6 bg-gray-50 rounded-2xl border border-gray-200">
-              <p className="text-xs text-[#0D3F72]/50 text-center leading-relaxed">
+              <p className="text-xs text-[#0D3F72]/70 text-center leading-relaxed">
                 Applicant subject to credit and underwriting approval. Not all applicants will be approved for financing. Receipt of application does not represent an approval for financing or interest rate guarantee. Refinancing your mortgage may increase costs over the term of your loan. Restrictions may apply.
               </p>
             </div>

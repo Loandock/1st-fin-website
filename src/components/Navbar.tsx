@@ -140,7 +140,7 @@ export function Navbar() {
                         </div>
                         <div className="flex-1 min-w-0">
                           <p className="font-semibold text-[#0D3F72] text-sm group-hover:text-[#267AB1] transition-colors">{link.name}</p>
-                          <p className="text-xs text-[#0D3F72]/50 truncate">{link.desc}</p>
+                          <p className="text-xs text-[#0D3F72]/70 truncate">{link.desc}</p>
                         </div>
                         <ArrowRight className="w-4 h-4 text-[#0D3F72]/20 group-hover:text-[#267AB1] group-hover:translate-x-1 transition-all" />
                       </Link>
@@ -165,7 +165,7 @@ export function Navbar() {
             <div className="hidden lg:flex items-center gap-3">
               <a 
                 href="tel:+17862628718" 
-                className="text-sm text-[#0D3F72]/60 hover:text-[#0D3F72] flex items-center gap-2 transition-colors duration-300 px-3 py-2 rounded-full hover:bg-[#0D3F72]/5"
+                className="text-sm text-[#0D3F72]/75 hover:text-[#0D3F72] flex items-center gap-2 transition-colors duration-300 px-3 py-2 rounded-full hover:bg-[#0D3F72]/5"
               >
                 <div className="w-8 h-8 bg-[#0D3F72]/10 rounded-full flex items-center justify-center">
                   <Phone className="w-3.5 h-3.5 text-[#0D3F72]" />
@@ -174,11 +174,12 @@ export function Navbar() {
               </a>
               <button 
                 onClick={() => setGetStartedModalOpen(true)}
-                className="relative group px-5 py-2.5 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-full shadow-lg shadow-[#267AB1]/25 hover:shadow-xl hover:shadow-[#267AB1]/30 hover:scale-105 transition-all duration-300"
+                className="relative group px-7 py-3 bg-gradient-to-r from-[#0D3F72] to-[#267AB1] text-white font-bold rounded-full shadow-[0_4px_20px_rgba(38,122,177,0.45)] hover:shadow-[0_6px_30px_rgba(38,122,177,0.6)] hover:scale-105 transition-all duration-300 animate-glow-pulse"
               >
-                <span className="relative z-10 flex items-center gap-2">
+                <span className="absolute inset-0 rounded-full bg-gradient-to-r from-[#267AB1] to-[#0D3F72] opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                <span className="relative z-10 flex items-center gap-2 text-[15px]">
                   Get Started
-                  <Sparkles className="w-4 h-4" />
+                  <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                 </span>
               </button>
             </div>
@@ -291,7 +292,7 @@ export function Navbar() {
                   setMobileMenuOpen(false);
                   setGetStartedModalOpen(true);
                 }}
-                className="w-full py-3.5 px-4 bg-gradient-to-r from-[#267AB1] to-[#267AB1] text-white font-semibold rounded-xl shadow-lg shadow-[#267AB1]/20 flex items-center justify-center gap-2"
+                className="w-full py-4 px-4 bg-gradient-to-r from-[#0D3F72] to-[#267AB1] text-white font-bold rounded-xl shadow-[0_4px_20px_rgba(38,122,177,0.4)] flex items-center justify-center gap-2 text-base animate-glow-pulse"
               >
                 Get Started
                 <Sparkles className="w-4 h-4" />

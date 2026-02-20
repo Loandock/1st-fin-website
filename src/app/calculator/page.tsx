@@ -75,7 +75,7 @@ export default function CalculatorPage() {
 
         <div className="max-w-7xl mx-auto px-6 lg:px-8 relative z-10">
           <AnimatedSection>
-            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/60 mb-4">
+            <div className="flex items-center gap-2 text-sm text-[#0D3F72]/75 mb-4">
               <Link href="/" className="hover:text-[#267AB1] transition-colors">Home</Link>
               <span>/</span>
               <span className="text-[#267AB1]">Calculator</span>
@@ -91,7 +91,7 @@ export default function CalculatorPage() {
                 Mortgage <span className="bg-gradient-to-r from-[#267AB1] to-[#267AB1] bg-clip-text text-transparent">Calculator</span>
               </h1>
               
-              <p className="text-lg text-[#0D3F72]/60 leading-relaxed">
+              <p className="text-lg text-[#0D3F72]/75 leading-relaxed">
                 Estimate your monthly mortgage payments and see how different loan terms affect your budget. Get a clear picture before you apply.
               </p>
             </div>
@@ -201,19 +201,19 @@ export default function CalculatorPage() {
               <div className="space-y-6">
                 {/* Monthly Payment Card */}
                 <div className="bg-gradient-to-br from-[#0D3F72] to-[#267AB1] rounded-3xl p-8 text-white shadow-2xl">
-                  <p className="text-white/60 text-sm mb-2">Estimated Monthly Payment</p>
+                  <p className="text-white/80 text-sm mb-2">Estimated Monthly Payment</p>
                   <p className="text-5xl lg:text-6xl font-bold mb-4">
                     ${isNaN(monthlyPayment) ? '0' : Math.round(monthlyPayment).toLocaleString()}
                   </p>
-                  <p className="text-white/60 text-sm">Principal & Interest Only</p>
+                  <p className="text-white/80 text-sm">Principal & Interest Only</p>
                   
                   <div className="mt-6 pt-6 border-t border-white/20 grid grid-cols-2 gap-4">
                     <div>
-                      <p className="text-white/60 text-xs">Loan Amount</p>
+                      <p className="text-white/80 text-xs">Loan Amount</p>
                       <p className="text-xl font-bold">${loanAmount.toLocaleString()}</p>
                     </div>
                     <div>
-                      <p className="text-white/60 text-xs">Total Interest</p>
+                      <p className="text-white/80 text-xs">Total Interest</p>
                       <p className="text-xl font-bold">${isNaN(totalInterest) ? '0' : Math.round(totalInterest).toLocaleString()}</p>
                     </div>
                   </div>
@@ -222,7 +222,7 @@ export default function CalculatorPage() {
                 {/* CTA Card */}
                 <div className="bg-gradient-to-r from-[#267AB1]/10 to-[#267AB1]/10 rounded-3xl p-8 border border-[#267AB1]/20">
                   <h3 className="text-xl font-bold text-[#0D3F72] mb-3">Ready to Get Started?</h3>
-                  <p className="text-[#0D3F72]/60 mb-6">Get pre-approved in as little as 24 hours with the 1st Financial Mortgage.</p>
+                  <p className="text-[#0D3F72]/75 mb-6">Get pre-approved in as little as 24 hours with the 1st Financial Mortgage.</p>
                   <button 
                     onClick={() => setConsentModalOpen(true)}
                     className="btn-primary w-full justify-center"
@@ -268,7 +268,7 @@ export default function CalculatorPage() {
                     <item.icon className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="font-bold text-[#0D3F72] mb-2">{item.title}</h3>
-                  <p className="text-sm text-[#0D3F72]/60">{item.desc}</p>
+                  <p className="text-sm text-[#0D3F72]/75">{item.desc}</p>
                 </div>
               </AnimatedSection>
             ))}
@@ -287,7 +287,7 @@ export default function CalculatorPage() {
         <div className="max-w-4xl mx-auto px-6 lg:px-8 relative z-10 text-center">
           <AnimatedSection>
             <h2 className="text-3xl lg:text-4xl font-bold text-white mb-6">
-              Numbers Look Good? <span className="text-[#B8C5D0]">Let&apos;s Talk.</span>
+              Numbers Look Good? <span className="text-[#7BBAD0]">Let&apos;s Talk.</span>
             </h2>
             <p className="text-lg text-white/70 mb-8">
               Get personalized guidance from Cal Castells and the team. We'll find the best loan program for your situation.

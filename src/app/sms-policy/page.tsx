@@ -23,7 +23,7 @@ export default function SMSPolicyPage() {
             SMS Policy & 10DLC Compliance
           </h1>
           
-          <p className="text-sm text-[#0D3F72]/50 mb-8">
+          <p className="text-sm text-[#0D3F72]/70 mb-8">
             Last Updated: January 28, 2026
           </p>
 
@@ -65,7 +65,7 @@ export default function SMSPolicyPage() {
                 </p>
                 <div className="bg-white p-4 rounded-xl border border-[#0D3F72]/10 text-sm">
                   <p className="mb-2">☐ <em>I agree to receive SMS notifications and marketing texts from 1st Financial Mortgage (optional).</em></p>
-                  <p className="text-xs text-[#0D3F72]/50 italic">
+                  <p className="text-xs text-[#0D3F72]/70 italic">
                     "By providing your phone number, you are opting into marketing texts. Message frequency may vary. Standard message and data rates may apply. Reply STOP to opt out. Reply HELP for help. Consent is not a condition of purchase. We will not share your mobile information with third parties for promotional or marketing purposes."
                   </p>
                 </div>

@@ -232,7 +232,7 @@ export default function LandingPage() {
 
                 <h1 className="text-5xl sm:text-6xl lg:text-7xl xl:text-8xl font-bold text-white tracking-tight">
                   <span className="block animate-fade-in leading-[1.1]">More Than</span>
-                  <span className="block animate-fade-in animation-delay-100 text-[#C8D4E0] leading-[1.2] pb-2">A Mortgage</span>
+                  <span className="block animate-fade-in animation-delay-100 text-[#7BBAD0] leading-[1.2] pb-2">A Mortgage</span>
               </h1>
               
                 <p className="text-lg lg:text-xl text-white/80 max-w-xl leading-relaxed animate-fade-in animation-delay-300">
@@ -253,19 +253,19 @@ export default function LandingPage() {
             {/* Stats Row - 4 cards */}
             <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
               <p className="text-2xl lg:text-3xl font-bold text-white">$<Counter end={700} />M+</p>
-              <p className="text-xs text-white/60">Loans Funded</p>
+              <p className="text-xs text-white/80">Loans Funded</p>
             </div>
             <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
               <p className="text-2xl lg:text-3xl font-bold text-white"><Counter end={1300} />+</p>
-              <p className="text-xs text-white/60">Families Helped</p>
+              <p className="text-xs text-white/80">Families Helped</p>
             </div>
             <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
               <p className="text-2xl lg:text-3xl font-bold text-white"><Counter end={20} />+</p>
-              <p className="text-xs text-white/60">Years Experience</p>
+              <p className="text-xs text-white/80">Years Experience</p>
             </div>
             <div className="col-span-6 sm:col-span-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-4 text-center hover:bg-white/15 transition-colors">
               <p className="text-2xl lg:text-3xl font-bold text-white">Bilingual</p>
-              <p className="text-xs text-white/60">Español/English</p>
+              <p className="text-xs text-white/80">Español/English</p>
             </div>
           </div>
         </div>
@@ -306,7 +306,7 @@ export default function LandingPage() {
                           <item.icon className="w-5 h-5 text-white" />
                     </div>
                         <p className="text-lg font-bold text-[#0D3F72]">{item.value}</p>
-                        <p className="text-xs text-[#0D3F72]/50">{item.label}</p>
+                        <p className="text-xs text-[#0D3F72]/70">{item.label}</p>
                     </div>
                     </AnimatedSection>
                 ))}
@@ -330,14 +330,14 @@ export default function LandingPage() {
                     <div className="card rounded-xl p-4">
                       <p className="text-lg font-bold text-[#0D3F72]">Jose Ramirez</p>
                       <p className="text-sm text-[#267AB1] font-medium">Sales Manager</p>
-                      <p className="text-xs text-[#0D3F72]/50 mt-1">NMLS #1057601</p>
+                      <p className="text-xs text-[#0D3F72]/70 mt-1">NMLS #1057601</p>
                     </div>
                   </AnimatedSection>
                   <AnimatedSection delay={400}>
                     <div className="card rounded-xl p-4">
                       <p className="text-lg font-bold text-[#0D3F72]">Cal Castells</p>
                       <p className="text-sm text-[#267AB1] font-medium">Branch Manager</p>
-                      <p className="text-xs text-[#0D3F72]/50 mt-1">NMLS #1101261</p>
+                      <p className="text-xs text-[#0D3F72]/70 mt-1">NMLS #1101261</p>
                     </div>
                   </AnimatedSection>
                 </div>
@@ -402,7 +402,7 @@ export default function LandingPage() {
                     <service.icon className="w-7 h-7 text-white" />
                   </div>
                   <h3 className="text-xl font-bold text-[#0D3F72] group-hover:text-white mb-2 transition-colors">{service.title}</h3>
-                  <p className="text-[#0D3F72]/60 group-hover:text-white/70 mb-4 transition-colors text-sm leading-relaxed">{service.desc}</p>
+                  <p className="text-[#0D3F72]/75 group-hover:text-white/70 mb-4 transition-colors text-sm leading-relaxed">{service.desc}</p>
                   <span className="text-[#267AB1] group-hover:text-white/80 font-semibold inline-flex items-center text-sm transition-colors">
                     Learn More <ChevronRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                   </span>
@@ -435,7 +435,7 @@ export default function LandingPage() {
                       {i + 1}
                     </div>
                     <h3 className="text-lg font-bold text-[#0D3F72] mb-2">{step.title}</h3>
-                    <p className="text-[#0D3F72]/60 text-sm">{step.desc}</p>
+                    <p className="text-[#0D3F72]/75 text-sm">{step.desc}</p>
                   </div>
                 </div>
               </AnimatedSection>
@@ -489,7 +489,7 @@ export default function LandingPage() {
                   </div>
                   <div>
                     <p className="font-semibold text-[#0D3F72] text-sm">{t.name}</p>
-                    <p className="text-xs text-[#0D3F72]/50">{t.location}</p>
+                    <p className="text-xs text-[#0D3F72]/70">{t.location}</p>
                   </div>
                 </div>
               </div>
@@ -507,7 +507,7 @@ export default function LandingPage() {
                 </div>
                 <div className="text-center sm:text-left">
                   <p className="text-white font-bold">Ready to Achieve Your Dream?</p>
-                  <p className="text-white/60 text-sm">Let&apos;s start your journey to homeownership today</p>
+                  <p className="text-white/80 text-sm">Let&apos;s start your journey to homeownership today</p>
                 </div>
               </div>
               <button 
@@ -557,9 +557,9 @@ export default function LandingPage() {
           <AnimatedSection>
             <div className="max-w-2xl mb-16">
               <h2 className="text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
-                Ready to Start Your <span className="text-[#B8C5D0]">Journey?</span>
+                Ready to Start Your <span className="text-[#7BBAD0]">Journey?</span>
               </h2>
-              <p className="text-lg text-white/60">Free, no-obligation consultation. Let&apos;s find your perfect loan.</p>
+              <p className="text-lg text-white/80">Free, no-obligation consultation. Let&apos;s find your perfect loan.</p>
             </div>
           </AnimatedSection>
 
@@ -572,7 +572,7 @@ export default function LandingPage() {
                       <CheckCircle className="w-8 h-8 text-green-600" />
                     </div>
                     <h3 className="text-2xl font-bold text-[#0D3F72] mb-2">Message Sent!</h3>
-                    <p className="text-[#0D3F72]/60 mb-6">{formMessage}</p>
+                    <p className="text-[#0D3F72]/75 mb-6">{formMessage}</p>
                     <button 
                       onClick={() => setFormStatus('idle')} 
                       className="text-[#267AB1] font-semibold hover:underline"
@@ -597,7 +597,7 @@ export default function LandingPage() {
                         onChange={handlePhoneChange}
                         maxLength={14}
                       />
-                      <select name="interest" className="input text-[#0D3F72]/60" required>
+                      <select name="interest" className="input text-[#0D3F72]/75" required>
                         <option value="">How can we help?</option>
                         <option value="Buying a Home">Buying a Home</option>
                         <option value="Refinancing">Refinancing</option>
@@ -620,7 +620,7 @@ export default function LandingPage() {
                           <label htmlFor="sms-optin" className="text-sm font-medium text-[#0D3F72] cursor-pointer">
                             I agree to receive SMS notifications and marketing texts from The Mortgage Fellas (optional)
                           </label>
-                          <p className="text-xs text-[#0D3F72]/60 mt-2 leading-relaxed">
+                          <p className="text-xs text-[#0D3F72]/75 mt-2 leading-relaxed">
                             By checking this box, you consent to receive SMS messages from The Mortgage Fellas. Message frequency varies. Standard message and data rates may apply. Reply STOP to opt out anytime. Reply HELP for assistance. Consent is not required for purchase. View our{' '}
                             <a href="/privacy-policy" className="text-[#267AB1] hover:underline">Privacy Policy</a> and{' '}
                             <a href="/sms-policy" className="text-[#267AB1] hover:underline">SMS Policy</a>.
@@ -691,15 +691,15 @@ export default function LandingPage() {
                 <div className="card p-6 rounded-2xl">
                   <h4 className="font-bold text-[#0D3F72] mb-3">Hours</h4>
                   <div className="space-y-2 text-sm">
-                    <div className="flex justify-between text-[#0D3F72]/60">
+                    <div className="flex justify-between text-[#0D3F72]/75">
                       <span>Mon - Fri</span>
                       <span className="font-medium text-[#0D3F72]">9AM - 6PM</span>
                     </div>
-                    <div className="flex justify-between text-[#0D3F72]/60">
+                    <div className="flex justify-between text-[#0D3F72]/75">
                       <span>Saturday</span>
                       <span className="font-medium text-[#0D3F72]">10AM - 4PM</span>
               </div>
-                    <div className="flex justify-between text-[#0D3F72]/60">
+                    <div className="flex justify-between text-[#0D3F72]/75">
                       <span>Sunday</span>
                       <span className="font-medium text-[#0D3F72]">Closed</span>
             </div>
