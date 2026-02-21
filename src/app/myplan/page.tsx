@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect, useMemo, useRef } from 'react';
+import { useState, useEffect, useMemo, useRef, Suspense } from 'react';
 import { CheckCircle2, Sparkles, Send, PartyPopper, Phone, Mail, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
@@ -26,6 +26,14 @@ function formatPhoneDisplay(value: string) {
 }
 
 export default function MyPlanPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-gray-950" />}>
+      <MyPlanContent />
+    </Suspense>
+  );
+}
+
+function MyPlanContent() {
   const searchParams = useSearchParams();
   const formRef = useRef<HTMLDivElement>(null);
 
