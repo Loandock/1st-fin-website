@@ -75,6 +75,46 @@ export default function PrivacyPolicyPage() {
               We reserve the right to amend (that is, add to, delete, or change) the terms of this Privacy Statement from time to time.
             </p>
 
+            <h2 className="text-2xl font-bold text-[#0D3F72] mt-10 mb-4">
+              Information Submitted Through Advertising Lead Forms
+            </h2>
+            <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
+              We may collect personal information that you voluntarily submit through advertising lead forms on platforms such as Facebook or Instagram (Meta Lead Ads). This information may include your name, email address, phone number, income range, employment type, preferred language, and other information related to your home financing inquiry.
+            </p>
+            <p className="text-[#0D3F72]/70 leading-relaxed mb-8">
+              We use this information to respond to your request for mortgage services, provide information regarding financing options, and connect you with appropriate loan officers or licensed service providers as necessary.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#0D3F72] mt-10 mb-4">
+              Advertising Lead Form Data Sharing
+            </h2>
+            <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
+              Information collected through advertising lead forms (such as Facebook or Instagram Lead Ads) may be shared with licensed mortgage professionals, real estate agents, or affiliated service providers solely for the purpose of fulfilling your request for financing consultation or related services, in accordance with applicable privacy laws.
+            </p>
+            <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
+              By submitting your information through our website or advertising lead forms, you expressly consent to be contacted by The Mortgage Fellas, 1st Financial Mortgage, and/or affiliated service providers via telephone, text message (including automated dialing systems), email, or other means regarding mortgage financing or real estate-related services.
+            </p>
+            <p className="text-[#0D3F72]/70 leading-relaxed mb-8">
+              <strong className="text-[#0D3F72]">We do not sell your personal information. Consent is not a condition of purchase or loan approval.</strong> Message and data rates may apply. You may opt out of communications at any time by contacting us or following the unsubscribe instructions in our messages.
+            </p>
+
+            <h2 className="text-2xl font-bold text-[#0D3F72] mt-10 mb-4">
+              California Residents (CCPA)
+            </h2>
+            <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
+              If you are a California resident, you have additional rights under the California Consumer Privacy Act (CCPA):
+            </p>
+            <ul className="space-y-3 ml-6 mb-4">
+              <li className="text-[#0D3F72]/70 leading-relaxed list-disc">Right to know what personal information is collected</li>
+              <li className="text-[#0D3F72]/70 leading-relaxed list-disc">Right to know if personal information is sold or disclosed</li>
+              <li className="text-[#0D3F72]/70 leading-relaxed list-disc">Right to opt-out of the sale of personal information</li>
+              <li className="text-[#0D3F72]/70 leading-relaxed list-disc">Right to deletion of personal information</li>
+              <li className="text-[#0D3F72]/70 leading-relaxed list-disc">Right to non-discrimination for exercising CCPA rights</li>
+            </ul>
+            <p className="text-[#0D3F72]/70 leading-relaxed mb-8">
+              <strong className="text-[#0D3F72]">We do not sell your personal information.</strong> To exercise any of these rights, please contact us using the information below.
+            </p>
+
             {/* Contact Box */}
             <div className="bg-gradient-to-r from-[#0D3F72] to-[#267AB1] text-white p-6 rounded-2xl mt-10">
               <h3 className="text-xl font-bold mb-4">Questions About Your Privacy?</h3>

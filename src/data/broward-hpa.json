@@ -1,0 +1,45 @@
+{
+  "defaults": { "amiLimitPct": 80, "maxSalesPrice": 568557 },
+  "terms": [
+    "0% interest • Non-amortizing • Deferred",
+    "Forgiven after 15 years",
+    "Prior to year 15: Repayment due upon sale, transfer, refinance, payoff, or non-occupancy",
+    "County price & income limits apply"
+  ],
+  "eligibility": [
+    "No minimum credit score",
+    "Homebuyer education required",
+    "IRS first-time buyer: no owned-and-occupied primary in past 3 years",
+    "Ratios 38%/45% (Conv) • 38%/46% (FHA/VA) • Min housing ratio 25%",
+    "Cannot have Non-retirement assets ≥ $100k within 3 months prior to app",
+    "US citizens and permanent residents",
+    "Cosigner allowed"
+  ],
+  "cities": {
+    "Davie":               { "assistance": 80000 },
+    "Coconut Creek":       { "assistance": 80000 },
+    "Coral Springs":       { "assistance": 80000 },
+    "Cooper City":         { "assistance": 80000 },
+    "Dania Beach":         { "assistance": 80000 },
+    "Hallandale Beach":    { "assistance": 80000 },
+    "Hillsborough Beach":  { "assistance": 80000 },
+    "Hollywood":           { "assistance": 50000, "amiLimitPct": 120 },
+    "Lauderdale by the Sea": { "assistance": 80000 },
+    "Lauderdale Lakes":    { "assistance": 80000 },
+    "Lazy Lake Village":   { "assistance": 50000 },
+    "Margate":             { "assistance": 80000 },
+    "North Lauderdale":    { "assistance": 80000 },
+    "Lighthouse Point":    { "assistance": 80000 },
+    "Oakland Park":        { "assistance": 80000 },
+    "Parkland":            { "assistance": 80000 },
+    "Pembroke Park":       { "assistance": 80000 },
+    "Plantation":          { "assistance": 50000 },
+    "Sea Ranch Lakes":     { "assistance": 80000 },
+    "Southwest Ranches":   { "assistance": 120000 },
+    "Sunrise":             { "assistance": 40000 },
+    "Weston":              { "assistance": 80000, "maxSalesPrice": 817000 },
+    "West Park":           { "assistance": 80000 },
+    "Wilton Manors":       { "assistance": 80000 },
+    "Unincorporated Broward (BMSD)": { "assistance": 80000 }
+  }
+}

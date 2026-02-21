@@ -1,6 +1,8 @@
 'use client';
 
 import { useState, useEffect, useMemo, useRef, Suspense } from 'react';
+import { Navbar } from '@/components/Navbar';
+import { Footer } from '@/components/Footer';
 import { CheckCircle2, Sparkles, Send, PartyPopper, Phone, Mail, ArrowRight } from 'lucide-react';
 import Image from 'next/image';
 import { useSearchParams } from 'next/navigation';
@@ -108,6 +110,7 @@ function MyPlanContent() {
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-950 via-gray-950 to-black text-white flex flex-col">
+      <Navbar />
       <main className="flex-1">
         {/* ─── HERO + FORM ─── */}
         <section className="relative overflow-hidden">
@@ -117,7 +120,7 @@ function MyPlanContent() {
             <div className="absolute bottom-0 left-1/3 h-56 w-56 rounded-full blur-3xl" style={{ background: `${LIGHT}15` }} />
           </div>
 
-          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 lg:py-20">
+          <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 sm:pt-32 pb-12 lg:pb-20">
             <div className="grid gap-14 lg:grid-cols-[1.05fr_0.95fr] items-start">
 
               {/* ─── LEFT: Video + Copy ─── */}
@@ -372,19 +375,7 @@ function MyPlanContent() {
         </section>
       </main>
 
-      {/* ─── MINIMAL FOOTER ─── */}
-      <footer className="py-6 border-t border-white/5">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-2">
-          <p className="text-xs text-gray-500">
-            Cal Castells NMLS #1101261 | Jose Ramirez NMLS #1057601 | 1st Financial Mortgage — Branch NMLS #1620197 | NMLS #185076 | Equal Housing Lender
-          </p>
-          <p className="text-xs text-gray-600">
-            1911 NW 150th Ave #104, Pembroke Pines, FL 33028 |{' '}
-            <a href="https://www.nmlsconsumeraccess.org" target="_blank" rel="noopener noreferrer" className="hover:text-gray-400 transition-colors">NMLS Consumer Access</a>
-          </p>
-          <p className="text-xs text-gray-600">&copy; {new Date().getFullYear()} 1st Financial Mortgage. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }

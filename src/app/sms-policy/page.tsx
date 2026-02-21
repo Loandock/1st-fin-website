@@ -75,7 +75,29 @@ export default function SMSPolicyPage() {
               <div className="mb-8 p-6 bg-gradient-to-r from-[#0D3F72]/5 to-[#0D3F72]/10 rounded-2xl border border-[#0D3F72]/10">
                 <h3 className="text-xl font-semibold text-[#0D3F72] mb-4">Method 2: Verbal Consent (Phone or In-Person)</h3>
                 <p className="text-[#0D3F72]/70 mb-4">
-                  This method uses a double opt-in process as required by carriers for marketing messages. When you call (786) 262-8718 or visit our office, our representative will explain the SMS program and request your verbal consent.
+                  This method uses a double opt-in process as required by carriers for marketing messages. When you call <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a> or visit our office, our representative will read the following script:
+                </p>
+                <div className="bg-white p-4 rounded-xl border border-[#0D3F72]/10 text-sm mb-4">
+                  <p className="text-[#0D3F72]/60 font-semibold mb-2 text-xs uppercase tracking-wide">Agent states to customer:</p>
+                  <p className="text-[#0D3F72]/70 italic leading-relaxed">
+                    &quot;Would you like to sign up for SMS notifications from 1st Financial Mortgage so we can send you application status updates, document requests, and exclusive offers? By providing your phone number, you are consenting to receive SMS notifications and marketing messages via text. Message frequency may vary. Standard message and data rates may apply. You can text HELP for support or STOP to unsubscribe at any time. We won&apos;t share your mobile information with third parties for marketing. You can also find our privacy policy on our website at mortgagefellas.com/privacy-policy.&quot;
+                  </p>
+                </div>
+                <p className="text-[#0D3F72]/70 mb-3"><strong className="text-[#0D3F72]">Customer Response:</strong> &quot;Yes, I agree.&quot;</p>
+                <div className="bg-[#267AB1]/10 p-4 rounded-xl border border-[#267AB1]/30 text-sm mb-3">
+                  <p className="text-[#0D3F72]/60 font-semibold mb-1 text-xs uppercase tracking-wide">Confirmation SMS Sent:</p>
+                  <p className="text-[#0D3F72]/70">
+                    <strong>1st Financial Mortgage:</strong> You have agreed to receive SMS updates from 1st Financial Mortgage. Msg frequency varies. Msg & data rates may apply. Reply STOP to unsubscribe, HELP for help. To confirm you also want to receive marketing messages please reply YES
+                  </p>
+                </div>
+                <div className="bg-[#0D3F72]/5 p-4 rounded-xl border border-[#0D3F72]/10 text-sm">
+                  <p className="text-[#0D3F72]/60 font-semibold mb-1 text-xs uppercase tracking-wide">If user replies YES:</p>
+                  <p className="text-[#0D3F72]/70">
+                    <strong>1st Financial Mortgage:</strong> Thanks, you&apos;ve now been subscribed to SMS notifications, including promotions. Msg frequency varies. Msg & data rates may apply. Reply STOP to unsubscribe or HELP for help.
+                  </p>
+                </div>
+                <p className="text-xs text-[#0D3F72]/50 mt-3 italic">
+                  If user does NOT reply YES to the marketing confirmation, they will only receive informational messaging (not promotional).
                 </p>
               </div>
 
@@ -83,9 +105,82 @@ export default function SMSPolicyPage() {
               <div className="mb-8 p-6 bg-white rounded-2xl border border-[#0D3F72]/10">
                 <h3 className="text-xl font-semibold text-[#0D3F72] mb-4">Method 3: Opt-In by Keyword</h3>
                 <p className="text-[#0D3F72]/70 mb-4">
-                  Text <strong>START</strong>, <strong>YES</strong>, <strong>SUBSCRIBE</strong>, or <strong>JOIN</strong> to (786) 262-8718 to opt in.
+                  Text one of the following keywords to <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a> to opt in:
                 </p>
+                <div className="grid grid-cols-3 sm:grid-cols-5 gap-2 mb-4">
+                  {['START', 'YES', 'SUBSCRIBE', 'JOIN', 'OPTIN'].map((kw) => (
+                    <div key={kw} className="p-2 bg-[#0D3F72]/5 rounded-lg border border-[#0D3F72]/10 text-center">
+                      <span className="font-bold text-sm text-[#0D3F72]">{kw}</span>
+                    </div>
+                  ))}
+                </div>
+                <div className="bg-[#267AB1]/10 p-4 rounded-xl border border-[#267AB1]/30 text-sm">
+                  <p className="text-[#0D3F72]/60 font-semibold mb-1 text-xs uppercase tracking-wide">Confirmation SMS:</p>
+                  <p className="text-[#0D3F72]/70">
+                    <strong>1st Financial Mortgage:</strong> Thank you for opting in to SMS updates! We will be with you shortly. Msg frequency may vary. Std msg & data rates apply. Reply STOP to opt out, HELP for help. Your mobile information will not be sold or shared with third parties for promotional or marketing purposes.
+                  </p>
+                </div>
               </div>
+
+              {/* Method 4 */}
+              <div className="mb-8 p-6 bg-gradient-to-r from-[#267AB1]/10 to-[#0D3F72]/5 rounded-2xl border border-[#267AB1]/20">
+                <h3 className="text-xl font-semibold text-[#0D3F72] mb-4">Method 4: Opt-In by Inbound Message</h3>
+                <p className="text-[#0D3F72]/70 mb-4">
+                  When you text any message to <a href="tel:+17862628718" className="text-[#267AB1] hover:underline">(786) 262-8718</a> (published on our website, business cards, flyers, and email signatures), the system responds with:
+                </p>
+                <div className="bg-[#267AB1]/10 p-4 rounded-xl border border-[#267AB1]/30 text-sm">
+                  <p className="text-[#0D3F72]/70">
+                    <strong>1st Financial Mortgage:</strong> Thank you for your message! We will be with you shortly. Msg frequency may vary. Std msg & data rates apply. Reply STOP to opt out, HELP for help. We will not share or sell your mobile information for marketing/promotional purposes.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            {/* Sample Consent Log */}
+            <section className="mb-10">
+              <h2 className="text-2xl font-bold text-[#0D3F72] mb-4">Sample Consent Log Entry</h2>
+              <p className="text-[#0D3F72]/70 leading-relaxed mb-4">
+                All consent records are stored with timestamps to meet TCPA, CTIA, 10DLC, NMLS, and CFPB requirements:
+              </p>
+              <div className="overflow-x-auto">
+                <table className="w-full text-left text-sm border border-[#0D3F72]/10 rounded-xl overflow-hidden">
+                  <thead className="bg-[#0D3F72]/5">
+                    <tr>
+                      <th className="px-4 py-3 font-semibold text-[#0D3F72]">Date/Time</th>
+                      <th className="px-4 py-3 font-semibold text-[#0D3F72]">Method</th>
+                      <th className="px-4 py-3 font-semibold text-[#0D3F72]">Client</th>
+                      <th className="px-4 py-3 font-semibold text-[#0D3F72]">Phone</th>
+                      <th className="px-4 py-3 font-semibold text-[#0D3F72]">Status</th>
+                    </tr>
+                  </thead>
+                  <tbody className="text-[#0D3F72]/70">
+                    <tr className="border-t border-[#0D3F72]/10">
+                      <td className="px-4 py-3 whitespace-nowrap">2026-02-08 14:32 EST</td>
+                      <td className="px-4 py-3">Digital Form</td>
+                      <td className="px-4 py-3">John S.</td>
+                      <td className="px-4 py-3">+1 786 555 1234</td>
+                      <td className="px-4 py-3"><span className="bg-[#267AB1]/20 text-[#0D3F72] px-2 py-1 rounded text-xs font-semibold">Opted In</span></td>
+                    </tr>
+                    <tr className="border-t border-[#0D3F72]/10">
+                      <td className="px-4 py-3 whitespace-nowrap">2026-02-08 09:15 EST</td>
+                      <td className="px-4 py-3">Verbal (Phone)</td>
+                      <td className="px-4 py-3">Jane D.</td>
+                      <td className="px-4 py-3">+1 786 555 5678</td>
+                      <td className="px-4 py-3"><span className="bg-[#267AB1]/20 text-[#0D3F72] px-2 py-1 rounded text-xs font-semibold">Opted In</span></td>
+                    </tr>
+                    <tr className="border-t border-[#0D3F72]/10">
+                      <td className="px-4 py-3 whitespace-nowrap">2026-02-08 11:20 EST</td>
+                      <td className="px-4 py-3">Keyword (START)</td>
+                      <td className="px-4 py-3">Bob J.</td>
+                      <td className="px-4 py-3">+1 786 555 9012</td>
+                      <td className="px-4 py-3"><span className="bg-[#267AB1]/20 text-[#0D3F72] px-2 py-1 rounded text-xs font-semibold">Opted In</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <p className="text-xs text-[#0D3F72]/50 mt-3 italic">
+                All digital, verbal, keyword, and inbound message consents are stored in our CRM with timestamps indefinitely to meet TCPA, CTIA, 10DLC, NMLS, and CFPB requirements.
+              </p>
             </section>
 
             {/* Message Frequency */}

@@ -214,20 +214,20 @@ export function GetStartedModal({ isOpen, onClose }: GetStartedModalProps) {
     { value: 'just-looking', label: 'Just exploring', sub: 'Learning my options', emoji: '🔍' },
   ];
 
-  const inputClass = "w-full px-5 py-4 text-base bg-white/80 backdrop-blur-sm border-2 border-[#0D3F72]/15 rounded-2xl focus:border-[#267AB1] focus:bg-white focus:shadow-lg focus:shadow-[#267AB1]/10 focus:ring-0 focus:outline-none transition-all duration-200 placeholder:text-[#0D3F72]/35 text-[#0D3F72]";
+  const inputClass = "w-full px-4 py-3 text-base bg-white/80 backdrop-blur-sm border-2 border-[#0D3F72]/15 rounded-xl focus:border-[#267AB1] focus:bg-white focus:shadow-lg focus:shadow-[#267AB1]/10 focus:ring-0 focus:outline-none transition-colors duration-150 placeholder:text-[#0D3F72]/35 text-[#0D3F72]";
 
   const OptionCard = ({ selected, onClick, children, className = '' }: { selected: boolean; onClick: () => void; children: React.ReactNode; className?: string }) => (
     <button
       type="button"
-      onClick={onClick}
-      className={`relative text-left px-5 py-4 rounded-2xl border-2 transition-all duration-200 cursor-pointer group ${
+      onClick={(e) => { e.preventDefault(); e.stopPropagation(); onClick(); }}
+      className={`relative text-left px-4 py-3 rounded-xl border-2 transition-colors duration-150 cursor-pointer ${
         selected
-          ? 'border-[#267AB1] bg-gradient-to-br from-[#267AB1]/10 to-[#0D3F72]/5 shadow-md shadow-[#267AB1]/15 scale-[1.02]'
-          : 'border-[#0D3F72]/12 bg-white/60 hover:border-[#267AB1]/40 hover:bg-white hover:shadow-md hover:shadow-[#0D3F72]/5 hover:scale-[1.01]'
+          ? 'border-[#267AB1] bg-gradient-to-br from-[#267AB1]/10 to-[#0D3F72]/5 shadow-sm shadow-[#267AB1]/15'
+          : 'border-[#0D3F72]/12 bg-white/60 hover:border-[#267AB1]/40 hover:bg-white'
       } ${className}`}
     >
       {selected && (
-        <div className="absolute top-2.5 right-2.5 w-5 h-5 bg-[#267AB1] rounded-full flex items-center justify-center">
+        <div className="absolute top-2 right-2 w-5 h-5 bg-[#267AB1] rounded-full flex items-center justify-center">
           <Check className="w-3 h-3 text-white" />
         </div>
       )}
@@ -312,12 +312,12 @@ export function GetStartedModal({ isOpen, onClose }: GetStartedModalProps) {
             <div className="space-y-5">
               <div>
                 <label className="block text-sm font-semibold text-[#0D3F72]/70 mb-2 ml-1">Employment Type</label>
-                <div className="space-y-2.5">
+                <div className="grid grid-cols-2 gap-2">
                   {employmentOptions.map((opt) => (
                     <OptionCard key={opt.value} selected={formData.employmentType === opt.value} onClick={() => updateField('employmentType', opt.value)}>
-                      <div className="flex items-center gap-3">
-                        <span className="text-xl">{opt.emoji}</span>
-                        <span className="font-semibold text-[#0D3F72]">{opt.label}</span>
+                      <div className="flex items-center gap-2">
+                        <span className="text-lg">{opt.emoji}</span>
+                        <span className="font-semibold text-sm text-[#0D3F72]">{opt.label}</span>
                       </div>
                     </OptionCard>
                   ))}
@@ -325,7 +325,7 @@ export function GetStartedModal({ isOpen, onClose }: GetStartedModalProps) {
               </div>
               <div>
                 <label className="block text-sm font-semibold text-[#0D3F72]/70 mb-2 ml-1">How long at current job?</label>
-                <div className="grid grid-cols-2 gap-2.5">
+                <div className="grid grid-cols-2 gap-2">
                   {employmentDurationOptions.map((opt) => (
                     <OptionCard key={opt} selected={formData.employmentDuration === opt} onClick={() => updateField('employmentDuration', opt)}>
                       <span className="font-semibold text-sm text-[#0D3F72]">{opt}</span>
@@ -371,7 +371,7 @@ export function GetStartedModal({ isOpen, onClose }: GetStartedModalProps) {
               </h2>
               <p className="text-[#0D3F72]/70 mt-2">An estimate is fine — we work with all profiles.</p>
             </div>
-            <div className="space-y-2.5">
+            <div className="space-y-2">
               {creditScoreOptions.map((opt) => (
                 <OptionCard key={opt.value} selected={formData.creditScore === opt.value} onClick={() => updateField('creditScore', opt.value)}>
                   <div className="flex items-center gap-3">
@@ -421,7 +421,7 @@ export function GetStartedModal({ isOpen, onClose }: GetStartedModalProps) {
               </h2>
               <p className="text-[#0D3F72]/70 mt-2">When are you looking to move forward?</p>
             </div>
-            <div className="space-y-2.5">
+            <div className="space-y-2">
               {timelineOptions.map((opt) => (
                 <OptionCard key={opt.value} selected={formData.timeline === opt.value} onClick={() => updateField('timeline', opt.value)}>
                   <div className="flex items-center gap-3">

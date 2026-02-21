@@ -1,0 +1,3888 @@
+{
+  "Alachua": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 119600,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 124800,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 145600,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 156000,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 104000,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119600,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 104000,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119600,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 104000,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119600,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Baker": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 109800,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 127419,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 109800,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 127419,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 109800,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 127419,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Bay": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 97714,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112371,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 97714,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112371,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 97714,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112371,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Bradford": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Brevard": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 114885,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 119880,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 139860,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 149850,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 99900,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 114885,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 99900,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 114885,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 99900,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 114885,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Broward": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 132595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 138360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 161420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 172950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 122400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 140760,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 122400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 140760,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 122400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 140760,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Calhoun": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Charlotte": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 98974,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 113820,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 98974,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 113820,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 98974,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 113820,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Citrus": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Clay": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 117875,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 123000,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 143500,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 153750,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Collier": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 130640,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 136320,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 159040,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 170400,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 136320,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 159040,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 136320,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 159040,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 136320,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 159040,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Columbia": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "DeSoto": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Dixie": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Duval": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 117875,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 123000,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 143500,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 153750,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Escambia": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 112815,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 117720,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 137340,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 147150,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 98100,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112815,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 98100,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112815,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 98100,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112815,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Flagler": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 97554,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112187,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 97554,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112187,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 97554,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112187,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Franklin": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Gadsen": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 98074,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112785,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 98074,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112785,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 98074,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112785,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Gilchrist": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 119600,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 124800,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 145600,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 156000,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 104000,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119600,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 104000,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119600,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 104000,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119600,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Glades": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Gulf": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109620,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109620,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109620,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Hamilton": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Hardee": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Hendry": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Hernando": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 119945,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 125160,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 146020,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 156450,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Highlands": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Hillsborough": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 119945,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 125160,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 146020,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 156450,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Holmes": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Indian River": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 97934,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112624,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 97934,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112624,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 97934,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112624,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Jackson": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Jefferson": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 98074,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112785,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 98074,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112785,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 98074,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112785,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Lafayette": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Lake": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 121210,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 126480,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 147560,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 158100,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Lee": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 117530,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 122640,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 143080,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 153300,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 102200,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 117530,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 102200,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 117530,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 102200,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 117530,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Leon": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 98074,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112785,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 98074,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112785,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 98074,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112785,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Levy": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Liberty": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Madison": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Manatee": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 123740,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 129120,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 150640,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 161400,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 107600,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 123740,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 107600,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 123740,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 107600,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 123740,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Marion": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Martin": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 113640,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 130799,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 113640,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 130799,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 113640,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 130799,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Miami-Dade": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 142485,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 148680,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 173460,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 185850,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 123900,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 142485,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 123900,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 142485,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 123900,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 142485,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Monroe": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 149845,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 156360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 182420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 195450,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 156360,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 182420,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 156360,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 182420,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 156360,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 182420,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Nassau": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 117875,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 123000,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 143500,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 153750,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Okaloosa": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 117300,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 122400,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 142800,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 153000,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 113812,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 130884,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 113812,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 130884,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 113812,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 130884,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Okeechobee": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Orange": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 121210,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 126480,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 147560,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 158100,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Osceola": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 121210,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 126480,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 147560,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 158100,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Palm Beach": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 134435,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 140280,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 163660,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 175350,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 122080,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 140392,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 122080,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 140392,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 122080,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 140392,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Pasco": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 119945,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 125160,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 146020,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 156450,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Pinellas": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 119945,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 125160,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 146020,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 156450,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 104300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 119945,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Polk": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 99874,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 114855,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 99874,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 114855,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 99874,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 114855,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Putnam": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Santa Rosa": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 112815,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 117720,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 137340,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 147150,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 98100,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112815,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 98100,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112815,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 98100,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112815,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Sarasota": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 123740,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 129120,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 150640,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 161400,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 107600,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 123740,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 107600,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 123740,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 107600,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 123740,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Seminole": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 121210,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 126480,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 147560,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 158100,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 105400,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 121210,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "St. Johns": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 117875,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 123000,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 143500,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 153750,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 108599,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 124889,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "St. Lucie": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 113640,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 130799,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 113640,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 130799,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 113640,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 130799,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Sumter": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109940,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114720,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133840,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 143400,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 97414,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112026,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 97414,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112026,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 97414,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112026,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Suwanee": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Taylor": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Union": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Volusia": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 98454,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 113222,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 98454,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 113222,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 98454,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 113222,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Wakulla": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 97994,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112693,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 97994,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112693,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 97994,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 112693,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Walton": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 113735,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 118680,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 138460,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 148350,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 114432,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 131597,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 114432,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 131597,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 114432,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 131597,
+        "sourceColumn": "G"
+      }
+    }
+  },
+  "Washington": {
+    "FL Assist 10k TBA": {
+      "1_2": {
+        "value": 109595,
+        "sourceColumn": "B",
+        "note": "115% cap"
+      },
+      "3_plus": {
+        "value": 114360,
+        "sourceColumn": "C",
+        "note": "120% cap"
+      }
+    },
+    "FL HLP 12,500 TBA": {
+      "all_households": {
+        "value": 133420,
+        "sourceColumn": "D",
+        "note": "140% cap"
+      }
+    },
+    "Hometown Heroes TBA": {
+      "all_households": {
+        "value": 142950,
+        "sourceColumn": "E",
+        "note": "150% cap"
+      }
+    },
+    "FL Assist 10k Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "FL HLP 12,500 Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    },
+    "Hometown Heroes Bond": {
+      "1_2": {
+        "value": 95300,
+        "sourceColumn": "F"
+      },
+      "3_plus": {
+        "value": 109595,
+        "sourceColumn": "G"
+      }
+    }
+  }
+}
