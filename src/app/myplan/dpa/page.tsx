@@ -58,7 +58,7 @@ function DpaContent() {
   const [submitted, setSubmitted] = useState(false);
 
   // DPA Wizard state
-  const [countyState, setCountyState] = useState('FL');
+  const [countyState, setCountyState] = useState('');
   const [countyName, setCountyName] = useState('');
   const [countyGeoid, setCountyGeoid] = useState('');
   const [dpaProgram, setDpaProgram] = useState<DpaProgramId | ''>('');
@@ -149,6 +149,7 @@ function DpaContent() {
         if (typeof window !== 'undefined' && (window as any).fbq) {
           (window as any).fbq('track', 'Lead', { content_name: 'myplan_dpa' });
         }
+        setTimeout(() => { window.location.href = '/calculator'; }, 2000);
       }
     } catch { /* handled */ } finally {
       setIsSubmitting(false);
@@ -204,9 +205,10 @@ function DpaContent() {
                   <label className="block text-sm text-gray-400 mb-1">State</label>
                   <select
                     value={countyState}
-                    onChange={(e) => { setCountyState(e.target.value); setCountyName(''); setDpaProgram(''); }}
-                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-blue-500 focus:outline-none text-white"
+                    onChange={(e) => { setCountyState(e.target.value); setCountyName(''); setCountyGeoid(''); setDpaProgram(''); clearHud(); }}
+                    className="w-full px-4 py-3 rounded-xl bg-gray-950/80 border border-white/10 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 text-white appearance-none"
                   >
+                    <option value="">Select state...</option>
                     <option value="FL">Florida</option>
                     <option value="GA">Georgia</option>
                     <option value="TX">Texas</option>
@@ -262,7 +264,7 @@ function DpaContent() {
                   <select
                     value={dpaProgram}
                     onChange={(e) => { setDpaProgram(e.target.value as DpaProgramId | ''); setDpaInfoOpen(!!e.target.value); }}
-                    className="flex-1 min-w-[200px] px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-blue-500 focus:outline-none text-white"
+                    className="flex-1 min-w-[200px] px-4 py-3 rounded-xl bg-gray-950/80 border border-white/10 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 text-white appearance-none"
                   >
                     <option value="">Select a Program...</option>
                     {DPA_PROGRAMS.map((p) => {

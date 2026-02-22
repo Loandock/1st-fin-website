@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { 
   Menu, X, Phone, ChevronDown, 
-  Home, Building2, Calculator, FileText, 
+  Home, Building2, Calculator, DollarSign, FileText, 
   ArrowRight, Sparkles
 } from 'lucide-react';
 import { GetStartedModal } from './GetStartedModal';
@@ -60,6 +60,7 @@ export function Navbar() {
     { name: 'Loan Process', href: '/loan-process', icon: FileText, desc: 'Step-by-step guide' },
     { name: 'First-Time Buyers', href: '/first-time-homebuyers', icon: Home, desc: 'Start your journey' },
     { name: 'Calculator', href: '/calculator', icon: Calculator, desc: 'Estimate payments' },
+    { name: 'DPA Calculator', href: '/myplan/dpa', icon: DollarSign, desc: 'Down payment assistance' },
   ];
 
   const endLinks = [
