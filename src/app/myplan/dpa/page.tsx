@@ -191,6 +191,22 @@ function DpaContent() {
           </div>
         </section>
 
+        {/* Video */}
+        <section className="pb-8 px-4">
+          <div className="max-w-3xl mx-auto">
+            <div className="relative rounded-2xl overflow-hidden border border-white/15 bg-gray-950/80 shadow-2xl">
+              <div className="absolute top-3 right-3 z-10 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-medium text-white shadow-lg" style={{ background: `${PRIMARY}dd` }}>
+                Watch to learn more
+              </div>
+              <div className="aspect-video relative w-full">
+                <video className="h-full w-full object-cover" controls muted playsInline poster="/team.jpg">
+                  <source src="/myplan-video.mp4" type="video/mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+        </section>
+
         {/* DPA Wizard */}
         <section className="py-12 px-4">
           <div className="max-w-4xl mx-auto space-y-6">
@@ -222,9 +238,9 @@ function DpaContent() {
                     list="county-datalist"
                     value={countyName}
                     onChange={(e) => setCountyName(e.target.value)}
-                    placeholder={countyLoading ? 'Loading...' : 'Select county...'}
-                    disabled={countyLoading}
-                    className="w-full px-4 py-3 rounded-xl bg-white/5 border border-white/10 focus:border-blue-500 focus:outline-none text-white placeholder:text-gray-600"
+                    placeholder={countyLoading ? 'Loading...' : countyState ? 'Type county name...' : 'Select a state first'}
+                    disabled={countyLoading || !countyState}
+                    className="w-full px-4 py-3 rounded-xl bg-gray-950/80 border border-white/10 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 text-white placeholder:text-gray-500 disabled:opacity-50"
                   />
                   <datalist id="county-datalist">
                     {countyList.map((c) => (
