@@ -5,16 +5,18 @@ interface MyPlanFormData {
   lastName: string;
   email: string;
   phone: string;
-  city: string;
-  goal: string;
-  notes: string;
-  smsConsent: boolean;
-  utmSource: string | null;
-  utmMedium: string | null;
-  utmCampaign: string | null;
-  utmContent: string | null;
-  utmTerm: string | null;
-  fbclid: string | null;
+  city?: string;
+  goal?: string;
+  notes?: string;
+  smsConsent?: boolean;
+  loanType?: string;
+  source?: string;
+  utmSource?: string | null;
+  utmMedium?: string | null;
+  utmCampaign?: string | null;
+  utmContent?: string | null;
+  utmTerm?: string | null;
+  fbclid?: string | null;
 }
 
 function formatPhoneE164(phone: string): string {
@@ -33,13 +35,19 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const utmFields = [];
-    if (formData.utmSource) utmFields.push({ question: 'UTM Source', answer: formData.utmSource });
-    if (formData.utmMedium) utmFields.push({ question: 'UTM Medium', answer: formData.utmMedium });
-    if (formData.utmCampaign) utmFields.push({ question: 'UTM Campaign', answer: formData.utmCampaign });
-    if (formData.utmContent) utmFields.push({ question: 'UTM Content', answer: formData.utmContent });
-    if (formData.utmTerm) utmFields.push({ question: 'UTM Term', answer: formData.utmTerm });
-    if (formData.fbclid) utmFields.push({ question: 'Facebook Click ID', answer: formData.fbclid });
+    const customFields: { question: string; answer: string }[] = [];
+    if (formData.loanType) customFields.push({ question: 'Loan Type', answer: formData.loanType });
+    if (formData.source) customFields.push({ question: 'Landing Page', answer: formData.source });
+    if (formData.city) customFields.push({ question: 'City/Area Interested', answer: formData.city });
+    if (formData.goal) customFields.push({ question: 'Goal', answer: formData.goal });
+    if (formData.notes) customFields.push({ question: 'Additional Notes', answer: formData.notes });
+    customFields.push({ question: 'SMS Consent', answer: formData.smsConsent ? 'Yes' : 'No' });
+    if (formData.utmSource) customFields.push({ question: 'UTM Source', answer: formData.utmSource });
+    if (formData.utmMedium) customFields.push({ question: 'UTM Medium', answer: formData.utmMedium });
+    if (formData.utmCampaign) customFields.push({ question: 'UTM Campaign', answer: formData.utmCampaign });
+    if (formData.utmContent) customFields.push({ question: 'UTM Content', answer: formData.utmContent });
+    if (formData.utmTerm) customFields.push({ question: 'UTM Term', answer: formData.utmTerm });
+    if (formData.fbclid) customFields.push({ question: 'Facebook Click ID', answer: formData.fbclid });
 
     const loandockPayload = {
       phone: formatPhoneE164(formData.phone),
@@ -47,16 +55,10 @@ export async function POST(request: NextRequest) {
       last_name: formData.lastName.trim(),
       email: formData.email.trim(),
       loan_purpose: 'purchase',
-      custom_fields: [
-        { question: 'City/Area Interested', answer: formData.city || '' },
-        { question: 'Goal', answer: formData.goal },
-        { question: 'Additional Notes', answer: formData.notes || '' },
-        { question: 'SMS Consent', answer: formData.smsConsent ? 'Yes' : 'No' },
-        ...utmFields,
-      ],
+      custom_fields: customFields,
       metadata: {
         form_id: 'mortgage-fellas-meta-myplan',
-        landing_page: 'mortgagefellas.com/myplan',
+        landing_page: `mortgagefellas.com/${formData.source || 'myplan'}`,
         source: 'meta-ad',
       },
     };

@@ -9,13 +9,20 @@ import { Footer } from '@/components/Footer';
 import {
   CheckCircle2, ArrowRight, Calculator, Shield, Home,
   DollarSign, Send, Sparkles, ChevronDown, ChevronUp,
-  TrendingUp, Users, FileText, Phone, Mail,
+  TrendingUp, Users, FileText,
 } from 'lucide-react';
 import { LOAN_TYPES, getLoanTypeBySlug } from '@/lib/loanTypes';
 
 const PRIMARY = '#0D3F72';
 const PRIMARY_LIGHT = '#267AB1';
 const ACCENT = '#4A90B8';
+
+const goalOptions = [
+  "I'm renting and want to own",
+  'Upgrading or relocating',
+  'Refinancing for better terms',
+  'Exploring investment opportunities',
+];
 
 function fmt(n: number) {
   return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(n);
@@ -58,8 +65,13 @@ function LoanTypeContent({ slug }: { slug: string }) {
   const [lastName, setLastName] = useState('');
   const [email, setEmail] = useState('');
   const [phone, setPhone] = useState('');
+  const [city, setCity] = useState('');
+  const [goal, setGoal] = useState(goalOptions[0]);
+  const [notes, setNotes] = useState('');
+  const [smsConsent, setSmsConsent] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   // Calculator state
   const [calcOpen, setCalcOpen] = useState(false);
@@ -80,29 +92,40 @@ function LoanTypeContent({ slug }: { slug: string }) {
     return { pi, total: pi + pmi + tax + ins, loan, pmi };
   }, [price, down, rate, term]);
 
+  const isFormComplete = useMemo(
+    () => firstName.trim() !== '' && lastName.trim() !== '' && email.trim() !== '' && phone.replace(/\D/g, '').length === 10,
+    [firstName, lastName, email, phone]
+  );
+
   const scrollToForm = () => formRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (isSubmitting || !isFormComplete) return;
     setIsSubmitting(true);
+    setError(null);
     try {
       const res = await fetch('/api/submit-myplan', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          firstName, lastName, email, phone,
+          firstName, lastName, email, phone, city, goal, notes, smsConsent,
           loanType: loanType.name,
           source: `myplan/${slug}`,
           ...utmParams,
         }),
       });
-      if (res.ok) {
-        setSubmitted(true);
-        if (typeof window !== 'undefined' && (window as any).fbq) {
-          (window as any).fbq('track', 'Lead', { content_name: `myplan_${slug}` });
-        }
+      if (!res.ok) {
+        const data = await res.json();
+        throw new Error(data.error || 'Submission failed');
       }
-    } catch { /* handled */ } finally {
+      setSubmitted(true);
+      if (typeof window !== 'undefined' && (window as any).fbq) {
+        (window as any).fbq('track', 'Lead', { content_name: `myplan_${slug}` });
+      }
+    } catch (err: any) {
+      setError(err?.message || 'Something went wrong. Please try again.');
+    } finally {
       setIsSubmitting(false);
     }
   };
@@ -268,55 +291,83 @@ function LoanTypeContent({ slug }: { slug: string }) {
 
             <div className="lg:sticky lg:top-28" ref={formRef}>
               {submitted ? (
-                <div className="rounded-3xl border border-emerald-500/20 bg-emerald-950/20 p-8 text-center">
-                  <div className="w-14 h-14 mx-auto mb-3 rounded-full flex items-center justify-center" style={{ background: ACCENT }}>
+                <div className="rounded-3xl border border-emerald-500/20 bg-emerald-950/20 p-8 text-center space-y-4">
+                  <div className="w-14 h-14 mx-auto rounded-full flex items-center justify-center" style={{ background: ACCENT }}>
                     <Sparkles className="w-7 h-7 text-black" />
                   </div>
-                  <h3 className="text-xl font-bold mb-2">You&apos;re All Set!</h3>
+                  <h3 className="text-xl font-bold">You&apos;re All Set!</h3>
                   <p className="text-gray-400 text-sm">A mortgage specialist will reach out within 24 hours to discuss your {loanType.shortName} options.</p>
                 </div>
               ) : (
-                <form onSubmit={handleSubmit} className="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-md p-6 space-y-4 shadow-2xl">
-                  <div className="text-center mb-2">
+                <form onSubmit={handleSubmit} className="rounded-3xl border border-white/10 bg-white/[0.03] backdrop-blur-md p-6 shadow-2xl">
+                  <div className="text-center mb-5">
                     <h2 className="text-xl font-bold">Get Pre-Qualified</h2>
-                    <p className="text-gray-400 text-xs mt-1">Free consultation. No obligation.</p>
+                    <p className="text-gray-400 text-xs mt-1">Fill this out and we&apos;ll fast-track your personalized plan.</p>
                   </div>
-                  <div className="grid grid-cols-2 gap-3">
+
+                  {error && <div className="rounded-xl border border-red-500/40 bg-red-500/10 px-3 py-2 text-xs text-red-200 mb-4">{error}</div>}
+
+                  <div className="space-y-3.5">
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="block text-xs font-medium text-gray-300 mb-1">First name</label>
+                        <input required value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="Jane" autoComplete="given-name" className="w-full px-3 py-2.5 rounded-xl bg-gray-950/80 border border-white/10 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 text-white text-sm placeholder:text-gray-500" />
+                      </div>
+                      <div>
+                        <label className="block text-xs font-medium text-gray-300 mb-1">Last name</label>
+                        <input required value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Homebuyer" autoComplete="family-name" className="w-full px-3 py-2.5 rounded-xl bg-gray-950/80 border border-white/10 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 text-white text-sm placeholder:text-gray-500" />
+                      </div>
+                    </div>
+
                     <div>
-                      <label className="block text-xs text-gray-400 mb-1">First Name</label>
-                      <input required value={firstName} onChange={(e) => setFirstName(e.target.value)} placeholder="John" className="w-full px-3 py-2.5 rounded-xl bg-white/5 border border-white/10 focus:border-blue-500 focus:outline-none text-white text-sm placeholder:text-gray-600" />
+                      <label className="block text-xs font-medium text-gray-300 mb-1">Email</label>
+                      <input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="you@email.com" autoComplete="email" className="w-full px-3 py-2.5 rounded-xl bg-gray-950/80 border border-white/10 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 text-white text-sm placeholder:text-gray-500" />
                     </div>
+
+                    <div className="grid grid-cols-2 gap-3">
+                      <div>
+                        <label className="block text-xs font-medium text-gray-300 mb-1">Mobile number</label>
+                        <input required type="tel" value={phone} onChange={(e) => setPhone(formatPhoneDisplay(e.target.value))} placeholder="(954) 555-0123" autoComplete="tel" maxLength={14} className="w-full px-3 py-2.5 rounded-xl bg-gray-950/80 border border-white/10 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 text-white text-sm placeholder:text-gray-500" />
+                      </div>
+                      <div>
+                        <label className="block text-xs font-medium text-gray-300 mb-1">City / Area</label>
+                        <input value={city} onChange={(e) => setCity(e.target.value)} placeholder="e.g., Pembroke Pines" autoComplete="off" className="w-full px-3 py-2.5 rounded-xl bg-gray-950/80 border border-white/10 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 text-white text-sm placeholder:text-gray-500" />
+                      </div>
+                    </div>
+
                     <div>
-                      <label className="block text-xs text-gray-400 mb-1">Last Name</label>
-                      <input required value={lastName} onChange={(e) => setLastName(e.target.value)} placeholder="Smith" className="w-full px-3 py-2.5 rounded-xl bg-white/5 border border-white/10 focus:border-blue-500 focus:outline-none text-white text-sm placeholder:text-gray-600" />
+                      <span className="block text-xs font-medium text-gray-300 mb-2">What brings you here?</span>
+                      <div className="grid gap-1.5">
+                        {goalOptions.map((option) => (
+                          <label key={option} className={`flex items-center gap-2.5 rounded-xl border px-3 py-2 text-sm transition cursor-pointer ${goal === option ? 'border-blue-400/60 bg-blue-500/10' : 'border-white/10 bg-gray-950/60 hover:border-blue-400/30'}`}>
+                            <input type="radio" name="mp-goal" value={option} checked={goal === option} onChange={() => setGoal(option)} className="h-3.5 w-3.5 border-white/20 bg-gray-900 text-blue-500 focus:ring-blue-500" />
+                            <span className="text-xs text-gray-200">{option}</span>
+                          </label>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                  <div>
-                    <label className="block text-xs text-gray-400 mb-1">Email</label>
-                    <div className="relative">
-                      <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
-                      <input required type="email" value={email} onChange={(e) => setEmail(e.target.value)} placeholder="john@example.com" className="w-full pl-9 pr-3 py-2.5 rounded-xl bg-white/5 border border-white/10 focus:border-blue-500 focus:outline-none text-white text-sm placeholder:text-gray-600" />
+
+                    <div>
+                      <label className="block text-xs font-medium text-gray-300 mb-1">Anything specific you&apos;d like us to know?</label>
+                      <textarea value={notes} onChange={(e) => setNotes(e.target.value)} rows={2} placeholder="Timeline, desired payment, questions..." className="w-full px-3 py-2.5 rounded-xl bg-gray-950/80 border border-white/10 focus:border-blue-400 focus:outline-none focus:ring-1 focus:ring-blue-500/50 text-white text-sm placeholder:text-gray-500 resize-none" />
                     </div>
-                  </div>
-                  <div>
-                    <label className="block text-xs text-gray-400 mb-1">Phone</label>
-                    <div className="relative">
-                      <Phone className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-gray-500" />
-                      <input required type="tel" value={phone} onChange={(e) => setPhone(formatPhoneDisplay(e.target.value))} placeholder="(555) 123-4567" maxLength={14} className="w-full pl-9 pr-3 py-2.5 rounded-xl bg-white/5 border border-white/10 focus:border-blue-500 focus:outline-none text-white text-sm placeholder:text-gray-600" />
+
+                    <div className="flex items-start gap-2.5">
+                      <input type="checkbox" id="sms-slug" checked={smsConsent} onChange={(e) => setSmsConsent(e.target.checked)} className="mt-0.5 h-3.5 w-3.5 rounded border-gray-600 bg-gray-800 text-blue-600 focus:ring-blue-500 cursor-pointer flex-shrink-0" />
+                      <label htmlFor="sms-slug" className="text-[10px] text-gray-400 leading-relaxed cursor-pointer">
+                        I agree to receive SMS notifications (optional). Reply STOP to opt out.{' '}
+                        <Link href="/privacy-policy" className="text-blue-400 hover:underline">Privacy Policy</Link>.
+                      </label>
                     </div>
+
+                    <button type="submit" disabled={isSubmitting || !isFormComplete} className="w-full py-3 rounded-xl font-bold text-white transition disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2" style={{ background: `linear-gradient(135deg, ${PRIMARY}, ${PRIMARY_LIGHT}, ${ACCENT})`, boxShadow: `0 4px 20px ${PRIMARY}44` }}>
+                      {isSubmitting ? 'Sending...' : <><Send className="w-4 h-4" /> Get My Plan</>}
+                    </button>
+
+                    <p className="text-center text-[10px] text-gray-500">
+                      By submitting, you consent to us reaching out about your homeownership goals.
+                    </p>
                   </div>
-                  <button type="submit" disabled={isSubmitting} className="w-full py-3.5 rounded-full font-bold text-white transition-all hover:scale-[1.02] hover:shadow-xl disabled:opacity-50" style={{ background: `linear-gradient(135deg, ${PRIMARY}, ${PRIMARY_LIGHT})` }}>
-                    {isSubmitting ? 'Submitting...' : (
-                      <span className="flex items-center justify-center gap-2">
-                        <Send className="w-4 h-4" /> Get My Free Quote
-                      </span>
-                    )}
-                  </button>
-                  <p className="text-center text-[10px] text-gray-500">
-                    By submitting, you agree to our{' '}
-                    <Link href="/privacy-policy" className="underline">Privacy Policy</Link> and{' '}
-                    <Link href="/sms-policy" className="underline">SMS Policy</Link>.
-                  </p>
                 </form>
               )}
             </div>
